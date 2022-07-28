@@ -1,151 +1,170 @@
 <template>
     <div class="CreateAttendants">
-        <div id="page-top">
+        <div>
             <!-- Page Wrapper -->
-
             <div id="wrapper">
-                <div class="container-fluid">
-
-
-                    <div style="width:100%;padding:2%;background:white;border-radius:5px">
-                        <div class="row">
-                            <div class="col-sm-1">
-
-                                <i class="fa fa-street-view" style="font-size:70px;color:orange"></i>
-                            </div>
-                            <div class="col-sm-6">
-                                <h1 class="h3 mb-15 text-gray-800">Create an ATTENDANT</h1>
-                                <h6>Add a new Attendant</h6>
+                <SideBar />
+                <div id="content-wrapper" class="d-flex flex-column">
+                    <TopPage />
+                    <div class="container-fluid">
+                        <div style="width:100%;padding:2%;background:white;border-radius:5px">
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    <i class="fa fa-street-view" style="font-size:70px;color:orange"></i>
+                                </div>
+                                <div class="col-sm-4">
+                                    <h1 class="h3 mb-15 text-gray-800" style="float:left;">Create an ATTENDANT</h1>
+                                    <h6 style="float:left;">Add a new Attendant</h6>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <hr>
-                    <div class="card" style="margin-bottom:2%;padding-bottom:2%;">
-                        <div class="container">
-                            <div class="card-body">
+                        <hr>
+                        <div class="card" style="margin-bottom:2%;padding-bottom:2%;">
+                            <form action="#" method="POST">
+                                <div class="container">
+                                    <div class="card-body">
+                                        <div>
+                                            <p style="font-size:21px;font-weight:bold;">Let's start
+                                                get started...
+                                            </p>
+                                        </div>
+                                        <br />
 
-                                <p style="font-size:21px;font-weight:bold;">Let's start get started...</p>
-                                <form action="#" method="POST">
-                                    <div class="row">
                                         <div class="row">
-                                            <div class="col-sm-1">
-                                                <i class="fa fa-building prefix grey-text" style="font-size:30px"></i>
-                                            </div>
-                                            <div class="col-sm-4">
-
-                                                <div class="select">
-                                                    <select class="select-text" required>
-                                                        <option value="" disabled selected></option>
-                                                        <option value="1" class="attendant">SHELL</option>
-                                                        <option value="2" class="attendant">GOIL</option>
-                                                        <option value="3" class="attendant">TELENERGY</option>
-                                                    </select>
-                                                    <span class="select-highlight"></span>
-                                                    <span class="select-bar"></span>
-                                                    <label class="select-label">OMC</label>
+                                            <div class="row">
+                                                <div class="col-sm-1">
+                                                    <i class="fa fa-building prefix grey-text"
+                                                        style="font-size:30px"></i>
                                                 </div>
+                                                <div class="col-sm-6">
 
+                                                    <div class="select">
+                                                        <select class="select-text" required>
+                                                            <option value="" disabled selected></option>
+                                                            <option value="1" class="attendant">SHELL</option>
+                                                            <option value="2" class="attendant">GOIL</option>
+                                                            <option value="3" class="attendant">TELENERGY</option>
+                                                        </select>
+                                                        <span class="select-highlight"></span>
+                                                        <span class="select-bar"></span>
+                                                        <label class="select-label">OMC</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <br />
+                                            <div class="row">
+                                                <div class="col-sm-1">
+                                                    <i class="fa fa-image prefix grey-text" style="font-size:30px"></i>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="select">
+                                                        <select class="select-text" required>
+                                                            <option value="" disabled selected></option>
+                                                            <option value="1" class="attendant">STATION 1</option>
+                                                            <option value="2" class="attendant">STATION 2</option>
+                                                            <option value="3" class="attendant">STATION 3</option>
+                                                        </select>
+                                                        <span class="select-highlight"></span>
+                                                        <span class="select-bar"></span>
+                                                        <label class="select-label">STATION</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <hr>
+
+                                        <div class="row">
+                                            <div class="col-md-4 mb-4">
+                                                <div class="md-form">
+                                                    <div class="row">
+                                                        <i class="fa fa-image prefix grey-text"></i>
+                                                        <input type="file" id="logo" class="form-control"
+                                                            style="border:none;border-bottom:1px solid rgba(0,0,0,0.3);padding-bottom:12%;color:blue">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-4">
+                                                <div class="md-form">
+                                                    <div class="row">
+                                                        <i class="fa fa-image prefix grey-text"></i>
+                                                        <input type="text" id="logo" class="form-control">
+                                                        <label for="OMC">Attendant Firstname</label>
+                                                    </div>
+                                                </div>
                                             </div>
 
+                                            <div class="col-md-4 mb-4">
+                                                <div class="md-form">
+                                                    <div class="row">
+                                                        <i class="fa fa-image prefix grey-text"></i>
+                                                        <input type="text" id="logo" class="form-control">
+                                                        <label for="OMC">Attendant Lastname</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-4 mb-4">
+                                                <div class="md-form">
+                                                    <div class="row">
+                                                        <i class="fa fa-image prefix grey-text"></i>
+                                                        <input type="text" id="logo" class="form-control">
+                                                        <label for="OMC">Gender</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-4 mb-4">
+                                                <div class="md-form">
+                                                    <div class="row">
+                                                        <i class="fa fa-image prefix grey-text"></i>
+                                                        <input type="text" id="logo" class="form-control">
+                                                        <label for="OMC">Contact</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-4">
+                                                <div class="md-form">
+                                                    <div class="row">
+                                                        <i class="fa fa-image prefix grey-text"></i>
+                                                        <input type="text" id="logo" class="form-control">
+                                                        <label for="OMC">Email</label>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
+
                                     </div>
-                                    <div class="row">
-                                        <div class="col-sm-1">
-                                            <i class="fa fa-image prefix grey-text" style="font-size:30px"></i>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <div class="select">
-                                                <select class="select-text" required>
-                                                    <option value="" disabled selected></option>
-                                                    <option value="1" class="attendant">STATION 1</option>
-                                                    <option value="2" class="attendant">STATION 2</option>
-                                                    <option value="3" class="attendant">STATION 3</option>
-                                                </select>
-                                                <span class="select-highlight"></span>
-                                                <span class="select-bar"></span>
-                                                <label class="select-label">STATION</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <hr>
 
-
-                                    <div class="row">
-                                        <div class="col-md-4 mb-4">
-                                            <div class="md-form">
-
-                                                <i class="fa fa-image prefix grey-text"></i>
-                                                <input type="file" id="logo" class="form-control"
-                                                    style="border:none;border-bottom:1px solid rgba(0,0,0,0.3);padding-bottom:12%;color:blue">
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4 mb-4">
-                                            <div class="md-form">
-                                                <i class="fa fa-image prefix grey-text"></i>
-                                                <input type="text" id="logo" class="form-control">
-                                                <label for="OMC">Attendant Firstname</label>
-
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4 mb-4">
-                                            <div class="md-form">
-                                                <i class="fa fa-image prefix grey-text"></i>
-                                                <input type="text" id="logo" class="form-control">
-                                                <label for="OMC">Attendant Lastname</label>
-
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 mb-4">
-                                            <div class="md-form">
-                                                <i class="fa fa-image prefix grey-text"></i>
-                                                <input type="text" id="logo" class="form-control">
-                                                <label for="OMC">Gender</label>
-
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4 mb-4">
-                                            <div class="md-form">
-                                                <i class="fa fa-image prefix grey-text"></i>
-                                                <input type="text" id="logo" class="form-control">
-                                                <label for="OMC">Contact</label>
-
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4 mb-4">
-                                            <div class="md-form">
-                                                <i class="fa fa-image prefix grey-text"></i>
-                                                <input type="text" id="logo" class="form-control">
-                                                <label for="OMC">Email</label>
-
-                                            </div>
-                                        </div>
-
-
-                                    </div>
                                     <div class="col-sm-12">
                                         <button type="Submit" class="btn btn-info">Submit</button>
                                     </div>
 
-                                </form>
-                            </div>
+                                </div>
+                            </form>
                         </div>
-
+                        <FooterPage />
                     </div>
-
                 </div>
-
             </div>
         </div>
     </div>
 </template>
 
 <script>
+import SideBar from './base/sidebar.vue'
+import FooterPage from './base/footer.vue'
+import TopPage from './base/top.vue'
+
 export default {
     name: 'CreateAttendants',
+    components: {
+        SideBar,
+        FooterPage,
+        TopPage,
+
+    }
+
 }
 </script>
 

@@ -3,123 +3,127 @@
     <div id="page-top">
       <!-- Page Wrapper -->
       <div id="wrapper">
-        <div class="container-fluid">
+        <SideBar />
 
+        <div id="content-wrapper" class="d-flex flex-column">
+          <TopPage />
+          <div class="container-fluid">
+            <div style="width:100%;padding:2%;background:white;border-radius:5px">
+              <div class="row">
+                <div style="padding-left:20px">
+                  <i class="fa fa-pagelines" style="font-size:60px;color:pink"></i>
+                </div>
+                <div class="col-sm-6">
+                  <h1 class="h3 mb-15 text-gray-800">Write a new message</h1>
+                  <h6 class="h6 mb-15 text-gray-500">Broadcast the message to others</h6>
 
-          <div style="width:100%;padding:2%;background:white;border-radius:5px">
-            <div class="row">
-              <div style="padding-left:20px">
-                <i class="fa fa-pagelines" style="font-size:60px;color:pink"></i>
-              </div>
-              <div class="col-sm-6">
-                <h1 class="h3 mb-15 text-gray-800">Write a new message</h1>
-                <h6 class="h6 mb-15 text-gray-500">Broadcast the message to others</h6>
-
+                </div>
               </div>
             </div>
-          </div>
-          <hr>
-          <div class="card" style="margin-bottom:2%;padding-bottom:2%;">
-            <div class="container">
-              <div class="card-body">
-                <p style="font-size:21px;font-weight:bold;">Write a new message...
-                </p>
-                <form action="#" method="POST">
+            <hr>
+            <div class="card" style="margin-bottom:2%;padding-bottom:2%;">
+              <div class="container">
+                <div class="card-body">
+                  <p style="font-size:21px;font-weight:bold;">Write a new message...
+                  </p>
+                  <form action="#" method="POST">
+                    <div class="row">
+                      <div class="col-lg-3">
+                        <div class="button-group">
+                          <button type="button" class="btn btn-default btn-lg dropdown-toggle"
+                            data-toggle="dropdown">OMC</button>
+                          <ul class="dropdown-menu" style="padding:1%">
+                            <li><a href="#" class="small" data-value="option1" tabIndex="-1"><input type="checkbox" />
+                                &nbsp;ALL OMCS</a></li>
+                            <li><a href="#" class="small" data-value="option2" tabIndex="-1"><input type="checkbox" />
+                                &nbsp;SHELL</a></li>
+                            <li><a href="#" class="small" data-value="option3" tabIndex="-1"><input type="checkbox" />
+                                &nbsp;GOIL</a></li>
+                            <li><a href="#" class="small" data-value="option4" tabIndex="-1"><input type="checkbox" />
+                                &nbsp;TELENERGY</a></li>
+                            <li><a href="#" class="small" data-value="option5" tabIndex="-1"><input type="checkbox" />
+                                &nbsp;PINFUEL</a></li>
+                            <li><a href="#" class="small" data-value="option6" tabIndex="-1"><input type="checkbox" />
+                                &nbsp;FUEL</a></li>
+                          </ul>
+                        </div>
+                      </div>
 
 
-                  <div class="row">
-                    <div class="col-lg-3">
-                      <div class="button-group">
-                        <button type="button" class="btn btn-default btn-lg dropdown-toggle"
-                          data-toggle="dropdown">OMC</button>
-                        <ul class="dropdown-menu" style="padding:1%">
-                          <li><a href="#" class="small" data-value="option1" tabIndex="-1"><input type="checkbox" />
-                              &nbsp;ALL OMCS</a></li>
-                          <li><a href="#" class="small" data-value="option2" tabIndex="-1"><input type="checkbox" />
-                              &nbsp;SHELL</a></li>
-                          <li><a href="#" class="small" data-value="option3" tabIndex="-1"><input type="checkbox" />
-                              &nbsp;GOIL</a></li>
-                          <li><a href="#" class="small" data-value="option4" tabIndex="-1"><input type="checkbox" />
-                              &nbsp;TELENERGY</a></li>
-                          <li><a href="#" class="small" data-value="option5" tabIndex="-1"><input type="checkbox" />
-                              &nbsp;PINFUEL</a></li>
-                          <li><a href="#" class="small" data-value="option6" tabIndex="-1"><input type="checkbox" />
-                              &nbsp;FUEL</a></li>
-                        </ul>
+
+                      <div class="col-lg-3">
+                        <div class="button-group">
+                          <button type="button" class="btn btn-default btn-lg dropdown-toggle"
+                            data-toggle="dropdown">STATION</button>
+                          <ul class="dropdown-menu" style="padding:1%">
+                            <li><a href="#" class="small" data-value="option1" tabIndex="-1"><input type="checkbox" />
+                                &nbsp;ALL STATIONS</a></li>
+                            <li style="color:orange">SHELL</li>
+                            <li><a href="#" class="small" data-value="option3" tabIndex="-1"><input type="checkbox" />
+                                &nbsp;STATION 1</a></li>
+                            <li><a href="#" class="small" data-value="option3" tabIndex="-1"><input type="checkbox" />
+                                &nbsp;STATION 2</a></li>
+                            <li><a href="#" class="small" data-value="option3" tabIndex="-1"><input type="checkbox" />
+                                &nbsp;STATION 3</a></li>
+                            <li style="color:orange"> GOIl</li>
+                            <li><a href="#" class="small" data-value="option5" tabIndex="-1"><input type="checkbox" />
+                                &nbsp;STATION 1</a></li>
+                            <li><a href="#" class="small" data-value="option6" tabIndex="-1"><input type="checkbox" />
+                                &nbsp;STATION 2</a></li>
+                          </ul>
+                        </div>
+                      </div>
+
+
+                      <div class="col-lg-3">
+                        <div class="button-group">
+                          <button type="button" class="btn btn-default btn-lg dropdown-toggle"
+                            data-toggle="dropdown">ATTENDANTS</button>
+                          <ul class="dropdown-menu" style="padding:1%">
+                            <li><a href="#" class="small" data-value="option1" tabIndex="-1"><input type="checkbox" />
+                                &nbsp;ALL ATTENDANTS</a></li>
+                            <li><a href="#" class="small" data-value="option3" tabIndex="-1"><input type="checkbox" />
+                                &nbsp;SHELL ATTENDANTS</a></li>
+                            <li><a href="#" class="small" data-value="option3" tabIndex="-1"><input type="checkbox" />
+                                &nbsp;GOIL ATTENDANTS</a></li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
-                  </div>
 
+                    <div class="media mt-3">
+                      <div class="col-sm-12">
+                        <div class="col-sm-3" style="float:left;">
+                          <h4>
+                            <label for="file">
+                              <span class="fa fa-paperclip mr-2" aria-hidden="true"> Attachments</span>
+                              <input type="file" id="file" style="display:none" multiple>
+                            </label>
+                          </h4>
 
-                  <div class="col-lg-3">
-                    <div class="button-group">
-                      <button type="button" class="btn btn-default btn-lg dropdown-toggle"
-                        data-toggle="dropdown">STATION</button>
-                      <ul class="dropdown-menu" style="padding:1%">
-                        <li><a href="#" class="small" data-value="option1" tabIndex="-1"><input type="checkbox" />
-                            &nbsp;ALL STATIONS</a></li>
-                        <li style="color:orange">SHELL</li>
-                        <li><a href="#" class="small" data-value="option3" tabIndex="-1"><input type="checkbox" />
-                            &nbsp;STATION 1</a></li>
-                        <li><a href="#" class="small" data-value="option3" tabIndex="-1"><input type="checkbox" />
-                            &nbsp;STATION 2</a></li>
-                        <li><a href="#" class="small" data-value="option3" tabIndex="-1"><input type="checkbox" />
-                            &nbsp;STATION 3</a></li>
-                        <li style="color:orange"> GOIl</li>
-                        <li><a href="#" class="small" data-value="option5" tabIndex="-1"><input type="checkbox" />
-                            &nbsp;STATION 1</a></li>
-                        <li><a href="#" class="small" data-value="option6" tabIndex="-1"><input type="checkbox" />
-                            &nbsp;STATION 2</a></li>
-                      </ul>
+                          <p class="btn btn-info" @click="FileDetails()"> Show Files</p>
+                          <p id="fp"></p>
+                        </div>
+                        <textarea class="wysihtml5 form-control" rows="9" placeholder="Message..."
+                          style="padding:2px;"></textarea>
+                      </div>
                     </div>
-                  </div>
 
-
-                  <div class="col-lg-3">
-                    <div class="button-group">
-                      <button type="button" class="btn btn-default btn-lg dropdown-toggle"
-                        data-toggle="dropdown">ATTENDANTS</button>
-                      <ul class="dropdown-menu" style="padding:1%">
-                        <li><a href="#" class="small" data-value="option1" tabIndex="-1"><input type="checkbox" />
-                            &nbsp;ALL ATTENDANTS</a></li>
-                        <li><a href="#" class="small" data-value="option3" tabIndex="-1"><input type="checkbox" />
-                            &nbsp;SHELL ATTENDANTS</a></li>
-                        <li><a href="#" class="small" data-value="option3" tabIndex="-1"><input type="checkbox" />
-                            &nbsp;GOIL ATTENDANTS</a></li>
-                      </ul>
+                    <div class="text-right">
+                      <button type="submit" class="btn btn-primary waves-effect waves-light mt-3"><i
+                          class="fa fa-send mr-1"></i> Send</button>
                     </div>
-                  </div>
-
-
-                  <div class="media mt-3">
-                    <div class="col-sm-12">
-                      <h4>
-                        <label for="file">
-                          <span class="fa fa-paperclip mr-2" aria-hidden="true"> Attachments</span>
-                          <input type="file" id="file" style="display:none" multiple>
-                        </label>
-                      </h4>
-                      <p class="btn btn-info" onclick="FileDetails()"> Show Files</p>
-                      <p id="fp"></p>
-                      <textarea class="wysihtml5 form-control" rows="9" placeholder=" Message..."></textarea>
-                    </div>
-                  </div>
-
-                  <div class="text-right">
-                    <button type="submit" class="btn btn-primary waves-effect waves-light mt-3"><i
-                        class="fa fa-send mr-1"></i> Send</button>
-                  </div>
 
 
 
-
-
-                </form>
+                  </form>
+                </div>
               </div>
+
             </div>
+            <FooterPage />
 
           </div>
-
         </div>
       </div>
 
@@ -132,65 +136,49 @@
 
 <script>
 
+import SideBar from './base/sidebar.vue'
+import FooterPage from './base/footer.vue'
+import TopPage from './base/top.vue'
+
+
 export default {
   name: 'CreateMessages',
-}
+  components: {
+    SideBar,
+    FooterPage,
+    TopPage,
 
+  },
+  methods: {
+    FileDetails() {
+      // GET THE FILE INPUT.
+      var fi = document.getElementById('file');
 
+      // VALIDATE OR CHECK IF ANY FILE IS SELECTED.
+      if (fi.files.length > 0) {
 
-var options = [];
+        // THE TOTAL FILE COUNT.
+        document.getElementById('fp').innerHTML =
+          'Total Files: <b>' + fi.files.length + '</b></br >';
 
-$('.dropdown-menu a').on('click', function (event) {
+        // RUN A LOOP TO CHECK EACH SELECTED FILE.
+        for (var i = 0; i <= fi.files.length - 1; i++) {
 
-  var $target = $(event.currentTarget),
-    val = $target.attr('data-value'),
-    $inp = $target.find('input'),
-    idx;
+          var fname = fi.files.item(i).name;      // THE NAME OF THE FILE.
+          var fsize = fi.files.item(i).size;      // THE SIZE OF THE FILE.
 
-  if ((idx = options.indexOf(val)) > -1) {
-    options.splice(idx, 1);
-    setTimeout(function () { $inp.prop('checked', false) }, 0);
-  } else {
-    options.push(val);
-    setTimeout(function () { $inp.prop('checked', true) }, 0);
-  }
-
-  $(event.target).blur();
-
-  console.log(options);
-  return false;
-});
-</script>
-
-<script>
-    function FileDetails() {
-
-        // GET THE FILE INPUT.
-        var fi = document.getElementById('file');
-
-        // VALIDATE OR CHECK IF ANY FILE IS SELECTED.
-        if (fi.files.length > 0) {
-
-            // THE TOTAL FILE COUNT.
-            document.getElementById('fp').innerHTML =
-                'Total Files: <b>' + fi.files.length + '</b></br >';
-
-            // RUN A LOOP TO CHECK EACH SELECTED FILE.
-            for (var i = 0; i <= fi.files.length - 1; i++) {
-
-                var fname = fi.files.item(i).name;      // THE NAME OF THE FILE.
-                var fsize = fi.files.item(i).size;      // THE SIZE OF THE FILE.
-
-                // SHOW THE EXTRACTED DETAILS OF THE FILE.
-                document.getElementById('fp').innerHTML =
-                    document.getElementById('fp').innerHTML + '<br /> ' +
-                        fname + ' (<b>' + fsize + '</b> bytes)';
-            }
+          // SHOW THE EXTRACTED DETAILS OF THE FILE.
+          document.getElementById('fp').innerHTML =
+            document.getElementById('fp').innerHTML + '<br /> ' +
+            fname + ' (<b>' + fsize + '</b> bytes)';
         }
-        else { 
-            alert('Please select a file.') 
-        }
+      }
+      else {
+        alert('Please select a file.')
+      }
     }
+  }
+}
 </script>
 
 

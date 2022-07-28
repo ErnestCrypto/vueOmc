@@ -1,34 +1,18 @@
 <template>
 
-  <head>
+  <!--pages-->
+  <CreateMessages />
+  <!--pages-->
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="https://i.pinimg.com/originals/2c/55/90/2c559079b18aed56cf668b77f506cb63.pg">
-    <title>OMC</title>
-    <!-- Custom fonts for this template-->
-    <link href="./components/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link
-      href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-      rel="stylesheet">
-    <!-- Custom styles for this template-->
-    <link href="./components/css/sb-admin-2.min.css" rel="stylesheet">
-
-  </head>
-
-
-  <IndexPage />
 </template>
 
 <script>
-import IndexPage from './components/omc/index.vue'
+import CreateMessages from './components/omc/create_message.vue'
+
 export default {
   name: 'App',
   components: {
-    IndexPage,
+    CreateMessages,
   }
 }
 </script>
@@ -40,6 +24,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+[v-cloak] {
+  display: none;
 }
 </style>
