@@ -1,18 +1,15 @@
 <template>
-
   <!--pages-->
-  <CreateMessages />
+  <DeletedMessages />
   <!--pages-->
-
 </template>
 
 <script>
-import CreateMessages from './components/omc/create_message.vue'
-
+import DeletedMessages from './components/omc/deleted_messages.vue'
 export default {
   name: 'App',
   components: {
-    CreateMessages,
+    DeletedMessages,
   }
 }
 </script>
