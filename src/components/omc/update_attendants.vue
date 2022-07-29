@@ -5,152 +5,176 @@
             <!-- Page Wrapper -->
 
             <div id="wrapper">
-                <div class="container-fluid">
+                <SideBar />
+
+                <div id="content-wrapper" class="d-flex flex-column">
+                    <TopPage />
+                    <div class="container-fluid">
 
 
-                    <div style="width:100%;padding:2%;background:white;border-radius:5px">
-                        <div class="row">
-                            <div class="col-sm-2"
-                                style="border-right:1px solid lightgray;display:flex;justify-content:center;align-items:center">
-                                <img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle"
-                                    style="width:100%;" alt="profile" />
-                            </div>
-                            <div style="padding-left:1%" class="col-sm-6">
-                                <h1 class="h3 mb-15 text-gray-800">ERNEST AKOTO BAMFO</h1>
-                                <img src="https://logos-world.net/wp-content/uploads/2020/11/Shell-Logo.png"
-                                    class="rounded-circle" style="width:10%;" alt="logo" />
-                                <h4 class="h4 mb-15 text-gray-600">SHELL </h4>
-                                <h6 class="h6 mb-15 text-gray-500">STATION 1</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="card" style="margin-bottom:2%;padding-bottom:2%;">
-                        <div class="container">
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col-sm-9">
-                                        <p class="h3 mb-15 text-gray-600">Edit ATTENDANT</p>
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <p class="btn btn-danger">Delete Attendant <i class="fa fa-trash"></i></p>
+                        <div style="width:100%;padding:2%;background:white;border-radius:5px">
+                            <div class="row">
+                                <div class="col-sm-2"
+                                    style="border-right:1px solid lightgray;display:flex;justify-content:center;align-items:center">
+                                    <img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle"
+                                        style="width:100%;" alt="profile" />
+                                </div>
+                                <div class="col-sm-4">
+                                    <h1 class="h3 mb-15 text-gray-800">ERNEST AKOTO BAMFO</h1>
+                                    <div class="row" style="display: flex;align-items: center;justify-content: center">
+                                        <img src="https://logos-world.net/wp-content/uploads/2020/11/Shell-Logo.png"
+                                            class="rounded-circle" style="width:20%;" alt="logo" />
+                                        <h4 class="h4 mb-15 text-gray-600 col-sm-5 float-right">SHELL </h4>
+
+                                        <h6 class="h6 mb-15 text-gray-500">STATION 1</h6>
                                     </div>
                                 </div>
-                                <br>
-                                <div class="col-sm-12">
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="card" style="margin-bottom:2%;padding-bottom:2%;">
+                            <div class="container">
+                                <div class="card-body">
                                     <div class="row">
+                                        <div class="col-sm-3">
+                                            <p class="h3 mb-15 text-gray-600">Edit ATTENDANT</p>
+                                        </div>
+                                        <div class="col-sm-9">
+                                            <p class="btn btn-danger" style="float:right">Delete Attendant <i
+                                                    class="fa fa-trash"></i></p>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="col-sm-12">
                                         <div class="row">
                                             <div class="row">
-                                                <div class="col-sm-1">
-                                                    <i class="fa fa-building prefix grey-text"
-                                                        style="font-size:30px"></i>
-                                                </div>
-                                                <div class="col-sm-4">
+                                                <div class="row">
+                                                    <div class="col-sm-1">
+                                                        <i class="fa fa-building prefix grey-text"
+                                                            style="font-size:30px"></i>
+                                                    </div>
+                                                    <div class="col-sm-4">
 
-                                                    <div class="select">
-                                                        <select class="select-text" required>
-                                                            <option value="" disabled selected></option>
-                                                            <option value="1" class="attendant">SHELL</option>
-                                                            <option value="2" class="attendant">GOIL</option>
-                                                            <option value="3" class="attendant">TELENERGY</option>
-                                                        </select>
-                                                        <span class="select-highlight"></span>
-                                                        <span class="select-bar"></span>
-                                                        <label class="select-label">OMC</label>
+                                                        <div class="select">
+                                                            <select class="select-text" required>
+                                                                <option value="" disabled selected></option>
+                                                                <option value="1" class="attendant">SHELL</option>
+                                                                <option value="2" class="attendant">GOIL</option>
+                                                                <option value="3" class="attendant">TELENERGY</option>
+                                                            </select>
+                                                            <span class="select-highlight"></span>
+                                                            <span class="select-bar"></span>
+                                                            <label class="select-label">OMC</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-1">
+                                                        <i class="fa fa-image prefix grey-text"
+                                                            style="font-size:30px"></i>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <div class="select">
+                                                            <select class="select-text" required>
+                                                                <option value="" disabled selected></option>
+                                                                <option value="1" class="attendant">STATION 1</option>
+                                                                <option value="2" class="attendant">STATION 2</option>
+                                                                <option value="3" class="attendant">STATION 3</option>
+                                                            </select>
+                                                            <span class="select-highlight"></span>
+                                                            <span class="select-bar"></span>
+                                                            <label class="select-label">STATION</label>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="row">
-                                                <div class="col-sm-1">
-                                                    <i class="fa fa-image prefix grey-text" style="font-size:30px"></i>
+                                        </div>
+                                        <hr>
+
+                                        <div class="row">
+                                            <div class="col-md-4 mb-4">
+                                                <div class="md-form">
+                                                    <div class="row">
+                                                        <i class="fa fa-image prefix grey-text"></i>
+                                                        <input type="file" id="logo" class="form-control"
+                                                            style="border:none;border-bottom:1px solid rgba(0,0,0,0.3);padding-bottom:12%;color:blue">
+                                                    </div>
                                                 </div>
-                                                <div class="col-sm-6">
-                                                    <div class="select">
-                                                        <select class="select-text" required>
-                                                            <option value="" disabled selected></option>
-                                                            <option value="1" class="attendant">STATION 1</option>
-                                                            <option value="2" class="attendant">STATION 2</option>
-                                                            <option value="3" class="attendant">STATION 3</option>
-                                                        </select>
-                                                        <span class="select-highlight"></span>
-                                                        <span class="select-bar"></span>
-                                                        <label class="select-label">STATION</label>
+                                            </div>
+                                            <div class="col-md-4 mb-4">
+                                                <div class="md-form">
+                                                    <div class="row">
+
+                                                        <i class="fa fa-image prefix grey-text"></i>
+                                                        <input type="text" id="logo" class="form-control"
+                                                            value="ERNEST">
+                                                        <label for="OMC">Attendant Firstname</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-4 mb-4">
+                                                <div class="md-form">
+                                                    <div class="row">
+
+                                                        <i class="fa fa-image prefix grey-text"></i>
+                                                        <input type="text" id="logo" class="form-control"
+                                                            value="AKOTO BAMFO">
+                                                        <label for="OMC">Attendant Lastname</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-4 mb-4">
+                                                <div class="md-form">
+                                                    <div class="row">
+
+                                                        <i class="fa fa-image prefix grey-text"></i>
+                                                        <input type="text" id="logo" class="form-control" value="MALE">
+                                                        <label for="OMC">Gender</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-4 mb-4">
+                                                <div class="md-form">
+                                                    <div class="row">
+
+                                                        <i class="fa fa-image prefix grey-text"></i>
+                                                        <input type="text" id="logo" class="form-control"
+                                                            value="0501865437">
+                                                        <label for="OMC">Contact</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-4">
+                                                <div class="md-form">
+                                                    <div class="row">
+
+                                                        <i class="fa fa-image prefix grey-text"></i>
+                                                        <input type="text" id="logo" class="form-control"
+                                                            value="akotobamfo.eab@gmail.com">
+                                                        <label for="OMC">Email</label>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <hr>
 
-                                    <div class="row">
-                                        <div class="col-md-4 mb-4">
-                                            <div class="md-form">
 
-                                                <i class="fa fa-image prefix grey-text"></i>
-                                                <input type="file" id="logo" class="form-control"
-                                                    style="border:none;border-bottom:1px solid rgba(0,0,0,0.3);padding-bottom:12%;color:blue">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 mb-4">
-                                            <div class="md-form">
-                                                <i class="fa fa-image prefix grey-text"></i>
-                                                <input type="text" id="logo" class="form-control" value="ERNEST">
-                                                <label for="OMC">Attendant Firstname</label>
-
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4 mb-4">
-                                            <div class="md-form">
-                                                <i class="fa fa-image prefix grey-text"></i>
-                                                <input type="text" id="logo" class="form-control" value="AKOTO BAMFO">
-                                                <label for="OMC">Attendant Lastname</label>
-
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4 mb-4">
-                                            <div class="md-form">
-                                                <i class="fa fa-image prefix grey-text"></i>
-                                                <input type="text" id="logo" class="form-control" value="MALE">
-                                                <label for="OMC">Gender</label>
-
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4 mb-4">
-                                            <div class="md-form">
-                                                <i class="fa fa-image prefix grey-text"></i>
-                                                <input type="text" id="logo" class="form-control" value="0501865437">
-                                                <label for="OMC">Contact</label>
-
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 mb-4">
-                                            <div class="md-form">
-                                                <i class="fa fa-image prefix grey-text"></i>
-                                                <input type="text" id="logo" class="form-control"
-                                                    value="akotobamfo.eab@gmail.com">
-                                                <label for="OMC">Email</label>
-
-                                            </div>
-                                        </div>
                                     </div>
 
+                                    <div class="col-sm-12">
+                                        <button type="Submit" class="btn btn-info">Submit</button>
+                                    </div>
 
                                 </div>
-
-                                <div class="col-sm-12">
-                                    <button type="Submit" class="btn btn-info">Submit</button>
-                                </div>
-
                             </div>
+
                         </div>
+                        <FooterPage />
 
                     </div>
-
                 </div>
-
 
             </div>
         </div>
@@ -159,8 +183,17 @@
 
 
 <script>
+import SideBar from './base/sidebar.vue'
+import FooterPage from './base/footer.vue'
+import TopPage from './base/top.vue'
 export default {
-    name: 'UpdateAttendants'
+    name: 'UpdateAttendants',
+    components: {
+        SideBar,
+        FooterPage,
+        TopPage,
+
+    }
 
 }
 </script>

@@ -1,15 +1,15 @@
 <template>
   <!--pages-->
-  <DeletedMessages />
+  <UpdateAttendants />
   <!--pages-->
 </template>
 
 <script>
-import DeletedMessages from './components/omc/deleted_messages.vue'
+import UpdateAttendants from './components/omc/update_attendants.vue'
 export default {
   name: 'App',
   components: {
-    DeletedMessages,
+    UpdateAttendants,
   }
 }
 </script>

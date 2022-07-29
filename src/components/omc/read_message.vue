@@ -5,106 +5,150 @@
             <!-- Page Wrapper -->
 
             <div id="wrapper">
+                <SideBar />
 
-                <div class="container-fluid">
+                <div id="content-wrapper" class="d-flex flex-column">
+                    <TopPage />
+                    <div class="container-fluid">
 
 
-                    <div style="width:100%;padding:3%;background:white;border-radius:5px">
-                        <div class="col-sm-12" style="padding-bottom:2%">
-                            <div class="row">
-                                <div style="padding-left:20px">
-                                    <i class="fa fa-pagelines" style="font-size:60px;color:pink"></i>
-                                </div>
-                                <div class="col-sm-6">
-                                    <h1 class="h3 mb-15 text-gray-800">MESSAGES</h1>
-                                    <h6 class="h6 mb-15 text-gray-500">You can reply to this message</h6>
+                        <div style="width:100%;padding:3%;background:white;border-radius:5px">
+                            <div class="col-sm-12" style="padding-bottom:2%">
+                                <div class="row">
+                                    <div style="padding-left:10px">
+                                        <i class="fa fa-pagelines" style="font-size:60px;color:pink"></i>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <h1 class="h3 mb-15 text-gray-800 col-sm-9" style="float:left;">MESSAGES</h1>
+                                        <h6 class="h6 mb-15 text-gray-500 col-sm-9" style="float:left;">You can reply to
+                                            this
+                                            message</h6>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <div class="col-lg-12 col-md-8">
-                                                <div class="col-sm-1">
-                                                    <a href="" class="btn btn-danger"><i class="fa fa-trash"></i></a>
-                                                </div>
-                                                <div class="card shadow-none mt-3 border border-light">
-                                                    <div class="card-body">
-                                                        <div class="media mb-3">
-                                                            <img src="https://bootdey.com/img/Content/avatar/avatar1.png"
-                                                                class="rounded-circle mr-3 mail-img shadow"
-                                                                alt="media image" width="100" height="100">
-                                                            <div class="media-body">
-                                                                <span class="media-meta float-right">08:22 AM</span>
-                                                                <h4 class="text-primary m-0">Jhon Deo</h4>
-                                                                <small class="text-muted">From :
-                                                                    info@example.com</small>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="col-lg-12 col-md-8">
+                                                    <div class="col-sm-1">
+                                                        <a href="" class="btn btn-danger"><i
+                                                                class="fa fa-trash"></i></a>
+                                                    </div>
+                                                    <div class="card shadow-none mt-3 border border-light">
+                                                        <div class="card-body">
+                                                            <div class="row">
+                                                                <div class="media mb-3">
+                                                                    <div class="col-sm-3">
+                                                                        <img src="https://bootdey.com/img/Content/avatar/avatar1.png"
+                                                                            class="rounded-circle mr-3 mail-img shadow"
+                                                                            alt="media image" width="100" height="100">
+                                                                    </div>
+                                                                    <div class="col-sm-10">
+                                                                        <h4 class="text-primary m-0 ">Jhon Deo
+                                                                        </h4>
+                                                                        <small class="text-muted ">From :
+                                                                            info@example.com</small>
+                                                                    </div>
+                                                                </div> <!-- media -->
+                                                                <div class="media-body">
+                                                                    <span class="media-meta float-right ">08:22
+                                                                        AM</span>
+
+                                                                </div>
                                                             </div>
-                                                        </div> <!-- media -->
+                                                            <div class="row">
+                                                                <p><b>Hi Sir...</b></p>
+                                                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing
+                                                                    elit.
+                                                                    Aenean commodo ligula eget dolor. Aenean massa. Cum
+                                                                    sociis
+                                                                    natoque penatibus et magnis dis parturient montes,
+                                                                    nascetur
+                                                                    ridiculus mus. Donec quam felis, ultricies nec,
+                                                                    pellentesque
+                                                                    eu, pretium quis, sem.</p>
+                                                                <p>Aenean vulputate eleifend tellus. Aenean leo ligula,
+                                                                    porttitor eu, consequat vitae, eleifend ac, enim.
+                                                                    Aliquam
+                                                                    lorem ante, dapibus in, viverra quis, feugiat a,
+                                                                    tellus.
+                                                                    Phasellus viverra nulla ut metus varius laoreet.
+                                                                    Quisque
+                                                                    rutrum. Aenean imperdiet. Etiam ultricies nisi vel
+                                                                    augue.
+                                                                    Curabitur ullamcorper ultricies nisi. Nam eget dui.
+                                                                    Etiam
+                                                                    rhoncus. Maecenas tempus, tellus eget condimentum
+                                                                    rhoncus,
+                                                                    sem quam semper libero, sit amet adipiscing sem
+                                                                    neque
+                                                                    sed
+                                                                    ipsum. Nam quam nunc, blandit vel, luctus pulvinar,
+                                                                </p>
+                                                                <p>Nulla consequat massa quis enim. Donec pede justo,
+                                                                    fringilla
+                                                                    vel, aliquet nec, vulputate eget, arcu. In enim
+                                                                    justo,
+                                                                    rhoncus ut, imperdiet a, venenatis vitae, justo.
+                                                                    Nullam
+                                                                    dictum felis eu pede mollis pretium. Integer
+                                                                    tincidunt.
+                                                                    Cras
+                                                                    dapibus. Vivamus elementum semper nisi.</p>
+                                                            </div>
+                                                            <hr>
 
-                                                        <p><b>Hi Sir...</b></p>
-                                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                                            Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                                                            natoque penatibus et magnis dis parturient montes, nascetur
-                                                            ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-                                                            eu, pretium quis, sem.</p>
-                                                        <p>Aenean vulputate eleifend tellus. Aenean leo ligula,
-                                                            porttitor eu, consequat vitae, eleifend ac, enim. Aliquam
-                                                            lorem ante, dapibus in, viverra quis, feugiat a, tellus.
-                                                            Phasellus viverra nulla ut metus varius laoreet. Quisque
-                                                            rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.
-                                                            Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam
-                                                            rhoncus. Maecenas tempus, tellus eget condimentum rhoncus,
-                                                            sem quam semper libero, sit amet adipiscing sem neque sed
-                                                            ipsum. Nam quam nunc, blandit vel, luctus pulvinar,</p>
-                                                        <p>Nulla consequat massa quis enim. Donec pede justo, fringilla
-                                                            vel, aliquet nec, vulputate eget, arcu. In enim justo,
-                                                            rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam
-                                                            dictum felis eu pede mollis pretium. Integer tincidunt. Cras
-                                                            dapibus. Vivamus elementum semper nisi.</p>
-
-                                                        <hr>
-                                                        <h4>
-                                                            <label for="file">
-                                                                <span class="fa fa-paperclip mr-2" aria-hidden="true">
-                                                                    Attachments</span>
-                                                                <input type="file" id="file" style="display:none"
-                                                                    multiple>
-                                                            </label>
-                                                        </h4>
-                                                        <p class="btn btn-info" onclick="FileDetails()"> Show Files</p>
-                                                        <p id="fp"></p>
-                                                    </div>
-
-                                                    <div class="media mt-3">
-
-                                                        <div class="col-sm-12">
-                                                            <textarea class="wysihtml5 form-control" rows="9"
-                                                                placeholder=" Reply here..."></textarea>
                                                         </div>
+                                                        <div class="row">
+                                                            <h4 class="col-sm-12">
+                                                                <label for="file" style="float:left;padding:2%">
+                                                                    <span class="fa fa-paperclip mr-2"
+                                                                        aria-hidden="true">
+                                                                        Attachments</span>
+                                                                    <input type="file" id="file" style="display:none"
+                                                                        multiple>
+                                                                </label>
+                                                            </h4>
+                                                            <br />
+                                                            <div class="col-sm-12">
+                                                                <p class="btn btn-info" @click="FileDetails()"
+                                                                    style="float:left;"> Show Files
+                                                                </p>
+                                                            </div>
+                                                            <div class="col-sm-12">
+                                                                <p id="fp"></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="media mt-3">
+
+                                                            <div class="col-sm-12">
+                                                                <textarea class="wysihtml5 form-control" rows="9"
+                                                                    placeholder=" Reply here..."
+                                                                    style="padding:1%"></textarea>
+                                                            </div>
+                                                        </div>
+                                                        <div class="text-right">
+                                                            <button type="button"
+                                                                class="btn btn-primary waves-effect waves-light mt-3"><i
+                                                                    class="fa fa-send mr-1"></i> Send</button>
+                                                        </div>
+
                                                     </div>
-                                                    <div class="text-right">
-                                                        <button type="button"
-                                                            class="btn btn-primary waves-effect waves-light mt-3"><i
-                                                                class="fa fa-send mr-1"></i> Send</button>
-                                                    </div>
+                                                </div> <!-- card -->
+                                            </div> <!-- end Col-9 -->
 
-                                                </div>
-                                            </div> <!-- card -->
-                                        </div> <!-- end Col-9 -->
+                                        </div><!-- End row -->
 
-                                    </div><!-- End row -->
-
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div><!-- End row -->
-
+                        </div><!-- End row -->
+                        <FooterPage />
+                    </div>
                 </div>
-
 
             </div>
 
@@ -115,41 +159,53 @@
 </template>
 
 <script>
+import SideBar from './base/sidebar.vue'
+import FooterPage from './base/footer.vue'
+import TopPage from './base/top.vue'
 
 export default {
     name: 'ReadMessages',
-}
+    components: {
+        SideBar,
+        FooterPage,
+        TopPage,
 
+    },
+    methods: {
+        FileDetails() {
+            // GET THE FILE INPUT.
+            var fi = document.getElementById('file');
 
+            // VALIDATE OR CHECK IF ANY FILE IS SELECTED.
+            if (fi.files.length > 0) {
 
-function FileDetails() {
+                // THE TOTAL FILE COUNT.
+                document.getElementById('fp').innerHTML =
+                    'Total Files: <b>' + fi.files.length + '</b>';
 
-    // GET THE FILE INPUT.
-    var fi = document.getElementById('file');
+                // RUN A LOOP TO CHECK EACH SELECTED FILE.
+                for (var i = 0; i <= fi.files.length - 1; i++) {
 
-    // VALIDATE OR CHECK IF ANY FILE IS SELECTED.
-    if (fi.files.length > 0) {
+                    var fname = fi.files.item(i).name;      // THE NAME OF THE FILE.
+                    var fsize = fi.files.item(i).size;      // THE SIZE OF THE FILE.
 
-        // THE TOTAL FILE COUNT.
-        document.getElementById('fp').innerHTML =
-            'Total Files: <b>' + fi.files.length + '</b></br >';
+                    // SHOW THE EXTRACTED DETAILS OF THE FILE.
+                    document.getElementById('fp').innerHTML =
+                        document.getElementById('fp').innerHTML + '<br /> ' +
+                        fname + ' (<b>' + fsize + '</b> bytes)';
+                }
+            }
+            else {
+                alert('Please select a file.')
+            }
 
-        // RUN A LOOP TO CHECK EACH SELECTED FILE.
-        for (var i = 0; i <= fi.files.length - 1; i++) {
-
-            var fname = fi.files.item(i).name;      // THE NAME OF THE FILE.
-            var fsize = fi.files.item(i).size;      // THE SIZE OF THE FILE.
-
-            // SHOW THE EXTRACTED DETAILS OF THE FILE.
-            document.getElementById('fp').innerHTML =
-                document.getElementById('fp').innerHTML + '<br /> ' +
-                fname + ' (<b>' + fsize + '</b> bytes)';
         }
     }
-    else {
-        alert('Please select a file.')
-    }
+
 }
+
+
+
 </script>
 
 

@@ -5,113 +5,134 @@
             <!-- Page Wrapper -->
 
             <div id="wrapper">
-                <div class="container-fluid">
-                    <div style="width:100%;padding:2%;background:white;border-radius:5px">
-                        <div class="row">
-                            <div class="col-sm-2"
-                                style="border-right:1px solid lightgray;display:flex;justify-content:center;align-items:center">
-                                <img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle"
-                                    style="width:100%;" alt="profile" />
-                            </div>
-                            <div style="padding-left:1%" class="col-sm-6">
-                                <h1 class="h3 mb-15 text-gray-800">ERNEST AKOTO BAMFO</h1>
+                <SideBar />
 
-                                <h4 class="h4 mb-15 text-gray-600">ADMINISTRATOR</h4>
+                <div id="content-wrapper" class="d-flex flex-column">
+                    <TopPage />
+                    <div class="container-fluid">
+                        <div style="width:100%;padding:2%;background:white;border-radius:5px">
+                            <div class="row">
+                                <div class="col-sm-2"
+                                    style="border-right:1px solid lightgray;display:flex;justify-content:center;align-items:center">
+                                    <img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle"
+                                        style="width:100%;" alt="profile" />
+                                </div>
+                                <div style="padding-left:1%" class="col-sm-6">
+                                    <h1 class="h3 mb-15 text-gray-800">ERNEST AKOTO BAMFO</h1>
+
+                                    <h4 class="h4 mb-15 text-gray-600">ADMINISTRATOR</h4>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <hr>
-                    <div class="card" style="margin-bottom:2%;padding-bottom:2%;">
-                        <div class="container">
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col-sm-9">
-                                        <p class="h3 mb-15 text-gray-600">Edit Profile
-                                        </p>
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <p class="btn btn-danger"> Delete Account <i class="fa fa-trash"></i></p>
-                                    </div>
-                                </div>
-                                <br>
-                                <div class="col-sm-12">
+                        <hr>
+                        <div class="card" style="margin-bottom:2%;padding-bottom:2%;">
+                            <div class="container">
+                                <div class="card-body">
                                     <div class="row">
-                                        <div class="row">
-                                            <div class="row">
-                                                <div class="col-md-4 mb-4">
-                                                    <div class="md-form">
-
-                                                        <i class="fa fa-image prefix grey-text"></i>
-                                                        <input type="file" id="logo" class="form-control"
-                                                            style="border:none;border-bottom:1px solid rgba(0,0,0,0.3);padding-bottom:12%;color:blue">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4 mb-4">
-                                                    <div class="md-form">
-                                                        <i class="fa fa-image prefix grey-text"></i>
-                                                        <input type="text" id="logo" class="form-control"
-                                                            value="ERNEST">
-                                                        <label for="OMC">Firstname</label>
-
-                                                    </div>
-                                                </div>
-
-                                                <div class="col-md-4 mb-4">
-                                                    <div class="md-form">
-                                                        <i class="fa fa-image prefix grey-text"></i>
-                                                        <input type="text" id="logo" class="form-control"
-                                                            value="AKOTO BAMFO">
-                                                        <label for="OMC">Lastname</label>
-
-                                                    </div>
-                                                </div>
-
-                                                <div class="col-md-4 mb-4">
-                                                    <div class="md-form">
-                                                        <i class="fa fa-image prefix grey-text"></i>
-                                                        <input type="text" id="logo" class="form-control" value="MALE">
-                                                        <label for="OMC">Gender</label>
-
-                                                    </div>
-                                                </div>
-
-                                                <div class="col-md-4 mb-4">
-                                                    <div class="md-form">
-                                                        <i class="fa fa-image prefix grey-text"></i>
-                                                        <input type="text" id="logo" class="form-control"
-                                                            value="0501865437">
-                                                        <label for="OMC">Contact</label>
-
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4 mb-4">
-                                                    <div class="md-form">
-                                                        <i class="fa fa-image prefix grey-text"></i>
-                                                        <input type="text" id="logo" class="form-control"
-                                                            value="akotobamfo.eab@gmail.com">
-                                                        <label for="OMC">Email</label>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-
-
-
-
-
-
+                                        <div class="col-sm-2">
+                                            <p class="h3 mb-15 text-gray-600">Edit Profile
+                                            </p>
                                         </div>
-
+                                        <div class="col-sm-10">
+                                            <p class="btn btn-danger" style="float:right"> Delete Account <i
+                                                    class="fa fa-trash"></i></p>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="col-sm-12">
                                         <div class="col-sm-12">
-                                            <button type="Submit" class="btn btn-info">Submit</button>
-                                        </div>
+                                            <div class="row">
+                                                <div class="row">
+                                                    <div class="row">
+                                                        <div class="col-md-4 mb-4">
+                                                            <div class="md-form">
+                                                                <div class="row">
+                                                                    <i class="fa fa-image prefix grey-text"></i>
+                                                                    <input type="file" id="logo" class="form-control"
+                                                                        style="border:none;border-bottom:1px solid rgba(0,0,0,0.3);padding-bottom:12%;color:blue">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4 mb-4">
+                                                            <div class="md-form">
+                                                                <div class="row">
+                                                                    <i class="fa fa-image prefix grey-text"></i>
+                                                                    <input type="text" id="logo" class="form-control"
+                                                                        value="ERNEST">
+                                                                    <label for="OMC">Firstname</label>
+                                                                </div>
 
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-4 mb-4">
+                                                            <div class="md-form">
+                                                                <div class="row">
+                                                                    <i class="fa fa-image prefix grey-text"></i>
+                                                                    <input type="text" id="logo" class="form-control"
+                                                                        value="AKOTO BAMFO">
+                                                                    <label for="OMC">Lastname</label>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-4 mb-4">
+                                                            <div class="md-form">
+                                                                <div class="row">
+                                                                    <i class="fa fa-image prefix grey-text"></i>
+                                                                    <input type="text" id="logo" class="form-control"
+                                                                        value="MALE">
+                                                                    <label for="OMC">Gender</label>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-4 mb-4">
+                                                            <div class="md-form">
+                                                                <div class="row">
+                                                                    <i class="fa fa-image prefix grey-text"></i>
+                                                                    <input type="text" id="logo" class="form-control"
+                                                                        value="0501865437">
+                                                                    <label for="OMC">Contact</label>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4 mb-4">
+                                                            <div class="md-form">
+                                                                <div class="row">
+                                                                    <i class="fa fa-image prefix grey-text"></i>
+                                                                    <input type="text" id="logo" class="form-control"
+                                                                        value="akotobamfo.eab@gmail.com">
+                                                                    <label for="OMC">Email</label>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+
+
+
+
+                                                </div>
+
+                                                <div class="col-sm-12">
+                                                    <button type="Submit" class="btn btn-info">Submit</button>
+                                                </div>
+
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
+
                             </div>
 
                         </div>
-
+                        <FooterPage />
                     </div>
                 </div>
             </div>
@@ -121,8 +142,19 @@
 
 
 <script>
+import SideBar from './base/sidebar.vue'
+import FooterPage from './base/footer.vue'
+import TopPage from './base/top.vue'
+
+
 export default {
     name: 'ProfilePage',
+    components: {
+        SideBar,
+        FooterPage,
+        TopPage,
+
+    }
 }
 
 

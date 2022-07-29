@@ -5,254 +5,316 @@
             <!-- Page Wrapper -->
 
             <div id="wrapper">
-                <div class="container-fluid">
-                    <div style="width:100%;padding:3%;background:white;border-radius:5px">
-                        <div class="col-sm-12" style="padding-bottom:2%">
-                            <div class="row">
-                                <div style="padding-left:20px">
-                                    <i class="fa fa-pagelines" style="font-size:60px;color:pink"></i>
-                                </div>
-                                <div class="col-sm-6">
-                                    <h1 class="h3 mb-15 text-gray-800">SENT MESSAGES</h1>
-                                    <h6 class="h6 mb-15 text-gray-500">Lets see all the messages you have recieved</h6>
-                                </div>
-                            </div>
-                        </div>
+                <SideBar />
 
-                        <div style="background:white">
-
-                            <table class="table">
-                                <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
-                                    rel="stylesheet">
-                                <div class="container bootdey">
-                                    <div class="email-app mb-4">
-
-                                        <main class="inbox">
-                                            <ul class="messages">
-                                                <li class="message unread">
-                                                    <a href="read_message.php">
-                                                        <div class="actions">
-                                                            <span class="action"><i class="fa fa-square-o"></i></span>
-                                                            <span class="action"><i class="fa fa-star-o"></i></span>
-                                                        </div>
-                                                        <div class="header">
-                                                            <span class="from">Lukasz Holeczek</span>
-                                                            <span class="date">
-                                                                <span class="fa fa-paper-clip"></span> Today, 3:47
-                                                                PM</span>
-                                                        </div>
-                                                        <div class="title">
-                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                                        </div>
-                                                        <div class="description">
-                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                                            sed do eiusmod tempor incididunt ut labore et dolore magna
-                                                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                                            ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                                            Duis aute irure dolor in reprehenderit in voluptate velit
-                                                            esse cillum dolore eu fugiat nulla pariatur.
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li class="message">
-                                                    <a href="read_message.php">
-                                                        <div class="actions">
-                                                            <span class="action"><i class="fa fa-square-o"></i></span>
-                                                            <span class="action"><i class="fa fa-star-o"></i></span>
-                                                        </div>
-                                                        <div class="header">
-                                                            <span class="from">Lukasz Holeczek</span>
-                                                            <span class="date">
-                                                                <span class="fa fa-paper-clip"></span> Today, 3:47
-                                                                PM</span>
-                                                        </div>
-                                                        <div class="title">
-                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                                            sed do eiusmod tempor incididunt ut labore et dolore magna
-                                                            aliqua.
-                                                        </div>
-                                                        <div class="description">
-                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                                            sed do eiusmod tempor incididunt ut labore et dolore magna
-                                                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                                            ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                                            Duis aute irure dolor in reprehenderit in voluptate velit
-                                                            esse cillum dolore eu fugiat nulla pariatur.
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li class="message">
-                                                    <a href="read_message.php">
-                                                        <div class="actions">
-                                                            <span class="action"><i class="fa fa-square-o"></i></span>
-                                                            <span class="action"><i class="fa fa-star-o"></i></span>
-                                                        </div>
-                                                        <div class="header">
-                                                            <span class="from">Lukasz Holeczek</span>
-                                                            <span class="date">Today, 3:47 PM</span>
-                                                        </div>
-                                                        <div class="title">
-                                                            Lorem ipsum dolor sit amet.
-                                                        </div>
-                                                        <div class="description">
-                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                                            sed do eiusmod tempor incididunt ut labore et dolore magna
-                                                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                                            ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                                            Duis aute irure dolor in reprehenderit in voluptate velit
-                                                            esse cillum dolore eu fugiat nulla pariatur.
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li class="message unread">
-                                                    <a href="read_message.php">
-                                                        <div class="actions">
-                                                            <span class="action"><i class="fa fa-square-o"></i></span>
-                                                            <span class="action"><i class="fa fa-star-o"></i></span>
-                                                        </div>
-                                                        <div class="header">
-                                                            <span class="from">Lukasz Holeczek</span>
-                                                            <span class="date">Today, 3:47 PM</span>
-                                                        </div>
-                                                        <div class="title">
-                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                                        </div>
-                                                        <div class="description">
-                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                                            sed do eiusmod tempor incididunt ut labore et dolore magna
-                                                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                                            ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                                            Duis aute irure dolor in reprehenderit in voluptate velit
-                                                            esse cillum dolore eu fugiat nulla pariatur.
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li class="message">
-                                                    <a href="read_message.php">
-                                                        <div class="actions">
-                                                            <span class="action"><i class="fa fa-square-o"></i></span>
-                                                            <span class="action"><i class="fa fa-star-o"></i></span>
-                                                        </div>
-                                                        <div class="header">
-                                                            <span class="from">Lukasz Holeczek</span>
-                                                            <span class="date">Today, 3:47 PM</span>
-                                                        </div>
-                                                        <div class="title">
-                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                                            sed do eiusmod tempor incididunt ut labore et dolore magna
-                                                            aliqua.
-                                                        </div>
-                                                        <div class="description">
-                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                                            sed do eiusmod tempor incididunt ut labore et dolore magna
-                                                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                                            ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                                            Duis aute irure dolor in reprehenderit in voluptate velit
-                                                            esse cillum dolore eu fugiat nulla pariatur.
-                                                        </div>
-
-                                                    </a>
-                                                </li>
-                                                <li class="message">
-                                                    <a href="read_message.php">
-                                                        <div class="actions">
-                                                            <span class="action"><i class="fa fa-square-o"></i></span>
-                                                            <span class="action"><i class="fa fa-star-o"></i></span>
-                                                        </div>
-                                                        <div class="header">
-                                                            <span class="from">Lukasz Holeczek</span>
-                                                            <span class="date">Today, 3:47 PM</span>
-                                                        </div>
-                                                        <div class="title">
-                                                            Lorem ipsum dolor sit amet.
-                                                        </div>
-                                                        <div class="description">
-                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                                            sed do eiusmod tempor incididunt ut labore et dolore magna
-                                                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                                            ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                                            Duis aute irure dolor in reprehenderit in voluptate velit
-                                                            esse cillum dolore eu fugiat nulla pariatur.
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li class="message unread">
-                                                    <a href="read_message.php">
-                                                        <div class="actions">
-                                                            <span class="action"><i class="fa fa-square-o"></i></span>
-                                                            <span class="action"><i class="fa fa-star-o"></i></span>
-                                                        </div>
-                                                        <div class="header">
-                                                            <span class="from">Lukasz Holeczek</span>
-                                                            <span class="date">Today, 3:47 PM</span>
-                                                        </div>
-                                                        <div class="title">
-                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                                        </div>
-                                                        <div class="description">
-                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                                            sed do eiusmod tempor incididunt ut labore et dolore magna
-                                                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                                            ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                                            Duis aute irure dolor in reprehenderit in voluptate velit
-                                                            esse cillum dolore eu fugiat nulla pariatur.
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li class="message">
-                                                    <a href="read_message.php">
-                                                        <div class="actions">
-                                                            <span class="action"><i class="fa fa-square-o"></i></span>
-                                                            <span class="action"><i class="fa fa-star-o"></i></span>
-                                                        </div>
-                                                        <div class="header">
-                                                            <span class="from">Lukasz Holeczek</span>
-                                                            <span class="date">Today, 3:47 PM</span>
-                                                        </div>
-                                                        <div class="title">
-                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                                            sed do eiusmod tempor incididunt ut labore et dolore magna
-                                                            aliqua.
-                                                        </div>
-                                                        <div class="description">
-                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                                            sed do eiusmod tempor incididunt ut labore et dolore magna
-                                                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                                            ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                                            Duis aute irure dolor in reprehenderit in voluptate velit
-                                                            esse cillum dolore eu fugiat nulla pariatur.
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li class="message">
-                                                    <a href="read_message.php">
-                                                        <div class="actions">
-                                                            <span class="action"><i class="fa fa-square-o"></i></span>
-                                                            <span class="action"><i class="fa fa-star-o"></i></span>
-                                                        </div>
-                                                        <div class="header">
-                                                            <span class="from">Lukasz Holeczek</span>
-                                                            <span class="date">Today, 3:47 PM</span>
-                                                        </div>
-                                                        <div class="title">
-                                                            Lorem ipsum dolor sit amet.
-                                                        </div>
-                                                        <div class="description">
-                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                                            sed do eiusmod tempor incididunt ut labore et dolore magna
-                                                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                                            ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                                            Duis aute irure dolor in reprehenderit in voluptate velit
-                                                            esse cillum dolore eu fugiat nulla pariatur.
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </main>
+                <div id="content-wrapper" class="d-flex flex-column">
+                    <TopPage />
+                    <div class="container-fluid">
+                        <div style="width:100%;padding:3%;background:white;border-radius:5px">
+                            <div class="col-sm-12" style="padding-bottom:2%">
+                                <div class="row">
+                                    <div style="padding-left:20px">
+                                        <i class="fa fa-pagelines" style="font-size:60px;color:pink"></i>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <h1 class="h3 mb-15 text-gray-800">SENT MESSAGES</h1>
+                                        <h6 class="h6 mb-15 text-gray-500">Lets see all the messages you have recieved
+                                        </h6>
                                     </div>
                                 </div>
-                            </table>
+                            </div>
+
+                            <div style="background:white">
+
+                                <table class="table">
+                                    <link
+                                        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+                                        rel="stylesheet">
+                                    <div class="container bootdey">
+                                        <div class="email-app mb-4">
+
+                                            <main class="inbox">
+                                                <ul class="messages">
+                                                    <li class="message unread">
+                                                        <a href="read_message.php">
+                                                            <div class="actions">
+                                                                <span class="action"><i
+                                                                        class="fa fa-square-o"></i></span>
+                                                                <span class="action"><i class="fa fa-star-o"></i></span>
+                                                            </div>
+                                                            <div class="header">
+                                                                <span class="from">Lukasz Holeczek</span>
+                                                                <span class="date">
+                                                                    <span class="fa fa-paper-clip"></span> Today, 3:47
+                                                                    PM</span>
+                                                            </div>
+                                                            <div class="title">
+                                                                Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                                elit.
+                                                            </div>
+                                                            <div class="description">
+                                                                Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                                elit,
+                                                                sed do eiusmod tempor incididunt ut labore et dolore
+                                                                magna
+                                                                aliqua. Ut enim ad minim veniam, quis nostrud
+                                                                exercitation
+                                                                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                                Duis aute irure dolor in reprehenderit in voluptate
+                                                                velit
+                                                                esse cillum dolore eu fugiat nulla pariatur.
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li class="message">
+                                                        <a href="read_message.php">
+                                                            <div class="actions">
+                                                                <span class="action"><i
+                                                                        class="fa fa-square-o"></i></span>
+                                                                <span class="action"><i class="fa fa-star-o"></i></span>
+                                                            </div>
+                                                            <div class="header">
+                                                                <span class="from">Lukasz Holeczek</span>
+                                                                <span class="date">
+                                                                    <span class="fa fa-paper-clip"></span> Today, 3:47
+                                                                    PM</span>
+                                                            </div>
+                                                            <div class="title">
+                                                                Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                                elit,
+                                                                sed do eiusmod tempor incididunt ut labore et dolore
+                                                                magna
+                                                                aliqua.
+                                                            </div>
+                                                            <div class="description">
+                                                                Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                                elit,
+                                                                sed do eiusmod tempor incididunt ut labore et dolore
+                                                                magna
+                                                                aliqua. Ut enim ad minim veniam, quis nostrud
+                                                                exercitation
+                                                                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                                Duis aute irure dolor in reprehenderit in voluptate
+                                                                velit
+                                                                esse cillum dolore eu fugiat nulla pariatur.
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li class="message">
+                                                        <a href="read_message.php">
+                                                            <div class="actions">
+                                                                <span class="action"><i
+                                                                        class="fa fa-square-o"></i></span>
+                                                                <span class="action"><i class="fa fa-star-o"></i></span>
+                                                            </div>
+                                                            <div class="header">
+                                                                <span class="from">Lukasz Holeczek</span>
+                                                                <span class="date">Today, 3:47 PM</span>
+                                                            </div>
+                                                            <div class="title">
+                                                                Lorem ipsum dolor sit amet.
+                                                            </div>
+                                                            <div class="description">
+                                                                Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                                elit,
+                                                                sed do eiusmod tempor incididunt ut labore et dolore
+                                                                magna
+                                                                aliqua. Ut enim ad minim veniam, quis nostrud
+                                                                exercitation
+                                                                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                                Duis aute irure dolor in reprehenderit in voluptate
+                                                                velit
+                                                                esse cillum dolore eu fugiat nulla pariatur.
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li class="message unread">
+                                                        <a href="read_message.php">
+                                                            <div class="actions">
+                                                                <span class="action"><i
+                                                                        class="fa fa-square-o"></i></span>
+                                                                <span class="action"><i class="fa fa-star-o"></i></span>
+                                                            </div>
+                                                            <div class="header">
+                                                                <span class="from">Lukasz Holeczek</span>
+                                                                <span class="date">Today, 3:47 PM</span>
+                                                            </div>
+                                                            <div class="title">
+                                                                Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                                elit.
+                                                            </div>
+                                                            <div class="description">
+                                                                Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                                elit,
+                                                                sed do eiusmod tempor incididunt ut labore et dolore
+                                                                magna
+                                                                aliqua. Ut enim ad minim veniam, quis nostrud
+                                                                exercitation
+                                                                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                                Duis aute irure dolor in reprehenderit in voluptate
+                                                                velit
+                                                                esse cillum dolore eu fugiat nulla pariatur.
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li class="message">
+                                                        <a href="read_message.php">
+                                                            <div class="actions">
+                                                                <span class="action"><i
+                                                                        class="fa fa-square-o"></i></span>
+                                                                <span class="action"><i class="fa fa-star-o"></i></span>
+                                                            </div>
+                                                            <div class="header">
+                                                                <span class="from">Lukasz Holeczek</span>
+                                                                <span class="date">Today, 3:47 PM</span>
+                                                            </div>
+                                                            <div class="title">
+                                                                Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                                elit,
+                                                                sed do eiusmod tempor incididunt ut labore et dolore
+                                                                magna
+                                                                aliqua.
+                                                            </div>
+                                                            <div class="description">
+                                                                Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                                elit,
+                                                                sed do eiusmod tempor incididunt ut labore et dolore
+                                                                magna
+                                                                aliqua. Ut enim ad minim veniam, quis nostrud
+                                                                exercitation
+                                                                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                                Duis aute irure dolor in reprehenderit in voluptate
+                                                                velit
+                                                                esse cillum dolore eu fugiat nulla pariatur.
+                                                            </div>
+
+                                                        </a>
+                                                    </li>
+                                                    <li class="message">
+                                                        <a href="read_message.php">
+                                                            <div class="actions">
+                                                                <span class="action"><i
+                                                                        class="fa fa-square-o"></i></span>
+                                                                <span class="action"><i class="fa fa-star-o"></i></span>
+                                                            </div>
+                                                            <div class="header">
+                                                                <span class="from">Lukasz Holeczek</span>
+                                                                <span class="date">Today, 3:47 PM</span>
+                                                            </div>
+                                                            <div class="title">
+                                                                Lorem ipsum dolor sit amet.
+                                                            </div>
+                                                            <div class="description">
+                                                                Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                                elit,
+                                                                sed do eiusmod tempor incididunt ut labore et dolore
+                                                                magna
+                                                                aliqua. Ut enim ad minim veniam, quis nostrud
+                                                                exercitation
+                                                                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                                Duis aute irure dolor in reprehenderit in voluptate
+                                                                velit
+                                                                esse cillum dolore eu fugiat nulla pariatur.
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li class="message unread">
+                                                        <a href="read_message.php">
+                                                            <div class="actions">
+                                                                <span class="action"><i
+                                                                        class="fa fa-square-o"></i></span>
+                                                                <span class="action"><i class="fa fa-star-o"></i></span>
+                                                            </div>
+                                                            <div class="header">
+                                                                <span class="from">Lukasz Holeczek</span>
+                                                                <span class="date">Today, 3:47 PM</span>
+                                                            </div>
+                                                            <div class="title">
+                                                                Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                                elit.
+                                                            </div>
+                                                            <div class="description">
+                                                                Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                                elit,
+                                                                sed do eiusmod tempor incididunt ut labore et dolore
+                                                                magna
+                                                                aliqua. Ut enim ad minim veniam, quis nostrud
+                                                                exercitation
+                                                                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                                Duis aute irure dolor in reprehenderit in voluptate
+                                                                velit
+                                                                esse cillum dolore eu fugiat nulla pariatur.
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li class="message">
+                                                        <a href="read_message.php">
+                                                            <div class="actions">
+                                                                <span class="action"><i
+                                                                        class="fa fa-square-o"></i></span>
+                                                                <span class="action"><i class="fa fa-star-o"></i></span>
+                                                            </div>
+                                                            <div class="header">
+                                                                <span class="from">Lukasz Holeczek</span>
+                                                                <span class="date">Today, 3:47 PM</span>
+                                                            </div>
+                                                            <div class="title">
+                                                                Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                                elit,
+                                                                sed do eiusmod tempor incididunt ut labore et dolore
+                                                                magna
+                                                                aliqua.
+                                                            </div>
+                                                            <div class="description">
+                                                                Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                                elit,
+                                                                sed do eiusmod tempor incididunt ut labore et dolore
+                                                                magna
+                                                                aliqua. Ut enim ad minim veniam, quis nostrud
+                                                                exercitation
+                                                                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                                Duis aute irure dolor in reprehenderit in voluptate
+                                                                velit
+                                                                esse cillum dolore eu fugiat nulla pariatur.
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li class="message">
+                                                        <a href="read_message.php">
+                                                            <div class="actions">
+                                                                <span class="action"><i
+                                                                        class="fa fa-square-o"></i></span>
+                                                                <span class="action"><i class="fa fa-star-o"></i></span>
+                                                            </div>
+                                                            <div class="header">
+                                                                <span class="from">Lukasz Holeczek</span>
+                                                                <span class="date">Today, 3:47 PM</span>
+                                                            </div>
+                                                            <div class="title">
+                                                                Lorem ipsum dolor sit amet.
+                                                            </div>
+                                                            <div class="description">
+                                                                Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                                elit,
+                                                                sed do eiusmod tempor incididunt ut labore et dolore
+                                                                magna
+                                                                aliqua. Ut enim ad minim veniam, quis nostrud
+                                                                exercitation
+                                                                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                                Duis aute irure dolor in reprehenderit in voluptate
+                                                                velit
+                                                                esse cillum dolore eu fugiat nulla pariatur.
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </main>
+                                        </div>
+                                    </div>
+                                </table>
+                            </div>
                         </div>
+                        <FooterPage />
                     </div>
                 </div>
             </div>
@@ -261,8 +323,18 @@
 </template>
 
 <script>
+import SideBar from './base/sidebar.vue'
+import FooterPage from './base/footer.vue'
+import TopPage from './base/top.vue'
 export default {
     name: 'SentMessgaes',
+    components: {
+        SideBar,
+        FooterPage,
+        TopPage,
+
+    }
+
 }
 
 </script>
