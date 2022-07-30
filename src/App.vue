@@ -1,15 +1,15 @@
 <template>
   <!--pages-->
-  <ViewMessages />
+  <ViewStation />
   <!--pages-->
 </template>
 
 <script>
-import ViewMessages from './components/omc/view_messages.vue'
+import ViewStation from './components/omc/view_station.vue'
 export default {
   name: 'App',
   components: {
-    ViewMessages,
+    ViewStation,
   }
 }
 </script>

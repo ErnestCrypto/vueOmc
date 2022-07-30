@@ -4,192 +4,196 @@
       <!-- Page Wrapper -->
 
       <div id="wrapper">
-        <div class="container-fluid">
+        <SideBar />
+
+        <div id="content-wrapper" class="d-flex flex-column">
+          <TopPage />
+          <div class="container-fluid">
 
 
-          <div style="width:100%;padding:3%;background:white;border-radius:5px">
-            <div class="col-sm-12" style="padding-bottom:2%">
-              <div class="row">
-                <div class="col-sm-1">
-                  <i class="fa fa-shield" style="font-size:60px;color:rgba(0,0,0,0.6)"></i>
-                </div>
-                <div class="col-sm-6">
-                  <h1 class="h3 mb-15 text-gray-800">PAYMEST HISTORY</h1>
-                  <h6 class="h6 mb-15 text-gray-500">View all payments made</h6>
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="row">
-                <div class="col-sm-1">
-                  <i class="fa fa-building prefix grey-text" style="font-size:30px"></i>
-                </div>
-                <div class="col-sm-4">
-
-                  <div class="select">
-                    <select class="select-text" required>
-                      <option value="" disabled selected></option>
-                      <option value="1" class="attendant">SHELL</option>
-                      <option value="2" class="attendant">GOIL</option>
-                      <option value="3" class="attendant">TELENERGY</option>
-                    </select>
-                    <span class="select-highlight"></span>
-                    <span class="select-bar"></span>
-                    <label class="select-label">OMC</label>
+            <div style="width:100%;padding:3%;background:white;border-radius:5px">
+              <div class="col-sm-12" style="padding-bottom:2%">
+                <div class="row">
+                  <div class="col-sm-1">
+                    <i class="fa fa-shield" style="font-size:60px;color:rgba(0,0,0,0.6)"></i>
+                  </div>
+                  <div class="col-sm-6">
+                    <h1 class="h3 mb-15 text-gray-800" style="float:left">PAYMEST HISTORY</h1>
+                    <h6 class="h6 mb-15 text-gray-500 col-sm-6">View all payments made</h6>
                   </div>
                 </div>
               </div>
+
               <div class="row">
-                <div class="col-sm-1">
-                  <i class="fa fa-image prefix grey-text" style="font-size:30px"></i>
-                </div>
-                <div class="col-sm-6">
-                  <div class="select">
-                    <select class="select-text" required>
-                      <option value="" disabled selected></option>
-                      <option value="1" class="attendant">STATION 1</option>
-                      <option value="2" class="attendant">STATION 2</option>
-                      <option value="3" class="attendant">STATION 3</option>
-                    </select>
-                    <span class="select-highlight"></span>
-                    <span class="select-bar"></span>
-                    <label class="select-label">STATION</label>
+                <div class="row">
+                  <div class="col-sm-1">
+                    <i class="fa fa-building prefix grey-text" style="font-size:30px"></i>
+                  </div>
+                  <div class="col-sm-4">
+
+                    <div class="select">
+                      <select class="select-text" required>
+                        <option value="" disabled selected></option>
+                        <option value="1" class="attendant">SHELL</option>
+                        <option value="2" class="attendant">GOIL</option>
+                        <option value="3" class="attendant">TELENERGY</option>
+                      </select>
+                      <span class="select-highlight"></span>
+                      <span class="select-bar"></span>
+                      <label class="select-label">OMC</label>
+                    </div>
                   </div>
                 </div>
+                <div class="row">
+                  <div class="col-sm-1">
+                    <i class="fa fa-image prefix grey-text" style="font-size:30px"></i>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="select">
+                      <select class="select-text" required>
+                        <option value="" disabled selected></option>
+                        <option value="1" class="attendant">STATION 1</option>
+                        <option value="2" class="attendant">STATION 2</option>
+                        <option value="3" class="attendant">STATION 3</option>
+                      </select>
+                      <span class="select-highlight"></span>
+                      <span class="select-bar"></span>
+                      <label class="select-label">STATION</label>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <button class="btn btn-primary" type="submit"> PAYMENTS </button>
+                </div>
               </div>
-              <div>
-                <button class="btn btn-primary" type="submit"> PAYMENTS </button>
+            </div>
+            <hr>
+            <div class="row" style="background:white;padding:2%;">
+              <div class="col-sm-2"
+                style="border-right:1px solid lightgray;display:flex;justify-content:center;align-items:center">
+                <img src="https://logos-world.net/wp-content/uploads/2020/11/Shell-Logo.png" class="rounded-circle"
+                  style="width:100%;" alt="logo" />
+              </div>
+              <div style="padding-left:1%">
+                <h1 class="h3 mb-15 text-gray-800">SHELL</h1>
+                <h6>STATION 1</h6>
               </div>
             </div>
           </div>
-          <hr>
-          <div class="row" style="background:white;padding:2%;">
-            <div class="col-sm-2"
-              style="border-right:1px solid lightgray;display:flex;justify-content:center;align-items:center">
-              <img src="https://logos-world.net/wp-content/uploads/2020/11/Shell-Logo.png" class="rounded-circle"
-                style="width:100%;" alt="logo" />
-            </div>
-            <div style="padding-left:1%">
-              <h1 class="h3 mb-15 text-gray-800">SHELL</h1>
-              <h6>STATION 1</h6>
-            </div>
+
+
+
+          <div style="background:white">
+            <table class="table">
+              <thead class="thead-light">
+                <tr>
+                  <th scope="col"><i class="fa fa-sun"></i></th>
+                  <th scope="col">Profile</th>
+                  <th scope="col">Customer</th>
+                  <th scope="col">Service</th>
+                  <th scope="col">Payment Date</th>
+                  <th scope="col">Payment Time</th>
+                  <th scope="col">Payment Type</th>
+
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png"
+                      class="rounded-circle" style="width:50%;" alt="profile" /></td>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>23/09/2022</td>
+                  <td>05:33 pm</td>
+                  <td>Mobile Money</td>
+
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png"
+                      class="rounded-circle" style="width:50%;" alt="profile" /></td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>23/09/2022</td>
+                  <td>01:12 pm</td>
+                  <td>Cash</td>
+
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png"
+                      class="rounded-circle" style="width:50%;" alt="profile" /></td>
+                  <td>Larry</td>
+                  <td>Robenson</td>
+                  <td>23/09/2022</td>
+                  <td>05:13 pm</td>
+                  <td>Cash </td>
+
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png"
+                      class="rounded-circle" style="width:50%;" alt="profile" /></td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>23/09/2022</td>
+                  <td>02:33 pm</td>
+                  <td>Mobile Money</td>
+
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png"
+                      class="rounded-circle" style="width:50%;" alt="profile" /></td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>23/09/2022</td>
+                  <td>07:33 am</td>
+                  <td>Cash</td>
+
+                </tr>
+                <tr>
+                  <th scope="row">6</th>
+                  <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png"
+                      class="rounded-circle" style="width:50%;" alt="profile" /></td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>23/09/2022</td>
+                  <td>05:33 pm</td>
+                  <td>Mobile Money</td>
+
+                </tr>
+                <tr>
+                  <th scope="row">7</th>
+                  <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png"
+                      class="rounded-circle" style="width:50%;" alt="profile" /></td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>23/09/2022</td>
+                  <td>05:33pm </td>
+                  <td>Mobile Money</td>
+
+                </tr>
+                <tr>
+                  <th scope="row">8</th>
+                  <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png"
+                      class="rounded-circle" style="width:50%;" alt="profile" /></td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>23/09/2022</td>
+                  <td>05:33 pm</td>
+                  <td>Mobile Money</td>
+
+                </tr>
+              </tbody>
+            </table>
+
           </div>
-        </div>
-
-
-
-        <div style="background:white">
-          <table class="table">
-            <thead class="thead-light">
-              <tr>
-                <th scope="col"><i class="fa fa-sun"></i></th>
-                <th scope="col">Profile</th>
-                <th scope="col">Customer</th>
-                <th scope="col">Service</th>
-                <th scope="col">Payment Date</th>
-                <th scope="col">Payment Time</th>
-                <th scope="col">Payment Type</th>
-
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle"
-                    style="width:50%;" alt="profile" /></td>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>23/09/2022</td>
-                <td>05:33 pm</td>
-                <td>Mobile Money</td>
-
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle"
-                    style="width:50%;" alt="profile" /></td>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>23/09/2022</td>
-                <td>01:12 pm</td>
-                <td>Cash</td>
-
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle"
-                    style="width:50%;" alt="profile" /></td>
-                <td>Larry</td>
-                <td>Robenson</td>
-                <td>23/09/2022</td>
-                <td>05:13 pm</td>
-                <td>Cash </td>
-
-              </tr>
-              <tr>
-                <th scope="row">4</th>
-                <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle"
-                    style="width:50%;" alt="profile" /></td>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>23/09/2022</td>
-                <td>02:33 pm</td>
-                <td>Mobile Money</td>
-
-              </tr>
-              <tr>
-                <th scope="row">5</th>
-                <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle"
-                    style="width:50%;" alt="profile" /></td>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>23/09/2022</td>
-                <td>07:33 am</td>
-                <td>Cash</td>
-
-              </tr>
-              <tr>
-                <th scope="row">6</th>
-                <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle"
-                    style="width:50%;" alt="profile" /></td>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>23/09/2022</td>
-                <td>05:33 pm</td>
-                <td>Mobile Money</td>
-
-              </tr>
-              <tr>
-                <th scope="row">7</th>
-                <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle"
-                    style="width:50%;" alt="profile" /></td>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>23/09/2022</td>
-                <td>05:33pm </td>
-                <td>Mobile Money</td>
-
-              </tr>
-              <tr>
-                <th scope="row">8</th>
-                <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle"
-                    style="width:50%;" alt="profile" /></td>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>23/09/2022</td>
-                <td>05:33 pm</td>
-                <td>Mobile Money</td>
-
-              </tr>
-            </tbody>
-          </table>
+          <FooterPage />
 
         </div>
-
-
       </div>
-
     </div>
 
 
@@ -197,8 +201,19 @@
 </template>
 
 <script>
+import SideBar from './base/sidebar.vue'
+import FooterPage from './base/footer.vue'
+import TopPage from './base/top.vue'
+
+
 export default {
   name: 'ViewPayments',
+  components: {
+    SideBar,
+    FooterPage,
+    TopPage,
+
+  }
 }
 </script>
 
