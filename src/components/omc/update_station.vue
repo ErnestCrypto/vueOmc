@@ -4,169 +4,198 @@
             <!-- Page Wrapper -->
 
             <div id="wrapper">
-                <div class="container-fluid">
-                    <div style="width:100%;padding:2%;background:white;border-radius:5px">
-                        <div class="row">
-                            <div class="col-sm-2"
-                                style="border-right:1px solid lightgray;display:flex;justify-content:center;align-items:center">
-                                <img src="https://logos-world.net/wp-content/uploads/2020/11/Shell-Logo.png"
-                                    class="rounded-circle" style="width:100%;" alt="logo" />
-                            </div>
-                            <div style="padding-left:1%">
-                                <h1 class="h3 mb-15 text-gray-800">SHELL</h1>
-                                <h6>STATION 1</h6>
+                <SideBar />
+
+                <div id="content-wrapper" class="d-flex flex-column">
+                    <TopPage />
+                    <div class="container-fluid">
+                        <div style="width:100%;padding:2%;background:white;border-radius:5px">
+                            <div class="row">
+                                <div class="col-sm-2"
+                                    style="border-right:1px solid lightgray;display:flex;justify-content:center;align-items:center">
+                                    <img src="https://logos-world.net/wp-content/uploads/2020/11/Shell-Logo.png"
+                                        class="rounded-circle" style="width:100%;" alt="logo" />
+                                </div>
+                                <div style="padding-left:1%">
+                                    <h1 class="h3 mb-15 text-gray-800">SHELL</h1>
+                                    <h6>STATION 1</h6>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <hr>
-                    <div class="card" style="margin-bottom:2%;padding-bottom:2%;">
-                        <div class="container">
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col-sm-9">
-                                        <p style="font-size:21px;font-weight:bold;">Edit this Station</p>
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <p class="btn btn-danger">Delete STATION <i class="fa fa-trash"></i></p>
-                                    </div>
-                                </div>
-                                <br>
-
-                                <div class="row">
-
-                                    <div class="col-md-4 mb-4">
-                                        <div class="md-form">
-                                            <i class="fa fa-building prefix grey-text"></i>
-                                            <input type="text" id="OMC" class="form-control" value="SHELL">
-                                            <label for="OMC">OMC name</label>
+                        <hr>
+                        <div class="card" style="margin-bottom:2%;padding-bottom:2%;">
+                            <div class="container">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <p style="font-size:21px;font-weight:bold; ">Edit this Station</p>
+                                        </div>
+                                        <div class="col-sm-9">
+                                            <p class="btn btn-danger" style="float:right">Delete STATION <i
+                                                    class="fa fa-trash"></i></p>
                                         </div>
                                     </div>
-                                    <div class="col-md-4 mb-4">
-                                        <div class="md-form">
-                                            <i class="fa fa-image prefix grey-text"></i>
-                                            <input type="text" id="logo" class="form-control" value="STATION 1">
-                                            <label for="OMC">Station name</label>
+                                    <br>
 
-                                        </div>
-                                    </div>
+                                    <div class="row">
 
-                                    <div class="col-md-4 mb-4">
-                                        <div class="md-form">
-                                            <i class="fa fa-image prefix grey-text"></i>
-                                            <input type="text" id="logo" class="form-control" value="ASSHONGMAN">
-                                            <label for="OMC">Station branch</label>
-
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-4 mb-4">
-                                        <div class="md-form">
-                                            <i class="fa fa-image prefix grey-text"></i>
-                                            <input type="text" id="logo" class="form-control" value="P.O.BOX GP 2016">
-                                            <label for="OMC">Station Address</label>
-
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-4 mb-4">
-                                        <div class="md-form">
-                                            <i class="fa fa-image prefix grey-text"></i>
-                                            <input type="text" id="logo" class="form-control" value="29° 52' N">
-                                            <label for="OMC">Station Longitude</label>
-
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-4 mb-4">
-                                        <div class="md-form">
-                                            <i class="fa fa-image prefix grey-text"></i>
-                                            <input type="text" id="logo" class="form-control" value="2° 29' E">
-                                            <label for="OMC">Station Latitude</label>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-
-
-                                <section class="heading-1">
-                                    <span>
-                                        <i class="fa fa-cart-arrow-down"> Let's manage your services
-                                        </i>
-                                    </span>
-                                </section>
-                                <form>
-
-                                    <section style="padding-top:5%;">
-
-                                        <div class="input_fields_wrap">
-
-                                            <div class="row">
-
-                                                <div class="col-md-5 mb-4">
-                                                    <div class="md-form">
-                                                        <i class="fa fa-cube prefix grey-text"></i>
-                                                        <input type="text" name="product[]" class="form-control"
-                                                            value="Car Wash">
-                                                        <label for="Product">Service</label>
-                                                    </div>
+                                        <div class="col-md-4 mb-4">
+                                            <div class="md-form">
+                                                <div class="row">
+                                                    <i class="fa fa-building prefix grey-text"></i>
+                                                    <input type="text" id="OMC" class="form-control" value="SHELL">
+                                                    <label for="OMC">OMC name</label>
                                                 </div>
-                                                <div class="col-md-3 mb-4">
-                                                    <div class="md-form">
-                                                        <i class="fa fa-money prefix grey-text"></i>
-                                                        <input type="text" name="price[]" class="form-control"
-                                                            value="14.00">
-                                                        <label for="price">Pricing </label>
-                                                    </div>
-                                                </div>
-                                                <div style="height:0%;color:white;background:red"
-                                                    class="remove_field btn ">Del</div>
                                             </div>
-
-                                            <div class="row">
-                                                <div class="col-md-5 mb-4">
-                                                    <div class="md-form">
-                                                        <i class="fa fa-cube prefix grey-text"></i>
-                                                        <input type="text" name="product[]" class="form-control"
-                                                            value="Car Repairs">
-                                                        <label for="Product">Service</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3 mb-4">
-                                                    <div class="md-form">
-                                                        <i class="fa fa-money prefix grey-text"></i>
-                                                        <input type="text" name="price[]" class="form-control"
-                                                            value="16.00">
-                                                        <label for="price">Pricing</label>
-                                                    </div>
-                                                </div>
-
-                                                <div style="height:0%;backgwhite;background:red"
-                                                    class="remove_field btn  ">Del</div>
-                                            </div>
-
                                         </div>
+                                        <div class="col-md-4 mb-4">
+                                            <div class="md-form">
+                                                <div class="row">
+                                                    <i class="fa fa-image prefix grey-text"></i>
+                                                    <input type="text" id="logo" class="form-control" value="STATION 1">
+                                                    <label for="OMC">Station name</label>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4 mb-4">
+                                            <div class="md-form">
+                                                <div class="row">
+                                                    <i class="fa fa-image prefix grey-text"></i>
+                                                    <input type="text" id="logo" class="form-control"
+                                                        value="ASSHONGMAN">
+                                                    <label for="OMC">Station branch</label>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4 mb-4">
+                                            <div class="md-form">
+                                                <div class="row">
+                                                    <i class="fa fa-image prefix grey-text"></i>
+                                                    <input type="text" id="logo" class="form-control"
+                                                        value="P.O.BOX GP 2016">
+                                                    <label for="OMC">Station Address</label>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4 mb-4">
+                                            <div class="md-form">
+                                                <div class="row">
+                                                    <i class="fa fa-image prefix grey-text"></i>
+                                                    <input type="text" id="logo" class="form-control" value="29° 52' N">
+                                                    <label for="OMC">Station Longitude</label>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4 mb-4">
+                                            <div class="md-form">
+                                                <div class="row">
+                                                    <i class="fa fa-image prefix grey-text"></i>
+                                                    <input type="text" id="logo" class="form-control" value="2° 29' E">
+                                                    <label for="OMC">Station Latitude</label>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                    <section class="heading-1">
+                                        <span>
+                                            <i class="fa fa-cart-arrow-down"> Let's manage your services
+                                            </i>
+                                        </span>
                                     </section>
+                                    <form>
+
+                                        <section style="padding-top:5%;width:100%">
+
+                                            <div class="input_fields_wrap">
+
+                                                <div class="row">
+
+                                                    <div class="col-md-5 mb-4">
+                                                        <div class="md-form">
+                                                            <div class="row">
+                                                                <i class="fa fa-cube prefix grey-text"></i>
+                                                                <input type="text" name="product[]" class="form-control"
+                                                                    value="Car Wash">
+                                                                <label for="Product">Service</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-5 mb-4">
+                                                        <div class="md-form">
+                                                            <div class="row">
+                                                                <i class="fa fa-money prefix grey-text"></i>
+                                                                <input type="text" name="price[]" class="form-control"
+                                                                    value="14.00">
+                                                                <label for="price">Pricing </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div style="height:0%;color:white;background:red"
+                                                        class="remove_field btn ">Del</div>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col-md-5 mb-4">
+                                                        <div class="md-form">
+                                                            <div class="row">
+                                                                <i class="fa fa-cube prefix grey-text"></i>
+                                                                <input type="text" name="product[]" class="form-control"
+                                                                    value="Car Repairs">
+                                                                <label for="Product">Service</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-5 mb-4">
+                                                        <div class="md-form">
+                                                            <div class="row">
+                                                                <i class="fa fa-money prefix grey-text"></i>
+                                                                <input type="text" name="price[]" class="form-control"
+                                                                    value="16.00">
+                                                                <label for="price">Pricing</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div style="height:0%;backgwhite;background:red"
+                                                        class="remove_field btn  ">Del</div>
+                                                </div>
+
+                                            </div>
+                                        </section>
 
 
 
-                                    <div class="row" style="padding-left:2%">
-                                        <div style="height:0%;color:white;" class="add_field_button btn btn-primary ">
-                                            Add
-                                            Service</div>
+                                        <div class="row" style="padding-left:2%">
+                                            <div style="height:0%;color:white;"
+                                                class="add_field_button btn btn-primary ">
+                                                Add
+                                                Service</div>
 
-                                        <div class="col-sm-6">
-                                            <button type="Submit" class="btn btn-info">Update</button>
+                                            <div class="col-sm-10">
+                                                <button type="Submit" class="btn btn-info"
+                                                    style="float: right">Update</button>
+                                            </div>
                                         </div>
-                                    </div>
-                                </form>
+                                    </form>
+                                </div>
                             </div>
+
                         </div>
-
+                        <FooterPage />
                     </div>
-
                 </div>
-
 
             </div>
         </div>
@@ -174,9 +203,19 @@
 </template>
 
 <script>
+import SideBar from './base/sidebar.vue'
+import FooterPage from './base/footer.vue'
+import TopPage from './base/top.vue'
+
 
 export default {
     name: 'UpdateStation',
+    components: {
+        SideBar,
+        FooterPage,
+        TopPage,
+
+    }
 }
 
 
@@ -190,7 +229,7 @@ $(document).ready(function () {
         e.preventDefault();
         if (x < max_fields) {
             x++;
-            $(wrapper).append(' <div class="row" ><div class="col-md-5 mb-4"><div class="md-form"><i class="fa fa-cube prefix grey-text"></i><input type="text" name="product[]" class="form-control" ><label for="Product">Service</label></div></div><div class="col-md-3 mb-4"><div class="md-form" ><i class="fa fa-money prefix grey-text"></i><input type="text"  name="price[]" class="form-control"  ><label for="price">Pricing</label></div></div><div style="height:0%;backgwhite;background:red" class="remove_field btn  " >Del</div></div></div>')
+            $(wrapper).append(' <div class="row" ><div class="col-md-5 mb-4"><div class="md-form"><div class="row"><i class="fa fa-cube prefix grey-text"></i><input type="text" name="product[]" class="form-control" ><label for="Product">Service</label></div></div></div><div class="col-md-5 mb-4"><div class="md-form" ><div class="row"><i class="fa fa-money prefix grey-text"></i><input type="text"  name="price[]" class="form-control"  ><label for="price">Pricing</label></div></div></div><div style="height:0%;backgwhite;background:red" class="remove_field btn  " >Del</div></div></div>')
         }
     });
     $(wrapper).on("click", ".remove_field", function (e) {

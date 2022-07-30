@@ -4,142 +4,161 @@
             <!-- Page Wrapper -->
 
             <div id="wrapper">
+                <SideBar />
 
-                <div class="container-fluid">
+                <div id="content-wrapper" class="d-flex flex-column">
+                    <TopPage />
+                    <div class="container-fluid">
 
 
-                    <div style="width:100%;padding:2%;background:white;border-radius:5px">
-                        <div class="row">
-                            <div class="col-sm-2"
-                                style="border-right:1px solid lightgray;display:flex;justify-content:center;align-items:center">
-                                <img src="https://logos-world.net/wp-content/uploads/2020/11/Shell-Logo.png"
-                                    class="rounded-circle" style="width:100%;" alt="logo" />
-                            </div>
-                            <div style="padding-left:1%">
-                                <h1 class="h3 mb-15 text-gray-800">SHELL</h1>
-                                <h6>Manage this OMC</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="card" style="margin-bottom:2%;padding-bottom:2%;">
-                        <div class="container">
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col-sm-9">
-                                        <p style="font-size:21px;font-weight:bold;">Update your OMC name and logo
-                                        </p>
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <p class="btn btn-danger">Delete OMC <i class="fa fa-trash"></i></p>
-                                    </div>
+                        <div style="width:100%;padding:2%;background:white;border-radius:5px">
+                            <div class="row">
+                                <div class="col-sm-2"
+                                    style="border-right:1px solid lightgray;display:flex;justify-content:center;align-items:center">
+                                    <img src="https://logos-world.net/wp-content/uploads/2020/11/Shell-Logo.png"
+                                        class="rounded-circle" style="width:100%;" alt="logo" />
                                 </div>
-                                <form action="#" method="POST">
+                                <div style="padding-left:1%">
+                                    <h1 class="h3 mb-15 text-gray-800">SHELL</h1>
+                                    <h6>Manage this OMC</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="card" style="margin-bottom:2%;padding-bottom:2%;">
+                            <div class="container">
+                                <div class="card-body">
                                     <div class="row">
-                                        <div class="col-md-6 mb-4">
-                                            <div class="md-form">
-                                                <i class="fa fa-building prefix grey-text"></i>
-                                                <input type="text" id="OMC" class="form-control" value="SHELL">
-                                                <label for="OMC">OMC name</label>
-                                            </div>
+                                        <div class="col-sm-9">
+                                            <p style="font-size:21px;font-weight:bold;">Update your OMC name and logo
+                                            </p>
                                         </div>
-                                        <div class="col-md-6 mb-4">
-                                            <div class="md-form">
-
-                                                <i class="fa fa-image prefix grey-text"></i>
-                                                <input type="file" id="logo" class="form-control"
-                                                    style="border:none;border-bottom:1px solid rgba(0,0,0,0.3);padding-bottom:9%;color:blue" />
-                                            </div>
-                                        </div>
-                                        <section class="heading-1">
-                                            <span>
-                                                <i class="fa fa-cart-arrow-down"> Now lets update your products!
-                                                </i>
-                                            </span>
-                                        </section>
-
-                                        <section style="padding-top:5%;">
-
-                                            <div class="input_fields_wrap">
-
-                                                <div class="row">
-                                                    <div class="col-md-4 mb-4">
-                                                        <div class="md-form">
-                                                            <i class="fa fa-cube prefix grey-text"></i>
-                                                            <input type="text" name="product[]" class="form-control"
-                                                                value="Petrol" />
-                                                            <label for="Product">Product name</label>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-3 mb-4">
-                                                        <div class="md-form">
-                                                            <i class="fa fa-money prefix grey-text"></i>
-                                                            <input type="text" name="price[]" class="form-control"
-                                                                value="14.00" />
-                                                            <label for="price">Product price</label>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-3 mb-4">
-                                                        <div class="md-form">
-                                                            <i class="fa fa-balance-scale prefix grey-text"></i>
-                                                            <input type="text" name="units[]" class="form-control"
-                                                                value="1">
-                                                            <label for="Units">Units</label>
-                                                        </div>
-                                                    </div>
-
-                                                    <div style="height:0%;color:white;background:red"
-                                                        class="remove_field btn ">Del</div>
-                                                </div>
-
-                                                <div class="row">
-                                                    <div class="col-md-4 mb-4">
-                                                        <div class="md-form">
-                                                            <i class="fa fa-cube prefix grey-text"></i>
-                                                            <input type="text" name="product[]" class="form-control"
-                                                                value="Diseal">
-                                                            <label for="Product">Product name</label>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-3 mb-4">
-                                                        <div class="md-form">
-                                                            <i class="fa fa-money prefix grey-text"></i>
-                                                            <input type="text" name="price[]" class="form-control"
-                                                                value="16.00">
-                                                            <label for="price">Product price</label>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-3 mb-4">
-                                                        <div class="md-form">
-                                                            <i class="fa fa-balance-scale prefix grey-text"></i>
-                                                            <input type="text" name="units[]" class="form-control"
-                                                                value="1">
-                                                            <label for="Units">Units</label>
-                                                        </div>
-                                                    </div>
-                                                    <div style="height:0%;backgwhite;background:red"
-                                                        class="remove_field btn  ">Del</div>
-                                                </div>
-                                            </div>
-                                        </section>
-                                        <div class="row" style="padding-left:2%">
-                                            <div style="height:0%;color:white;"
-                                                class="add_field_button btn btn-primary ">Add
-                                                Product</div>
-
-                                            <div class="col-sm-6">
-                                                <button type="Submit" class="btn btn-info">Update</button>
-                                            </div>
+                                        <div class="col-sm-3">
+                                            <p class="btn btn-danger">Delete OMC <i class="fa fa-trash"></i></p>
                                         </div>
                                     </div>
-                                </form>
+                                    <form action="#" method="POST">
+                                        <div class="row">
+                                            <div class="col-md-6 mb-4">
+                                                <div class="md-form">
+                                                    <div class="row">
+                                                        <i class="fa fa-building prefix grey-text"></i>
+                                                        <input type="text" id="OMC" class="form-control" value="SHELL">
+                                                        <label for="OMC">OMC name</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 mb-4">
+                                                <div class="md-form">
+                                                    <div class="row">
+                                                        <i class="fa fa-image prefix grey-text"></i>
+                                                        <input type="file" id="logo" class="form-control"
+                                                            style="border:none;border-bottom:1px solid rgba(0,0,0,0.3);padding-bottom:9%;color:blue" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <section class="heading-1" style="width:100%">
+                                                <span>
+                                                    <i class="fa fa-cart-arrow-down"> Now lets update your products!
+                                                    </i>
+                                                </span>
+                                            </section>
+
+                                            <section style="padding-top:5%;width:100%">
+
+                                                <div class="input_fields_wrap col-sm-12">
+
+                                                    <div class="row">
+                                                        <div class="col-md-4 mb-4">
+                                                            <div class="md-form">
+                                                                <div class="row">
+                                                                    <i class="fa fa-cube prefix grey-text"></i>
+                                                                    <input type="text" name="product[]"
+                                                                        class="form-control" value="Petrol" />
+                                                                    <label for="Product">Product name</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-3 mb-4">
+                                                            <div class="md-form">
+                                                                <div class="row">
+                                                                    <i class="fa fa-money prefix grey-text"></i>
+                                                                    <input type="text" name="price[]"
+                                                                        class="form-control" value="14.00" />
+                                                                    <label for="price">Product price</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-3 mb-6">
+                                                            <div class="md-form">
+                                                                <div class="row">
+                                                                    <i class="fa fa-balance-scale prefix grey-text"></i>
+                                                                    <input type="text" name="units[]"
+                                                                        class="form-control" value="1">
+                                                                    <label for="Units">Units</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div style="height:0%;color:white;background:red"
+                                                            class="remove_field btn ">Del</div>
+                                                    </div>
+
+                                                    <div class="row">
+                                                        <div class="col-md-4 mb-4">
+                                                            <div class="md-form">
+                                                                <div class="row">
+                                                                    <i class="fa fa-cube prefix grey-text"></i>
+                                                                    <input type="text" name="product[]"
+                                                                        class="form-control" value="Diseal">
+                                                                    <label for="Product">Product name</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-3 mb-4">
+                                                            <div class="md-form">
+                                                                <div class="row">
+                                                                    <i class="fa fa-money prefix grey-text"></i>
+                                                                    <input type="text" name="price[]"
+                                                                        class="form-control" value="16.00">
+                                                                    <label for="price">Product price</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-3 mb-4">
+                                                            <div class="md-form">
+                                                                <div class="row">
+                                                                    <i class="fa fa-balance-scale prefix grey-text"></i>
+                                                                    <input type="text" name="units[]"
+                                                                        class="form-control" value="1">
+                                                                    <label for="Units">Units</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div style="height:0%;backgwhite;background:red"
+                                                            class="remove_field btn  ">Del</div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            <div class="row" style="padding-left:2%">
+                                                <div style="color:white;" class="add_field_button btn btn-primary ">Add
+                                                    Product</div>
+
+                                                <div class="col-sm-6">
+                                                    <button type="Submit" class="btn btn-info">Update</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+
                             </div>
 
                         </div>
 
+                        <FooterPage />
+
                     </div>
-
-
                 </div>
             </div>
         </div>
@@ -147,8 +166,19 @@
 
 </template>
 <script>
+import SideBar from './base/sidebar.vue'
+import FooterPage from './base/footer.vue'
+import TopPage from './base/top.vue'
+
+
 export default {
     name: 'UpdateOmc',
+    components: {
+        SideBar,
+        FooterPage,
+        TopPage,
+
+    }
 }
 
 
@@ -161,7 +191,7 @@ $(document).ready(function () {
         e.preventDefault();
         if (x < max_fields) {
             x++;
-            $(wrapper).append('<div><div class="row" ><div class="col-md-4 mb-4"><div class="md-form"><i class="fa fa-cube prefix grey-text"></i><input type="text" id="Product" class="form-control"><label for="Product">Product name</label></div></div><div class="col-md-3 mb-4"><div class="md-form"><i class="fa fa-money prefix grey-text"></i><input type="text"  id="price" class="form-control" ><label for="price">Product price</label></div></div><div class="col-md-3 mb-4"><div class="md-form" ><i class="fa fa-balance-scale prefix grey-text"></i><input type="text"  id="Units" class="form-control" ><label for="Units">Units</label></div></div><div style="background:red;height:0%;color:white;" class="remove_field btn " >Del</div> </div>')
+            $(wrapper).append('<div><div class="row" ><div class="col-md-4 mb-4"><div class="md-form"><div class="row"><i class="fa fa-cube prefix grey-text"></i><input type="text" id="Product" class="form-control"><label for="Product">Product name</label></div></div></div><div class="col-md-3 mb-4"><div class="md-form"><div class="row"><i class="fa fa-money prefix grey-text"></i><input type="text"  id="price" class="form-control" ><label for="price">Product price</label></div></div></div><div class="col-md-3 mb-4"><div class="md-form" ><div class="row"><i class="fa fa-balance-scale prefix grey-text"></i><input type="text"  id="Units" class="form-control" ><label for="Units">Units</label></div></div></div><div style="background:red;height:0%;color:white;" class="remove_field btn " >Del</div> </div>')
         }
     });
     $(wrapper).on("click", ".remove_field", function (e) {

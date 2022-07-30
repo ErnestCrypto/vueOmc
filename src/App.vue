@@ -1,15 +1,15 @@
 <template>
   <!--pages-->
-  <UpdateAttendants />
+  <ViewMessages />
   <!--pages-->
 </template>
 
 <script>
-import UpdateAttendants from './components/omc/update_attendants.vue'
+import ViewMessages from './components/omc/view_messages.vue'
 export default {
   name: 'App',
   components: {
-    UpdateAttendants,
+    ViewMessages,
   }
 }
 </script>

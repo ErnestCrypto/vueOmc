@@ -8,208 +8,214 @@
       <!-- Page Wrapper -->
 
       <div id="wrapper">
-        <div class="container-fluid">
+        <SideBar />
+
+        <div id="content-wrapper" class="d-flex flex-column">
+          <TopPage />
+          <div class="container-fluid">
 
 
-          <div style="width:100%;padding:3%;background:white;border-radius:5px">
-            <div class="col-sm-12" style="padding-bottom:2%">
-              <div class="row">
-                <div class="col-sm-1">
-                  <i class="fa fa-street-view" style="font-size:60px;color:rgba(0,0,0,0.6)"></i>
+            <div style="width:100%;padding:3%;background:white;border-radius:5px">
+              <div class="col-sm-12" style="padding-bottom:2%">
+                <div class="row">
+                  <div class="col-sm-1">
+                    <i class="fa fa-street-view" style="font-size:60px;color:rgba(0,0,0,0.6)"></i>
 
-                </div>
-                <div class="col-sm-6">
-                  <h1 class="h3 mb-15 text-gray-800">Attendants</h1>
-                  <h6 class="h6 mb-15 text-gray-500">You can view the attendants of a particular OMC and Station</h6>
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="row">
-                <div class="col-sm-1">
-                  <i class="fa fa-building prefix grey-text" style="font-size:30px"></i>
-                </div>
-                <div class="col-sm-4">
-
-                  <div class="select">
-                    <select class="select-text" required>
-                      <option value="" disabled selected></option>
-                      <option value="1" class="attendant">SHELL</option>
-                      <option value="2" class="attendant">GOIL</option>
-                      <option value="3" class="attendant">TELENERGY</option>
-                    </select>
-                    <span class="select-highlight"></span>
-                    <span class="select-bar"></span>
-                    <label class="select-label">OMC</label>
+                  </div>
+                  <div class="col-sm-6">
+                    <h1 class="h3 mb-15 text-gray-800" style="float:left">Attendants</h1>
+                    <h6 class="h6 mb-15 text-gray-500" style="float:left">You can view the attendants of a particular
+                      OMC and Station</h6>
                   </div>
                 </div>
               </div>
+
               <div class="row">
-                <div class="col-sm-1">
-                  <i class="fa fa-image prefix grey-text" style="font-size:30px"></i>
-                </div>
-                <div class="col-sm-6">
-                  <div class="select">
-                    <select class="select-text" required>
-                      <option value="" disabled selected></option>
-                      <option value="1" class="attendant">STATION 1</option>
-                      <option value="2" class="attendant">STATION 2</option>
-                      <option value="3" class="attendant">STATION 3</option>
-                    </select>
-                    <span class="select-highlight"></span>
-                    <span class="select-bar"></span>
-                    <label class="select-label">STATION</label>
+                <div class="row">
+                  <div class="col-sm-1">
+                    <i class="fa fa-building prefix grey-text" style="font-size:30px"></i>
+                  </div>
+                  <div class="col-sm-4">
+
+                    <div class="select">
+                      <select class="select-text" required>
+                        <option value="" disabled selected></option>
+                        <option value="1" class="attendant">SHELL</option>
+                        <option value="2" class="attendant">GOIL</option>
+                        <option value="3" class="attendant">TELENERGY</option>
+                      </select>
+                      <span class="select-highlight"></span>
+                      <span class="select-bar"></span>
+                      <label class="select-label">OMC</label>
+                    </div>
                   </div>
                 </div>
+                <div class="row">
+                  <div class="col-sm-1">
+                    <i class="fa fa-image prefix grey-text" style="font-size:30px"></i>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="select">
+                      <select class="select-text" required>
+                        <option value="" disabled selected></option>
+                        <option value="1" class="attendant">STATION 1</option>
+                        <option value="2" class="attendant">STATION 2</option>
+                        <option value="3" class="attendant">STATION 3</option>
+                      </select>
+                      <span class="select-highlight"></span>
+                      <span class="select-bar"></span>
+                      <label class="select-label">STATION</label>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <button class="btn btn-primary" type="submit"> ATTENDANTS</button>
+                </div>
               </div>
-              <div>
-                <button class="btn btn-primary" type="submit"> ATTENDANTS</button>
+            </div>
+            <hr>
+            <div class="row" style="background:white;padding:2%;">
+              <div class="col-sm-2"
+                style="border-right:1px solid lightgray;display:flex;justify-content:center;align-items:center">
+                <img src="https://logos-world.net/wp-content/uploads/2020/11/Shell-Logo.png" class="rounded-circle"
+                  style="width:100%;" alt="logo" />
+              </div>
+              <div style="padding-left:1%">
+                <h1 class="h3 mb-15 text-gray-800">SHELL</h1>
+                <h6>STATION 1</h6>
               </div>
             </div>
           </div>
-          <hr>
-          <div class="row" style="background:white;padding:2%;">
-            <div class="col-sm-2"
-              style="border-right:1px solid lightgray;display:flex;justify-content:center;align-items:center">
-              <img src="https://logos-world.net/wp-content/uploads/2020/11/Shell-Logo.png" class="rounded-circle"
-                style="width:100%;" alt="logo" />
-            </div>
-            <div style="padding-left:1%">
-              <h1 class="h3 mb-15 text-gray-800">SHELL</h1>
-              <h6>STATION 1</h6>
-            </div>
+
+
+
+          <div style="background:white">
+            <table class="table">
+              <thead class="thead-light">
+                <tr>
+                  <th scope="col"><i class="fa fa-sun"></i></th>
+                  <th scope="col">Profile</th>
+                  <th scope="col">ID</th>
+                  <th scope="col">Firstname</th>
+                  <th scope="col">Lastname</th>
+                  <th scope="col">Gender</th>
+                  <th scope="col">Contact</th>
+                  <th scope="col">Email</th>
+                  <th scope="col"><a href="#" class="text text-success">EDIT</a></th>
+
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png"
+                      class="rounded-circle" style="width:50%;" alt="profile" /></td>
+                  <td>1082577</td>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>Male</td>
+                  <td>0501865437</td>
+                  <td>akotobamfo.eab@gmail.com</td>
+                  <td scope="col"><a href="update_attendants.php" class="text text-success">EDIT</a></td>
+
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png"
+                      class="rounded-circle" style="width:50%;" alt="profile" /></td>
+                  <td>1082577</td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>Male</td>
+                  <td>0501865437</td>
+                  <td>akotobamfo.eab@gmail.com</td>
+                  <td scope="col"><a href="update_attendants.php" class="text text-success">EDIT</a></td>
+
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png"
+                      class="rounded-circle" style="width:50%;" alt="profile" /></td>
+                  <td>1082577</td>
+                  <td>Larry</td>
+                  <td>Robenson</td>
+                  <td>Male</td>
+                  <td>0501865437</td>
+                  <td>akotobamfo.eab@gmail.com</td>
+                  <td scope="col"><a href="update_attendants.php" class="text text-success">EDIT</a></td>
+
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png"
+                      class="rounded-circle" style="width:50%;" alt="profile" /></td>
+                  <td>1082577</td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>Male</td>
+                  <td>0501865437</td>
+                  <td>akotobamfo.eab@gmail.com</td>
+                  <td scope="col"><a href="update_attendants.php" class="text text-success">EDIT</a></td>
+
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png"
+                      class="rounded-circle" style="width:50%;" alt="profile" /></td>
+                  <td>1082577</td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>Male</td>
+                  <td>0501865437</td>
+                  <td>akotobamfo.eab@gmail.com</td>
+                  <td scope="col"><a href="update_attendants.php" class="text text-success">EDIT</a></td>
+
+                </tr>
+                <tr>
+                  <th scope="row">6</th>
+                  <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png"
+                      class="rounded-circle" style="width:50%;" alt="profile" /></td>
+                  <td>1082577</td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>Male</td>
+                  <td>0501865437</td>
+                  <td>akotobamfo.eab@gmail.com</td>
+                  <td scope="col"><a href="update_attendants.php" class="text text-success">EDIT</a></td>
+
+                </tr>
+                <tr>
+                  <th scope="row">7</th>
+                  <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png"
+                      class="rounded-circle" style="width:50%;" alt="profile" /></td>
+                  <td>1082577</td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>Male</td>
+                  <td>0501865437</td>
+                  <td>akotobamfo.eab@gmail.com</td>
+                  <td scope="col"><a href="update_attendants.php" class="text text-success">EDIT</a></td>
+
+                </tr>
+                <tr>
+                  <th scope="row">8</th>
+                  <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png"
+                      class="rounded-circle" style="width:50%;" alt="profile" /></td>
+                  <td>1082577</td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>Male</td>
+                  <td>0501865437</td>
+                  <td>akotobamfo.eab@gmail.com</td>
+                  <td scope="col"><a href="update_attendants.php" class="text text-success">EDIT</a></td>
+
+                </tr>
+              </tbody>
+            </table>
+
           </div>
+          <FooterPage />
         </div>
-
-
-
-        <div style="background:white">
-          <table class="table">
-            <thead class="thead-light">
-              <tr>
-                <th scope="col"><i class="fa fa-sun"></i></th>
-                <th scope="col">Profile</th>
-                <th scope="col">ID</th>
-                <th scope="col">Firstname</th>
-                <th scope="col">Lastname</th>
-                <th scope="col">Gender</th>
-                <th scope="col">Contact</th>
-                <th scope="col">Email</th>
-                <th scope="col"><a href="#" class="text text-success">EDIT</a></th>
-
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle"
-                    style="width:50%;" alt="profile" /></td>
-                <td>1082577</td>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>Male</td>
-                <td>0501865437</td>
-                <td>akotobamfo.eab@gmail.com</td>
-                <td scope="col"><a href="update_attendants.php" class="text text-success">EDIT</a></td>
-
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle"
-                    style="width:50%;" alt="profile" /></td>
-                <td>1082577</td>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>Male</td>
-                <td>0501865437</td>
-                <td>akotobamfo.eab@gmail.com</td>
-                <td scope="col"><a href="update_attendants.php" class="text text-success">EDIT</a></td>
-
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle"
-                    style="width:50%;" alt="profile" /></td>
-                <td>1082577</td>
-                <td>Larry</td>
-                <td>Robenson</td>
-                <td>Male</td>
-                <td>0501865437</td>
-                <td>akotobamfo.eab@gmail.com</td>
-                <td scope="col"><a href="update_attendants.php" class="text text-success">EDIT</a></td>
-
-              </tr>
-              <tr>
-                <th scope="row">4</th>
-                <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle"
-                    style="width:50%;" alt="profile" /></td>
-                <td>1082577</td>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>Male</td>
-                <td>0501865437</td>
-                <td>akotobamfo.eab@gmail.com</td>
-                <td scope="col"><a href="update_attendants.php" class="text text-success">EDIT</a></td>
-
-              </tr>
-              <tr>
-                <th scope="row">5</th>
-                <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle"
-                    style="width:50%;" alt="profile" /></td>
-                <td>1082577</td>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>Male</td>
-                <td>0501865437</td>
-                <td>akotobamfo.eab@gmail.com</td>
-                <td scope="col"><a href="update_attendants.php" class="text text-success">EDIT</a></td>
-
-              </tr>
-              <tr>
-                <th scope="row">6</th>
-                <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle"
-                    style="width:50%;" alt="profile" /></td>
-                <td>1082577</td>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>Male</td>
-                <td>0501865437</td>
-                <td>akotobamfo.eab@gmail.com</td>
-                <td scope="col"><a href="update_attendants.php" class="text text-success">EDIT</a></td>
-
-              </tr>
-              <tr>
-                <th scope="row">7</th>
-                <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle"
-                    style="width:50%;" alt="profile" /></td>
-                <td>1082577</td>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>Male</td>
-                <td>0501865437</td>
-                <td>akotobamfo.eab@gmail.com</td>
-                <td scope="col"><a href="update_attendants.php" class="text text-success">EDIT</a></td>
-
-              </tr>
-              <tr>
-                <th scope="row">8</th>
-                <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle"
-                    style="width:50%;" alt="profile" /></td>
-                <td>1082577</td>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>Male</td>
-                <td>0501865437</td>
-                <td>akotobamfo.eab@gmail.com</td>
-                <td scope="col"><a href="update_attendants.php" class="text text-success">EDIT</a></td>
-
-              </tr>
-            </tbody>
-          </table>
-
-        </div>
-
 
       </div>
 
@@ -220,7 +226,20 @@
 </template>
 
 <script>
+import SideBar from './base/sidebar.vue'
+import FooterPage from './base/footer.vue'
+import TopPage from './base/top.vue'
+
+
 export default {
+  name: 'ViewAttendants',
+  components: {
+    SideBar,
+    FooterPage,
+    TopPage,
+
+  }
+
 }
 
 </script>
