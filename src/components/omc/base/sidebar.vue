@@ -24,7 +24,7 @@
 
                 <!-- Nav Item - Dashboard -->
                 <li class="nav-item active">
-                    <a class="nav-link" href="./index.php">
+                    <a class="nav-link" href="/">
                         <i class="fas fa-fw fa-tachometer-alt"></i>
                         <span>Dashboard</span></a>
                 </li>
@@ -47,8 +47,8 @@
                     <div id="collapseOMC" class="collapse" aria-labelledby="headingOMC" data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
                             <h6 class="collapse-header">CUSTOMIZE OMC :</h6>
-                            <a class="collapse-item" href="../create_omc.vue">Create OMC</a>
-                            <a class="collapse-item" href="view_omc.php">View OMC</a>
+                            <router-link class="collapse-item" to="/create_omc">Create OMC</router-link>
+                            <router-link class="collapse-item" to="../view_omc.vue">View OMC</router-link>
 
 
                         </div>
@@ -66,8 +66,8 @@
                         data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
                             <h6 class="collapse-header">CUSTOMIZE STATIONS :</h6>
-                            <a class="collapse-item" href="create_station.php">Create Station</a>
-                            <a class="collapse-item" href="view_station.php">View Stations</a>
+                            <router-link class="collapse-item" to="create_station.php">Create Station</router-link>
+                            <router-link class="collapse-item" to="view_station.php">View Stations</router-link>
 
                         </div>
                     </div>
@@ -82,8 +82,8 @@
                         data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
                             <h6 class="collapse-header">CUSTOMIZE ATTENDANTS :</h6>
-                            <a class="collapse-item" href="create_attendant.php">Create Attendant</a>
-                            <a class="collapse-item" href="view_attendants.php">View Attendants</a>
+                            <router-link class="collapse-item" to="create_attendant.php">Create Attendant</router-link>
+                            <router-link class="collapse-item" to="view_attendants.php">View Attendants</router-link>
 
                         </div>
                     </div>
@@ -108,11 +108,12 @@
                         data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
                             <h6 class="collapse-header">CUSTOMIZE MESSAGES :</h6>
-                            <a class="collapse-item" href="create_message.php">Create a new message</a>
-                            <a class="collapse-item" href="view_messages.php">Inbox</a>
-                            <a class="collapse-item" href="sent_messages.php">Sent messages</a>
-                            <a class="collapse-item" href="draft_messages.php">Draft messages</a>
-                            <a class="collapse-item" href="deleted_messages.php">Deleted messages</a>
+                            <router-link class="collapse-item" to="create_message.php">Create a new message
+                            </router-link>
+                            <router-link class="collapse-item" to="view_messages.php">Inbox</router-link>
+                            <router-link class="collapse-item" to="sent_messages.php">Sent messages</router-link>
+                            <router-link class="collapse-item" to="draft_messages.php">Draft messages</router-link>
+                            <router-link class="collapse-item" to="deleted_messages.php">Deleted messages</router-link>
 
                         </div>
                     </div>
@@ -128,7 +129,7 @@
                         data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
                             <h6 class="collapse-header">CUSTOMIZE PAYMENTS :</h6>
-                            <a class="collapse-item" href="view_payments.php">View payments</a>
+                            <router-link class="collapse-item" to="view_payments.php">View payments</router-link>
                         </div>
                     </div>
                 </li>
@@ -143,10 +144,10 @@
                         data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
                             <h6 class="collapse-header">Login Screens:</h6>
-                            <a class="collapse-item" href="profile.php">Profile</a>
-                            <a class="collapse-item" href="login.html">Login</a>
-                            <a class="collapse-item" href="register.html">Register</a>
-                            <a class="collapse-item" href="forgot-password.php">Forgot Password</a>
+                            <router-link class="collapse-item" to="profile.php">Profile</router-link>
+                            <router-link class="collapse-item" to="login.html">Login</router-link>
+                            <router-link class="collapse-item" to="register.html">Register</router-link>
+                            <router-link class="collapse-item" to="forgot-password.php">Forgot Password</router-link>
 
                         </div>
                     </div>

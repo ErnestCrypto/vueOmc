@@ -1,16 +1,12 @@
 <template>
-  <!--pages-->
-  <ViewStation />
-  <!--pages-->
+
+  <router-view></router-view>
 </template>
 
 <script>
-import ViewStation from './components/omc/view_station.vue'
 export default {
   name: 'App',
-  components: {
-    ViewStation,
-  }
+
 }
 </script>
 

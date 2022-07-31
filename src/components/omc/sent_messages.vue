@@ -327,7 +327,7 @@ import SideBar from './base/sidebar.vue'
 import FooterPage from './base/footer.vue'
 import TopPage from './base/top.vue'
 export default {
-    name: 'SentMessgaes',
+    name: 'SentMessage',
     components: {
         SideBar,
         FooterPage,
