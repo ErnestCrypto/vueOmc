@@ -116,7 +116,9 @@
                   <td>Male</td>
                   <td>0501865437</td>
                   <td>akotobamfo.eab@gmail.com</td>
-                  <td scope="col"><a href="update_attendants.php" class="text text-success">EDIT</a></td>
+                  <td scope="col">
+                    <router-link to="/update_attendants" class="text text-success">EDIT</router-link>
+                  </td>
 
                 </tr>
                 <tr>
@@ -129,7 +131,9 @@
                   <td>Male</td>
                   <td>0501865437</td>
                   <td>akotobamfo.eab@gmail.com</td>
-                  <td scope="col"><a href="update_attendants.php" class="text text-success">EDIT</a></td>
+                  <td scope="col">
+                    <router-link to="/update_attendants" class="text text-success">EDIT</router-link>
+                  </td>
 
                 </tr>
                 <tr>
@@ -142,7 +146,9 @@
                   <td>Male</td>
                   <td>0501865437</td>
                   <td>akotobamfo.eab@gmail.com</td>
-                  <td scope="col"><a href="update_attendants.php" class="text text-success">EDIT</a></td>
+                  <td scope="col">
+                    <router-link to="/update_attendants" class="text text-success">EDIT</router-link>
+                  </td>
 
                 </tr>
                 <tr>
@@ -155,7 +161,9 @@
                   <td>Male</td>
                   <td>0501865437</td>
                   <td>akotobamfo.eab@gmail.com</td>
-                  <td scope="col"><a href="update_attendants.php" class="text text-success">EDIT</a></td>
+                  <td scope="col">
+                    <router-link to="/update_attendants" class="text text-success">EDIT</router-link>
+                  </td>
 
                 </tr>
                 <tr>
@@ -168,7 +176,9 @@
                   <td>Male</td>
                   <td>0501865437</td>
                   <td>akotobamfo.eab@gmail.com</td>
-                  <td scope="col"><a href="update_attendants.php" class="text text-success">EDIT</a></td>
+                  <td scope="col">
+                    <router-link to="/update_attendants" class="text text-success">EDIT</router-link>
+                  </td>
 
                 </tr>
                 <tr>
@@ -181,7 +191,9 @@
                   <td>Male</td>
                   <td>0501865437</td>
                   <td>akotobamfo.eab@gmail.com</td>
-                  <td scope="col"><a href="update_attendants.php" class="text text-success">EDIT</a></td>
+                  <td scope="col">
+                    <router-link to="/update_attendants" class="text text-success">EDIT</router-link>
+                  </td>
 
                 </tr>
                 <tr>
@@ -194,7 +206,9 @@
                   <td>Male</td>
                   <td>0501865437</td>
                   <td>akotobamfo.eab@gmail.com</td>
-                  <td scope="col"><a href="update_attendants.php" class="text text-success">EDIT</a></td>
+                  <td scope="col">
+                    <router-link to="/update_attendants" class="text text-success">EDIT</router-link>
+                  </td>
 
                 </tr>
                 <tr>
@@ -207,7 +221,9 @@
                   <td>Male</td>
                   <td>0501865437</td>
                   <td>akotobamfo.eab@gmail.com</td>
-                  <td scope="col"><a href="update_attendants.php" class="text text-success">EDIT</a></td>
+                  <td scope="col">
+                    <router-link to="/update_attendants" class="text text-success">EDIT</router-link>
+                  </td>
 
                 </tr>
               </tbody>

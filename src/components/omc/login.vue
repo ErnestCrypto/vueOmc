@@ -38,23 +38,25 @@
                                                             Me</label>
                                                     </div>
                                                 </div>
-                                                <a href="index.php" class="btn btn-primary btn-user btn-block">
+                                                <router-link to="/index" class="btn btn-primary btn-user btn-block">
                                                     Login
-                                                </a>
+                                                </router-link>
                                                 <hr>
-                                                <a href="index.php" class="btn btn-google btn-user btn-block">
+                                                <router-link to="/index" class="btn btn-google btn-user btn-block">
                                                     <i class="fab fa-google fa-fw"></i> Login with Google
-                                                </a>
-                                                <a href="index.php" class="btn btn-facebook btn-user btn-block">
+                                                </router-link>
+                                                <router-link to="/index" class="btn btn-facebook btn-user btn-block">
                                                     <i class="fab fa-facebook-f fa-fw"></i> Login with Facebook
-                                                </a>
+                                                </router-link>
                                             </form>
                                             <hr>
                                             <div class="text-center">
-                                                <a class="small" href="forgot-password.php">Forgot Password?</a>
+                                                <router-link class="small" to="/forgot-password">Forgot Password?
+                                                </router-link>
                                             </div>
                                             <div class="text-center">
-                                                <a class="small" href="register.html">Create an Account!</a>
+                                                <router-link class="small" to="/register">Create an Account!
+                                                </router-link>
                                             </div>
                                         </div>
                                     </div>

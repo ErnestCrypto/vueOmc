@@ -25,16 +25,18 @@
                                                         id="exampleInputEmail" aria-describedby="emailHelp"
                                                         placeholder="Enter Email Address...">
                                                 </div>
-                                                <a href="login.html" class="btn btn-primary btn-user btn-block">
+                                                <router-link to="/" class="btn btn-primary btn-user btn-block">
                                                     Reset Password
-                                                </a>
+                                                </router-link>
                                             </form>
                                             <hr>
                                             <div class="text-center">
-                                                <a class="small" href="register.html">Create an Account!</a>
+                                                <router-link class="small" to="/register">Create an Account!
+                                                </router-link>
                                             </div>
                                             <div class="text-center">
-                                                <a class="small" href="login.html">Already have an account? Login!</a>
+                                                <router-link class="small" to="/">Already have an account? Login!
+                                                </router-link>
                                             </div>
                                         </div>
                                     </div>

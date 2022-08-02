@@ -10,11 +10,11 @@ import DraftMessages from '../components/omc/draft_messages.vue'
 import ForgotPassword from '../components/omc/forgot-password.vue'
 import ProfilePage from '../components/omc/profile.vue'
 import ReadMessages from '../components/omc/read_message.vue'
-import RegisterPage from '../components/omc/read_message.vue'
-import SentMessage from '../components/omc/send_messages.vue'
+import RegisterPage from '../components/omc/register.vue'
+import SentMessage from '../components/omc/sent_messages.vue'
 import UpdateAttendants from '../components/omc/update_attendants.vue'
 import UpdateOmc from '../components/omc/update_omc.vue'
-import UpdateStation from '../components/omc/update_omc.vue'
+import UpdateStation from '../components/omc/update_station.vue'
 import ViewAttendants from '../components/omc/view_attendants.vue'
 import ViewMessages from '../components/omc/view_messages.vue'
 import ViewOmc from '../components/omc/view_omc.vue'
@@ -50,12 +50,12 @@ const routes = [
         component: CreateMessages,
     },
     {
-        path: '/create_staion',
+        path: '/create_station',
         name:'CreateStation',
         component: CreateStation,
     },
     {
-        path: '/create_delete_messages',
+        path: '/deleted_messages',
         name:'DeletedMessages',
         component: DeletedMessages,
     },
@@ -80,7 +80,7 @@ const routes = [
         component: ReadMessages,
     },
      {
-        path: '/send_message',
+        path: '/sent_messages',
         name:'SentMessage',
         component: SentMessage,
     },

@@ -83,7 +83,9 @@
                                   <div class="col" style="font-size:15px;font-weight:bold;">P.O.BOX GP 2016</div>
                                   <div class="col" style="font-size:15px;font-weight:bold;">29° 52' N</div>
                                   <div class="col" style="font-size:15px;font-weight:bold;">2° 29' E</div>
-                                  <div class="col"><a href="update_station.php" class="text text-success">EDIT</a></div>
+                                  <div class="col">
+                                    <router-link to="/update_station" class="text text-success">EDIT</router-link>
+                                  </div>
 
                                 </div>
                                 <div class="hide-table-padding col" style="width:100%">
@@ -113,7 +115,9 @@
                                   <div class="col" style="font-size:15px;font-weight:bold;">P.O.BOX GP 2016</div>
                                   <div class="col" style="font-size:15px;font-weight:bold;">29° 52' N</div>
                                   <div class="col" style="font-size:15px;font-weight:bold;">2° 29' E</div>
-                                  <div class="col"><a href="update_station.php" class="text text-success">EDIT</a></div>
+                                  <div class="col">
+                                    <router-link to="/update_station" class="text text-success">EDIT</router-link>
+                                  </div>
 
                                 </div>
                                 <div class="hide-table-padding col" style="width:100%">
@@ -149,7 +153,9 @@
                                   <div class="col" style="font-size:15px;font-weight:bold;">P.O.BOX GP 2016</div>
                                   <div class="col" style="font-size:15px;font-weight:bold;">29° 52' N</div>
                                   <div class="col" style="font-size:15px;font-weight:bold;">2° 29' E</div>
-                                  <div class="col"><a href="update_station.php" class="text text-success">EDIT</a></div>
+                                  <div class="col">
+                                    <router-link to="/update_station" class="text text-success">EDIT</router-link>
+                                  </div>
 
                                 </div>
                                 <div class="hide-table-padding col" style="width:100%">
@@ -226,7 +232,9 @@
                                   <div class="col" style="font-size:15px;font-weight:bold;">P.O.BOX GP 2016</div>
                                   <div class="col" style="font-size:15px;font-weight:bold;">29° 52' N</div>
                                   <div class="col" style="font-size:15px;font-weight:bold;">2° 29' E</div>
-                                  <div class="col"><a href="update_station.php" class="text text-success">EDIT</a></div>
+                                  <div class="col">
+                                    <router-link to="/update_station" class="text text-success">EDIT</router-link>
+                                  </div>
 
 
                                 </div>
@@ -257,7 +265,9 @@
                                   <div class="col" style="font-size:15px;font-weight:bold;">P.O.BOX GP 2016</div>
                                   <div class="col" style="font-size:15px;font-weight:bold;">29° 52' N</div>
                                   <div class="col" style="font-size:15px;font-weight:bold;">2° 29' E</div>
-                                  <div class="col"><a href="update_station.php" class="text text-success">EDIT</a></div>
+                                  <div class="col">
+                                    <router-link to="/update_station" class="text text-success">EDIT</router-link>
+                                  </div>
 
 
                                 </div>
@@ -294,7 +304,9 @@
                                   <div class="col" style="font-size:15px;font-weight:bold;">P.O.BOX GP 2016</div>
                                   <div class="col" style="font-size:15px;font-weight:bold;">29° 52' N</div>
                                   <div class="col" style="font-size:15px;font-weight:bold;">2° 29' E</div>
-                                  <div class="col"><a href="update_station.php" class="text text-success">EDIT</a></div>
+                                  <div class="col">
+                                    <router-link to="/update_station" class="text text-success">EDIT</router-link>
+                                  </div>
 
 
                                 </div>
@@ -373,7 +385,9 @@
                                   <div class="col" style="font-size:15px;font-weight:bold;">P.O.BOX GP 2016</div>
                                   <div class="col" style="font-size:15px;font-weight:bold;">29° 52' N</div>
                                   <div class="col" style="font-size:15px;font-weight:bold;">2° 29' E</div>
-                                  <div class="col"><a href="update_station.php" class="text text-success">EDIT</a></div>
+                                  <div class="col">
+                                    <router-link to="/update_station" class="text text-success">EDIT</router-link>
+                                  </div>
 
 
                                 </div>
@@ -404,7 +418,9 @@
                                   <div class="col" style="font-size:15px;font-weight:bold;">P.O.BOX GP 2016</div>
                                   <div class="col" style="font-size:15px;font-weight:bold;">29° 52' N</div>
                                   <div class="col" style="font-size:15px;font-weight:bold;">2° 29' E</div>
-                                  <div class="col"><a href="update_station.php" class="text text-success">EDIT</a></div>
+                                  <div class="col">
+                                    <router-link to="/update_station" class="text text-success">EDIT</router-link>
+                                  </div>
 
                                 </div>
                                 <div class="hide-table-padding col" style="width:100%">
@@ -440,7 +456,9 @@
                                   <div class="col" style="font-size:15px;font-weight:bold;">P.O.BOX GP 2016</div>
                                   <div class="col" style="font-size:15px;font-weight:bold;">29° 52' N</div>
                                   <div class="col" style="font-size:15px;font-weight:bold;">2° 29' E</div>
-                                  <div class="col"><a href="update_station.php" class="text text-success">EDIT</a></div>
+                                  <div class="col">
+                                    <router-link to="/update_station" class="text text-success">EDIT</router-link>
+                                  </div>
 
                                 </div>
                                 <div class="hide-table-padding col" style="width:100%">
@@ -518,7 +536,10 @@
                                   <div class="col" style="font-size:15px;font-weight:bold;">P.O.BOX GP 2016</div>
                                   <div class="col" style="font-size:15px;font-weight:bold;">29° 52' N</div>
                                   <div class="col" style="font-size:15px;font-weight:bold;">2° 29' E</div>
-                                  <div class="col"><a href="update_station.php" class="text text-success">EDIT</a></div>
+                                  <div class="col">
+                                    <router-link to="/update_statiorouter-link" class="text text-success">EDIT
+                                    </router-link>
+                                  </div>
 
 
                                 </div>
@@ -549,7 +570,9 @@
                                   <div class="col" style="font-size:15px;font-weight:bold;">P.O.BOX GP 2016</div>
                                   <div class="col" style="font-size:15px;font-weight:bold;">29° 52' N</div>
                                   <div class="col" style="font-size:15px;font-weight:bold;">2° 29' E</div>
-                                  <div class="col"><a href="update_station.php" class="text text-success">EDIT</a></div>
+                                  <div class="col">
+                                    <router-link to="/update_station" class="text text-success">EDIT</router-link>
+                                  </div>
 
 
                                 </div>
@@ -586,7 +609,9 @@
                                   <div class="col" style="font-size:15px;font-weight:bold;">P.O.BOX GP 2016</div>
                                   <div class="col" style="font-size:15px;font-weight:bold;">29° 52' N</div>
                                   <div class="col" style="font-size:15px;font-weight:bold;">2° 29' E</div>
-                                  <div class="col"><a href="update_station.php" class="text text-success">EDIT</a></div>
+                                  <div class="col">
+                                    <router-link to="/update_station" class="text text-success">EDIT</router-link>
+                                  </div>
 
 
                                 </div>

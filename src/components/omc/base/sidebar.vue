@@ -25,7 +25,7 @@
                 <!-- Nav Item - Dashboard -->
                 <li class="nav-item active">
                     <a class="nav-link" href="/">
-                        <i class="fas fa-fw fa-tachometer-alt"></i>
+                        <i class="fa fa-tachometer fa-tachometer-alt"></i>
                         <span>Dashboard</span></a>
                 </li>
 
@@ -48,7 +48,7 @@
                         <div class="bg-white py-2 collapse-inner rounded">
                             <h6 class="collapse-header">CUSTOMIZE OMC :</h6>
                             <router-link class="collapse-item" to="/create_omc">Create OMC</router-link>
-                            <router-link class="collapse-item" to="../view_omc.vue">View OMC</router-link>
+                            <router-link class="collapse-item" to="/view_omc">View OMC</router-link>
 
 
                         </div>
@@ -59,15 +59,15 @@
                 <li class="nav-item">
                     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseStations"
                         aria-expanded="true" aria-controls="collapseStations">
-                        <i class="fas fa-fw fa-wrench"></i>
+                        <i class="fa fa-fw fa-wrench"></i>
                         <span>STATIONS</span>
                     </a>
                     <div id="collapseStations" class="collapse" aria-labelledby="headingStations"
                         data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
                             <h6 class="collapse-header">CUSTOMIZE STATIONS :</h6>
-                            <router-link class="collapse-item" to="create_station.php">Create Station</router-link>
-                            <router-link class="collapse-item" to="view_station.php">View Stations</router-link>
+                            <router-link class="collapse-item" to="/create_station">Create Station</router-link>
+                            <router-link class="collapse-item" to="/view_station">View Stations</router-link>
 
                         </div>
                     </div>
@@ -75,15 +75,15 @@
                 <li class="nav-item">
                     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseAttendants"
                         aria-expanded="true" aria-controls="collapseAttendants">
-                        <i class="fas fa-fw fa-users"></i>
+                        <i class="fa fa-fw fa-users"></i>
                         <span>ATTENDANTS</span>
                     </a>
                     <div id="collapseAttendants" class="collapse" aria-labelledby="headingAttendants"
                         data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
                             <h6 class="collapse-header">CUSTOMIZE ATTENDANTS :</h6>
-                            <router-link class="collapse-item" to="create_attendant.php">Create Attendant</router-link>
-                            <router-link class="collapse-item" to="view_attendants.php">View Attendants</router-link>
+                            <router-link class="collapse-item" to="/create_attendant">Create Attendant</router-link>
+                            <router-link class="collapse-item" to="/view_attendants">View Attendants</router-link>
 
                         </div>
                     </div>
@@ -101,19 +101,19 @@
                 <li class="nav-item">
                     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseMessages"
                         aria-expanded="true" aria-controls="collapseMessages">
-                        <i class="fas fa-fw fa-folder"></i>
+                        <i class="fa fa-fw fa-folder"></i>
                         <span>MESSAGES</span>
                     </a>
                     <div id="collapseMessages" class="collapse" aria-labelledby="headingMessages"
                         data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
                             <h6 class="collapse-header">CUSTOMIZE MESSAGES :</h6>
-                            <router-link class="collapse-item" to="create_message.php">Create a new message
+                            <router-link class="collapse-item" to="/create_message">Create a new message
                             </router-link>
-                            <router-link class="collapse-item" to="view_messages.php">Inbox</router-link>
-                            <router-link class="collapse-item" to="sent_messages.php">Sent messages</router-link>
-                            <router-link class="collapse-item" to="draft_messages.php">Draft messages</router-link>
-                            <router-link class="collapse-item" to="deleted_messages.php">Deleted messages</router-link>
+                            <router-link class="collapse-item" to="/view_messages">Inbox</router-link>
+                            <router-link class="collapse-item" to="/sent_messages">Sent messages</router-link>
+                            <router-link class="collapse-item" to="/draft_messages">Draft messages</router-link>
+                            <router-link class="collapse-item" to="/deleted_messages">Deleted messages</router-link>
 
                         </div>
                     </div>
@@ -122,14 +122,14 @@
                 <li class="nav-item">
                     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePayments"
                         aria-expanded="true" aria-controls="collapsePayments">
-                        <i class="fas fa-fw fa-money-check"></i>
+                        <i class="fa fa-money"></i>
                         <span>PAYMENTS</span>
                     </a>
                     <div id="collapsePayments" class="collapse" aria-labelledby="headingPayments"
                         data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
                             <h6 class="collapse-header">CUSTOMIZE PAYMENTS :</h6>
-                            <router-link class="collapse-item" to="view_payments.php">View payments</router-link>
+                            <router-link class="collapse-item" to="/view_payments">View payments</router-link>
                         </div>
                     </div>
                 </li>
@@ -137,17 +137,17 @@
                 <li class="nav-item">
                     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
                         aria-expanded="true" aria-controls="collapsePages">
-                        <i class="fas fa-fw fa-file"></i>
+                        <i class="fa fa-fw fa-file"></i>
                         <span>PAGES</span>
                     </a>
                     <div id="collapsePages" class="collapse" aria-labelledby="headingPages"
                         data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
                             <h6 class="collapse-header">Login Screens:</h6>
-                            <router-link class="collapse-item" to="profile.php">Profile</router-link>
-                            <router-link class="collapse-item" to="login.html">Login</router-link>
-                            <router-link class="collapse-item" to="register.html">Register</router-link>
-                            <router-link class="collapse-item" to="forgot-password.php">Forgot Password</router-link>
+                            <router-link class="collapse-item" to="/profile">Profile</router-link>
+                            <router-link class="collapse-item" to="/">Login</router-link>
+                            <router-link class="collapse-item" to="/register">Register</router-link>
+                            <router-link class="collapse-item" to="/forgot-password">Forgot Password</router-link>
 
                         </div>
                     </div>

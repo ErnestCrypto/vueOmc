@@ -39,23 +39,24 @@
                                                     id="exampleRepeatPassword" placeholder="Repeat Password">
                                             </div>
                                         </div>
-                                        <a href="login.html" class="btn btn-primary btn-user btn-block">
+                                        <router-link to="/" class="btn btn-primary btn-user btn-block">
                                             Register Account
-                                        </a>
+                                        </router-link>
                                         <hr>
-                                        <a href="index.html" class="btn btn-google btn-user btn-block">
+                                        <routter-link to="/index" class="btn btn-google btn-user btn-block">
                                             <i class="fab fa-google fa-fw"></i> Register with Google
-                                        </a>
-                                        <a href="index.html" class="btn btn-facebook btn-user btn-block">
+                                        </routter-link>
+                                        <routter-link to="/index" class="btn btn-facebook btn-user btn-block">
                                             <i class="fab fa-facebook-f fa-fw"></i> Register with Facebook
-                                        </a>
+                                        </routter-link>
                                     </form>
                                     <hr>
                                     <div class="text-center">
-                                        <a class="small" href="forgot-password.php">Forgot Password?</a>
+                                        <router-link class="small" to="/forgot-password">Forgot Password?</router-link>
                                     </div>
                                     <div class="text-center">
-                                        <a class="small" href="login.html">Already have an account? Login!</a>
+                                        <router-link class="small" to="/login">Already have an account? Login!
+                                        </router-link>
                                     </div>
                                 </div>
                             </div>
