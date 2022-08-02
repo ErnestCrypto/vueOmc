@@ -24,7 +24,7 @@ import ViewStation from '../components/omc/view_station.vue'
 
 
 const routes = [
-    {
+    { 
         path: '/',
         name:'LoginPage',
         component: LoginPage,
