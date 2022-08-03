@@ -25,17 +25,17 @@
 
             <div class="container my-4">
               <div class="table-responsive">
-                <div style="height:40%;overflow-y:scroll;">
+                <div>
                   <table class="table table-borderless">
                     <thead>
                       <tr style="color:orange">
-                        <th scope="col"><i class="fa fa-sun"></i></th>
+                        <th scope="col"><i class="fa fa-sun-o"></i></th>
                         <th scope="col" class="col-sm-6">OMC Logo</th>
                         <th scope="col" class="col-sm-6">OMC Name</th>
 
                       </tr>
                     </thead>
-                    <tbody>
+                    <tbody style="height:40%;overflow-y:scroll;">
 
                       <!--tr-->
                       <tr class="accordion-toggle collapsed" id="accordion1" data-toggle="collapse"

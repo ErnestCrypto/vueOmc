@@ -164,22 +164,23 @@ export default {
     },
 
 }
-$(document).ready(function () {
-    var max_fields = 15;
-    var wrapper = $(".input_fields_wrap");
-    var add_button = $(".add_field_button");
-    var x = 1; //initlal text box count
-    $(add_button).click(function (e) {
-        e.preventDefault();
-        if (x < max_fields) {
-            x++;
-            $(wrapper).append('<div><div class="row" ><div class="col-md-5 mb-4"><div class="md-form"><div class="row"><i class="fa fa-cube prefix grey-text"></i><input type="text" id="Product" class="form-control"><label for="Product">Service</label></div></div></div><div class="col-md-5 mb-4"><div class="md-form"><div class="row"><i class="fa fa-money prefix grey-text"></i><input type="text"  id="price" class="form-control" ><label for="price">Pricing</label></div></div></div><div style="background:red;height:0%;color:white;" class="remove_field btn " >Del</div> </div>')
-        }
-    });
-    $(wrapper).on("click", ".remove_field", function (e) {
-        e.preventDefault(); $(this).parent('div').remove(); x--;
-    })
-});
+
+// $(document).ready(function () {
+//     var max_fields = 15;
+//     var wrapper = $(".input_fields_wrap");
+//     var add_button = $(".add_field_button");
+//     var x = 1; //initlal text box count
+//     $(add_button).click(function (e) {
+//         e.preventDefault();
+//         if (x < max_fields) {
+//             x++;
+//             $(wrapper).append('<div><div class="row" ><div class="col-md-5 mb-4"><div class="md-form"><div class="row"><i class="fa fa-cube prefix grey-text"></i><input type="text" id="Product" class="form-control"><label for="Product">Service</label></div></div></div><div class="col-md-5 mb-4"><div class="md-form"><div class="row"><i class="fa fa-money prefix grey-text"></i><input type="text"  id="price" class="form-control" ><label for="price">Pricing</label></div></div></div><div style="background:red;height:0%;color:white;" class="remove_field btn " >Del</div> </div>')
+//         }
+//     });
+//     $(wrapper).on("click", ".remove_field", function (e) {
+//         e.preventDefault(); $(this).parent('div').remove(); x--;
+//     })
+// });
 
 </script>
 

@@ -15,7 +15,7 @@
                         <div style="width:100%;padding:2%;background:white;border-radius:5px">
                             <div class="row">
                                 <div class="col-sm-1">
-                                    <i class="fas fa-gas-pump" style="font-size:60px;color:lightblue;"></i>
+                                    <i class="fa fa-building-o" style="font-size:60px;color:lightblue;"></i>
                                 </div>
                                 <div class="col-sm-3">
                                     <h1 class="h3 mb-15 text-gray-800">Create an OMC</h1>
@@ -139,22 +139,22 @@ export default {
     }
 }
 
-$(document).ready(function () {
-    var max_fields = 15;
-    var wrapper = $(".input_fields_wrap");
-    var add_button = $(".add_field_button");
-    var x = 1; //initlal text box count
-    $(add_button).click(function (e) {
-        e.preventDefault();
-        if (x < max_fields) {
-            x++;
-            $(wrapper).append('<div><div class="row" ><div class="col-md-4 mb-4"><div class="md-form"><div class="row"><i class="fa fa-cube prefix grey-text"></i><input type="text" id="Product" class="form-control"><label for="Product">Product name</label></div></div></div><div class="col-md-3 mb-4"><div class="md-form"><div class="row"><i class="fa fa-money prefix grey-text"></i><input type="text"  id="price" class="form-control" ><label for="price">Product price</label></div></div></div><div class="col-md-3 mb-4"><div class="md-form" ><div class="row"><i class="fa fa-balance-scale prefix grey-text"></i><input type="text"  id="Units" class="form-control" ><label for="Units">Units</label></div></div></div><div style="background:red;height:0%;color:white;" class="remove_field btn " >Del</div> </div>')
-        }
-    });
-    $(wrapper).on("click", ".remove_field", function (e) {
-        e.preventDefault(); $(this).parent('div').remove(); x--;
-    })
-});
+// $(document).ready(function () {
+//     var max_fields = 15;
+//     var wrapper = $(".input_fields_wrap");
+//     var add_button = $(".add_field_button");
+//     var x = 1; //initlal text box count
+//     $(add_button).click(function (e) {
+//         e.preventDefault();
+//         if (x < max_fields) {
+//             x++;
+//             $(wrapper).append('<div><div class="row" ><div class="col-md-4 mb-4"><div class="md-form"><div class="row"><i class="fa fa-cube prefix grey-text"></i><input type="text" id="Product" class="form-control"><label for="Product">Product name</label></div></div></div><div class="col-md-3 mb-4"><div class="md-form"><div class="row"><i class="fa fa-money prefix grey-text"></i><input type="text"  id="price" class="form-control" ><label for="price">Product price</label></div></div></div><div class="col-md-3 mb-4"><div class="md-form" ><div class="row"><i class="fa fa-balance-scale prefix grey-text"></i><input type="text"  id="Units" class="form-control" ><label for="Units">Units</label></div></div></div><div style="background:red;height:0%;color:white;" class="remove_field btn " >Del</div> </div>')
+//         }
+//     });
+//     $(wrapper).on("click", ".remove_field", function (e) {
+//         e.preventDefault(); $(this).parent('div').remove(); x--;
+//     })
+// });
 </script>
 
 
@@ -245,6 +245,7 @@ $(document).ready(function () {
 .heading-1 {
     position: relative;
     text-align: center;
+
 
 }
 

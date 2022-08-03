@@ -9,17 +9,16 @@
             <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
                 <!-- Sidebar Toggle (Topbar) -->
-                <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
-                    <i class="fa fa-bars" style="color:blue"></i>
-                </button>
+
                 <div class="row" style="width:100%; ">
                     <div class="col-sm-12" style="padding-top:1%; ">
-                        <form class="form-inline mr-auto" style="width:100%; ">
-                            <input class="form-control mr-sm-2" type="text" placeholder="Search..." aria-label="Search"
-                                style="width:40%;">
-                            <button class="btn btn-info btn-rounded btn-sm my-0" type="submit">
-                                <i class="fa fa-search"></i>
-                            </button>
+                        <form class="form-inline mr-auto" style="width:100%;height: 100%; ">
+                            <div style="border:1px solid lightgray; border-radius:20px; padding:10px">
+                                <i class="fa fa-search" style="width:7%; float:left; color:rgba(0,0,0,0.5)"></i>
+                                <input type=" text" placeholder="Search..." aria-label="Search"
+                                    style="width:70%; border:none;float:left; outline:none">
+                            </div>
+
                         </form>
                     </div>
                 </div>

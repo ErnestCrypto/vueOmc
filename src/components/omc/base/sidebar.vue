@@ -2,7 +2,7 @@
     <div class="SideBar">
         <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar"
-            style="height:100%">
+            style="height:100%;">
             <br>
             <div style="height:100%;">
                 <!-- Sidebar - Brand -->
@@ -159,9 +159,7 @@
                 <hr class="sidebar-divider d-none d-md-block">
 
                 <!-- Sidebar Toggler (Sidebar) -->
-                <div class="text-center d-none d-md-inline">
-                    <button class="rounded-circle border-0" id="sidebarToggle"></button>
-                </div>
+
 
                 <!-- Sidebar Message -->
             </div>

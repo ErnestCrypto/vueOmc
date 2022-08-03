@@ -12,7 +12,7 @@
           <div class="container-fluid">
             <div class="row">
               <div class="col-sm-1">
-                <i class="fas fa-gas-pump" style="font-size:60px;color:rgba(0,0,0,0.8);"></i>
+                <i class="fa fa-building-o" style="font-size:60px;color:rgba(0,0,0,0.8);"></i>
               </div>
               <div class="col-sm-3">
                 <h1 class="h3 mb-15 text-gray-800">View all your OMCs</h1>
@@ -29,7 +29,7 @@
                   <table class="table table-borderless">
                     <thead>
                       <tr style="color:orange">
-                        <th scope="col"><i class="fa fa-sun"></i></th>
+                        <th scope="col"><i class="fa fa-sun-o" style="float:left"></i></th>
                         <th scope="col">Logo</th>
                         <th scope="col">Name</th>
 
