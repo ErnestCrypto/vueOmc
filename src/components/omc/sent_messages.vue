@@ -36,7 +36,7 @@
                                             <main class="inbox">
                                                 <ul class="messages">
                                                     <li class="message unread">
-                                                        <a href="read_message.php">
+                                                        <router-link to="/read_message">
                                                             <div class="actions">
                                                                 <span class="action"><i
                                                                         class="fa fa-square-o"></i></span>
@@ -64,10 +64,10 @@
                                                                 velit
                                                                 esse cillum dolore eu fugiat nulla pariatur.
                                                             </div>
-                                                        </a>
+                                                        </router-link>
                                                     </li>
                                                     <li class="message">
-                                                        <a href="read_message.php">
+                                                        <router-link to="/read_message">
                                                             <div class="actions">
                                                                 <span class="action"><i
                                                                         class="fa fa-square-o"></i></span>
@@ -98,10 +98,10 @@
                                                                 velit
                                                                 esse cillum dolore eu fugiat nulla pariatur.
                                                             </div>
-                                                        </a>
+                                                        </router-link>
                                                     </li>
                                                     <li class="message">
-                                                        <a href="read_message.php">
+                                                        <router-link to="/read_message">
                                                             <div class="actions">
                                                                 <span class="action"><i
                                                                         class="fa fa-square-o"></i></span>
@@ -126,10 +126,10 @@
                                                                 velit
                                                                 esse cillum dolore eu fugiat nulla pariatur.
                                                             </div>
-                                                        </a>
+                                                        </router-link>
                                                     </li>
                                                     <li class="message unread">
-                                                        <a href="read_message.php">
+                                                        <router-link to="/read_message">
                                                             <div class="actions">
                                                                 <span class="action"><i
                                                                         class="fa fa-square-o"></i></span>
@@ -155,10 +155,10 @@
                                                                 velit
                                                                 esse cillum dolore eu fugiat nulla pariatur.
                                                             </div>
-                                                        </a>
+                                                        </router-link>
                                                     </li>
                                                     <li class="message">
-                                                        <a href="read_message.php">
+                                                        <router-link to="/read_message">
                                                             <div class="actions">
                                                                 <span class="action"><i
                                                                         class="fa fa-square-o"></i></span>
@@ -188,10 +188,10 @@
                                                                 esse cillum dolore eu fugiat nulla pariatur.
                                                             </div>
 
-                                                        </a>
+                                                        </router-link>
                                                     </li>
                                                     <li class="message">
-                                                        <a href="read_message.php">
+                                                        <router-link to="/read_message">
                                                             <div class="actions">
                                                                 <span class="action"><i
                                                                         class="fa fa-square-o"></i></span>
@@ -216,10 +216,10 @@
                                                                 velit
                                                                 esse cillum dolore eu fugiat nulla pariatur.
                                                             </div>
-                                                        </a>
+                                                        </router-link>
                                                     </li>
                                                     <li class="message unread">
-                                                        <a href="read_message.php">
+                                                        <router-link to="/read_message">
                                                             <div class="actions">
                                                                 <span class="action"><i
                                                                         class="fa fa-square-o"></i></span>
@@ -245,10 +245,10 @@
                                                                 velit
                                                                 esse cillum dolore eu fugiat nulla pariatur.
                                                             </div>
-                                                        </a>
+                                                        </router-link>
                                                     </li>
                                                     <li class="message">
-                                                        <a href="read_message.php">
+                                                        <router-link to="/read_message">
                                                             <div class="actions">
                                                                 <span class="action"><i
                                                                         class="fa fa-square-o"></i></span>
@@ -277,10 +277,10 @@
                                                                 velit
                                                                 esse cillum dolore eu fugiat nulla pariatur.
                                                             </div>
-                                                        </a>
+                                                        </router-link>
                                                     </li>
                                                     <li class="message">
-                                                        <a href="read_message.php">
+                                                        <router-link to="/read_message">
                                                             <div class="actions">
                                                                 <span class="action"><i
                                                                         class="fa fa-square-o"></i></span>
@@ -305,7 +305,7 @@
                                                                 velit
                                                                 esse cillum dolore eu fugiat nulla pariatur.
                                                             </div>
-                                                        </a>
+                                                        </router-link>
                                                     </li>
                                                 </ul>
                                             </main>

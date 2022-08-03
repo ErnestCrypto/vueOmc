@@ -1,5 +1,5 @@
 <template>
-    <div clas="RegisterPage">
+    <div class="RegisterPage">
         <div class="bg-gradient-primary">
 
             <div class="container">
@@ -16,27 +16,27 @@
                                     </div>
                                     <form class="user">
                                         <div class="form-group row">
-                                            <div class="col-sm-6 mb-3 mb-sm-0">
-                                                <input type="text" class="form-control form-control-user"
-                                                    id="exampleFirstName" placeholder="First Name">
+                                            <div class="col-sm-12 mb-3 mb-sm-0">
+                                                <input type="text" class="form-control" id="exampleFirstName"
+                                                    placeholder="First Name">
                                             </div>
-                                            <div class="col-sm-6">
-                                                <input type="text" class="form-control form-control-user"
-                                                    id="exampleLastName" placeholder="Last Name">
+                                            <div class="col-sm-12">
+                                                <input type="text" class="form-control" id="exampleLastName"
+                                                    placeholder="Last Name">
                                             </div>
                                         </div>
                                         <div class="form-group">
-                                            <input type="email" class="form-control form-control-user"
-                                                id="exampleInputEmail" placeholder="Email Address">
+                                            <input type="email" class="form-control" id="exampleInputEmail"
+                                                placeholder="Email Address">
                                         </div>
                                         <div class="form-group row">
-                                            <div class="col-sm-6 mb-3 mb-sm-0">
-                                                <input type="password" class="form-control form-control-user"
-                                                    id="exampleInputPassword" placeholder="Password">
+                                            <div class="col-sm-12 mb-3 mb-sm-0">
+                                                <input type="password" class="form-control" id="exampleInputPassword"
+                                                    placeholder="Password">
                                             </div>
-                                            <div class="col-sm-6">
-                                                <input type="password" class="form-control form-control-user"
-                                                    id="exampleRepeatPassword" placeholder="Repeat Password">
+                                            <div class="col-sm-12">
+                                                <input type="password" class="form-control" id="exampleRepeatPassword"
+                                                    placeholder="Repeat Password">
                                             </div>
                                         </div>
                                         <router-link to="/" class="btn btn-primary btn-user btn-block">
@@ -44,10 +44,10 @@
                                         </router-link>
                                         <hr>
                                         <routter-link to="/index" class="btn btn-google btn-user btn-block">
-                                            <i class="fab fa-google fa-fw"></i> Register with Google
+                                            <i class="fa fa-google"></i> Register with Google
                                         </routter-link>
                                         <routter-link to="/index" class="btn btn-facebook btn-user btn-block">
-                                            <i class="fab fa-facebook-f fa-fw"></i> Register with Facebook
+                                            <i class="fa fa-facebook"></i> Register with Facebook
                                         </routter-link>
                                     </form>
                                     <hr>

@@ -22,12 +22,12 @@
                                             </div>
                                             <form class="user">
                                                 <div class="form-group">
-                                                    <input type="email" class="form-control form-control-user"
-                                                        id="exampleInputEmail" aria-describedby="emailHelp"
+                                                    <input type="email" class="form-control" id="exampleInputEmail"
+                                                        aria-describedby="emailHelp"
                                                         placeholder="Enter Email Address...">
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="password" class="form-control form-control-user"
+                                                    <input type="password" class="form-control "
                                                         id="exampleInputPassword" placeholder="Password">
                                                 </div>
                                                 <div class="form-group">
@@ -43,10 +43,10 @@
                                                 </router-link>
                                                 <hr>
                                                 <router-link to="/index" class="btn btn-google btn-user btn-block">
-                                                    <i class="fab fa-google fa-fw"></i> Login with Google
+                                                    <i class="fa fa-google"></i> Login with Google
                                                 </router-link>
                                                 <router-link to="/index" class="btn btn-facebook btn-user btn-block">
-                                                    <i class="fab fa-facebook-f fa-fw"></i> Login with Facebook
+                                                    <i class="fa fa-facebook"></i> Login with Facebook
                                                 </router-link>
                                             </form>
                                             <hr>

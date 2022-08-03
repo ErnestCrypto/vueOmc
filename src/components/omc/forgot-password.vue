@@ -1,6 +1,6 @@
 <template>
     <div class="ForgotPassword">
-        <div class="bg-gradient-primary">
+        <div class="bg-gradient-primary" style="height:100%">
             <div class="container">
                 <!-- Outer Row -->
                 <div class="row justify-content-center">
@@ -21,8 +21,8 @@
                                             </div>
                                             <form class="user">
                                                 <div class="form-group">
-                                                    <input type="email" class="form-control form-control-user"
-                                                        id="exampleInputEmail" aria-describedby="emailHelp"
+                                                    <input type="email" class="form-control " id="exampleInputEmail"
+                                                        aria-describedby="emailHelp"
                                                         placeholder="Enter Email Address...">
                                                 </div>
                                                 <router-link to="/" class="btn btn-primary btn-user btn-block">

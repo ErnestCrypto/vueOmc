@@ -29,7 +29,7 @@
                   <table class="table table-borderless">
                     <thead>
                       <tr style="color:orange">
-                        <th scope="col"><i class="fa fa-sun-o"></i></th>
+                        <th scope="col"><i class="fa fa-sun-o" style="float:left"></i></th>
                         <th scope="col" class="col-sm-6">OMC Logo</th>
                         <th scope="col" class="col-sm-6">OMC Name</th>
 
@@ -707,7 +707,7 @@ tr.h ide-table-padding td {
   left: .75rem;
   top: 50%;
   transform: translate(0, -50%);
-  font-family: "Font Awesome 5 Free";
+  font-family: "FontAwesome";
   font-weight: 900;
   content: '\f107';
 }
@@ -716,7 +716,7 @@ tr.h ide-table-padding td {
 
 
 .accordion-toggle.collapsed .expand-button:after {
-  font-family: "Font Awesome 5 Free";
+  font-family: "FontAwesome";
   font-weight: 900;
   content: "\f105";
 }
