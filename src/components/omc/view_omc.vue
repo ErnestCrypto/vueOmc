@@ -21,11 +21,14 @@
             </div>
           </div>
           <hr>
-          <section style="background:white;border-radius:5px">
+
+
+
+          <section style="background:white;border-radius:5px;">
 
             <div class="container my-4">
               <div class="table-responsive">
-                <div style="height:40%;overflow-y:scroll;">
+                <div style="height:80%;overflow-y:scroll;">
                   <table class="table table-borderless">
                     <thead>
                       <tr style="color:orange">

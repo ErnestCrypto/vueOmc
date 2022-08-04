@@ -1,12 +1,11 @@
 <template>
     <div class="RegisterPage">
+
         <div class="bg-gradient-primary">
-
             <div class="container">
-
-                <div class="card o-hidden border-0 shadow-lg my-5">
+                <div class="card">
                     <div class="card-body p-0">
-                        <!-- Nested Row within Card Body -->
+
                         <div class="row">
                             <div class="col-lg-5 d-none d-lg-block bg-register-image"></div>
                             <div class="col-lg-7">
@@ -55,7 +54,7 @@
                                         <router-link class="small" to="/forgot-password">Forgot Password?</router-link>
                                     </div>
                                     <div class="text-center">
-                                        <router-link class="small" to="/login">Already have an account? Login!
+                                        <router-link class="small" to="/">Already have an account? Login!
                                         </router-link>
                                     </div>
                                 </div>
@@ -68,6 +67,8 @@
 
 
         </div>
+
+
     </div>
 </template>
 
@@ -79,12 +80,9 @@ export default {
 </script>
 
 
+<!-- 
 
-
-
-
-
-
+ -->
 
 
 

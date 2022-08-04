@@ -140,12 +140,13 @@
                                                     </div>
                                                 </div>
                                             </section>
-                                            <div class="row" style="padding-left:2%">
+                                            <div class="row" style="padding-left:2%;width:100%; ">
                                                 <div style="color:white;" class="add_field_button btn btn-primary ">Add
                                                     Product</div>
 
-                                                <div class="col-sm-6">
-                                                    <button type="Submit" class="btn btn-info">Update</button>
+                                                <div class="col-sm-9">
+                                                    <button type="Submit" class="btn btn-info"
+                                                        style="float:right">Update</button>
                                                 </div>
                                             </div>
                                         </div>
