@@ -30,7 +30,8 @@
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col-sm-9">
-                                            <p style="font-size:21px;font-weight:bold;">Update your OMC name and logo
+                                            <p style="font-size:21px;font-weight:bold; float:left">Update your OMC name
+                                                and logo
                                             </p>
                                         </div>
                                         <div class="col-sm-3">
@@ -43,8 +44,8 @@
                                                 <div class="md-form">
                                                     <div class="row">
                                                         <i class="fa fa-building prefix grey-text"></i>
-                                                        <input type="text" id="OMC" class="form-control" value="SHELL">
-                                                        <label for="OMC">OMC name</label>
+                                                        <input type="text" id="OMC" class="form-control" value="SHELL"
+                                                            placeholder="OMC Name">
                                                     </div>
                                                 </div>
                                             </div>
@@ -74,8 +75,8 @@
                                                                 <div class="row">
                                                                     <i class="fa fa-cube prefix grey-text"></i>
                                                                     <input type="text" name="product[]"
-                                                                        class="form-control" value="Petrol" />
-                                                                    <label for="Product">Product name</label>
+                                                                        placeholder="Product Name" class="form-control"
+                                                                        value="Petrol" />
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -84,8 +85,8 @@
                                                                 <div class="row">
                                                                     <i class="fa fa-money prefix grey-text"></i>
                                                                     <input type="text" name="price[]"
-                                                                        class="form-control" value="14.00" />
-                                                                    <label for="price">Product price</label>
+                                                                        placeholder="Product Price" class="form-control"
+                                                                        value="14.00" />
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -94,8 +95,8 @@
                                                                 <div class="row">
                                                                     <i class="fa fa-balance-scale prefix grey-text"></i>
                                                                     <input type="text" name="units[]"
-                                                                        class="form-control" value="1">
-                                                                    <label for="Units">Units</label>
+                                                                        placeholder="Units" class="form-control"
+                                                                        value="1">
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -110,8 +111,8 @@
                                                                 <div class="row">
                                                                     <i class="fa fa-cube prefix grey-text"></i>
                                                                     <input type="text" name="product[]"
-                                                                        class="form-control" value="Diseal">
-                                                                    <label for="Product">Product name</label>
+                                                                        placeholder="Product Name" class="form-control"
+                                                                        value="Diseal">
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -120,8 +121,8 @@
                                                                 <div class="row">
                                                                     <i class="fa fa-money prefix grey-text"></i>
                                                                     <input type="text" name="price[]"
-                                                                        class="form-control" value="16.00">
-                                                                    <label for="price">Product price</label>
+                                                                        placeholder="Product Price" class="form-control"
+                                                                        value="16.00">
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -130,8 +131,8 @@
                                                                 <div class="row">
                                                                     <i class="fa fa-balance-scale prefix grey-text"></i>
                                                                     <input type="text" name="units[]"
-                                                                        class="form-control" value="1">
-                                                                    <label for="Units">Units</label>
+                                                                        placeholder="Units" class="form-control"
+                                                                        value="1">
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -141,7 +142,8 @@
                                                 </div>
                                             </section>
                                             <div class="row" style="padding-left:2%;width:100%; ">
-                                                <div style="color:white;" class="add_field_button btn btn-primary ">Add
+                                                <div style="color:white;width:20%;"
+                                                    class="add_field_button btn btn-primary ">Add
                                                     Product</div>
 
                                                 <div class="col-sm-9">
@@ -192,7 +194,7 @@ export default {
 //         e.preventDefault();
 //         if (x < max_fields) {
 //             x++;
-//             $(wrapper).append('<div><div class="row" ><div class="col-md-4 mb-4"><div class="md-form"><div class="row"><i class="fa fa-cube prefix grey-text"></i><input type="text" id="Product" class="form-control"><label for="Product">Product name</label></div></div></div><div class="col-md-3 mb-4"><div class="md-form"><div class="row"><i class="fa fa-money prefix grey-text"></i><input type="text"  id="price" class="form-control" ><label for="price">Product price</label></div></div></div><div class="col-md-3 mb-4"><div class="md-form" ><div class="row"><i class="fa fa-balance-scale prefix grey-text"></i><input type="text"  id="Units" class="form-control" ><label for="Units">Units</label></div></div></div><div style="background:red;height:0%;color:white;" class="remove_field btn " >Del</div> </div>')
+//             $(wrapper).append('<div><div class="row" ><div class="col-md-4 mb-4"><div class="md-form"><div class="row"><i class="fa fa-cube prefix grey-text"></i><input type="text" id="Product" class="form-control"  placeholder="Product Name"></div></div></div><div class="col-md-3 mb-4"><div class="md-form"><div class="row"><i class="fa fa-money prefix grey-text"></i><input type="text"  id="price" class="form-control"  placeholder="Product Price"></div></div></div><div class="col-md-3 mb-4"><div class="md-form" ><div class="row"><i class="fa fa-balance-scale prefix grey-text"></i><input type="text"  id="Units" class="form-control"  placeholder="Units"></div></div></div><div style="background:red;height:0%;color:white;" class="remove_field btn " >Del</div> </div>')
 //         }
 //     });
 //     $(wrapper).on("click", ".remove_field", function (e) {

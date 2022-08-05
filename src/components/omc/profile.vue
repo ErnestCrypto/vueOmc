@@ -58,8 +58,7 @@
                                                                 <div class="row">
                                                                     <i class="fa fa-image prefix grey-text"></i>
                                                                     <input type="text" id="logo" class="form-control"
-                                                                        value="ERNEST">
-                                                                    <label for="OMC">Firstname</label>
+                                                                        placeholder="FirstName" value="ERNEST">
                                                                 </div>
 
                                                             </div>
@@ -70,8 +69,7 @@
                                                                 <div class="row">
                                                                     <i class="fa fa-image prefix grey-text"></i>
                                                                     <input type="text" id="logo" class="form-control"
-                                                                        value="AKOTO BAMFO">
-                                                                    <label for="OMC">Lastname</label>
+                                                                        placeholder="LastName" value="AKOTO BAMFO">
                                                                 </div>
 
                                                             </div>
@@ -82,8 +80,7 @@
                                                                 <div class="row">
                                                                     <i class="fa fa-image prefix grey-text"></i>
                                                                     <input type="text" id="logo" class="form-control"
-                                                                        value="MALE">
-                                                                    <label for="OMC">Gender</label>
+                                                                        placeholder="Gender" value="MALE">
                                                                 </div>
 
                                                             </div>
@@ -94,8 +91,7 @@
                                                                 <div class="row">
                                                                     <i class="fa fa-image prefix grey-text"></i>
                                                                     <input type="text" id="logo" class="form-control"
-                                                                        value="0501865437">
-                                                                    <label for="OMC">Contact</label>
+                                                                        placeholder="Contact" value="0501865437">
                                                                 </div>
 
                                                             </div>
@@ -105,8 +101,8 @@
                                                                 <div class="row">
                                                                     <i class="fa fa-image prefix grey-text"></i>
                                                                     <input type="text" id="logo" class="form-control"
+                                                                        placeholder="Email"
                                                                         value="akotobamfo.eab@gmail.com">
-                                                                    <label for="OMC">Email</label>
                                                                 </div>
 
                                                             </div>

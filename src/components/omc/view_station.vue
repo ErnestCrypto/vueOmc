@@ -99,7 +99,11 @@
                                   <div> </div>
                                   <div colspan="12">
                                     <div id="collapseFivesub1" class="collapse in p-3">
-                                      <div class="col-6" style="font-size:15px;font-weight:bold;color:orange">SERVICES
+                                      <div class="row ">
+                                        <div class="col-6" style="font-size:15px;font-weight:bold;color:orange">SERVICES
+                                        </div>
+                                        <div class="col-6" style="font-size:15px;font-weight:bold;color:orange">PRICES
+                                        </div>
                                       </div>
                                       <hr>
                                       <div class="row">
@@ -131,7 +135,11 @@
                                   <div> </div>
                                   <div colspan="12">
                                     <div id="collapseFivesub2" class="collapse in p-3">
-                                      <div class="col-6" style="font-size:15px;font-weight:bold;color:orange">SERVICES
+                                      <div class="row ">
+                                        <div class="col-6" style="font-size:15px;font-weight:bold;color:orange">SERVICES
+                                        </div>
+                                        <div class="col-6" style="font-size:15px;font-weight:bold;color:orange">PRICES
+                                        </div>
                                       </div>
                                       <hr>
                                       <div class="row">
@@ -169,7 +177,11 @@
                                   <div> </div>
                                   <div colspan="12">
                                     <div id="collapseFivesub3" class="collapse in p-3">
-                                      <div class="col-6" style="font-size:15px;font-weight:bold;color:orange">SERVICES
+                                      <div class="row ">
+                                        <div class="col-6" style="font-size:15px;font-weight:bold;color:orange">SERVICES
+                                        </div>
+                                        <div class="col-6" style="font-size:15px;font-weight:bold;color:orange">PRICES
+                                        </div>
                                       </div>
                                       <hr>
                                       <div class="row">
@@ -249,7 +261,11 @@
                                   <div> </div>
                                   <div colspan="12">
                                     <div id="collapseTwosub1" class="collapse in p-3">
-                                      <div class="col-6" style="font-size:15px;font-weight:bold;color:orange">SERVICES
+                                      <div class="row ">
+                                        <div class="col-6" style="font-size:15px;font-weight:bold;color:orange">SERVICES
+                                        </div>
+                                        <div class="col-6" style="font-size:15px;font-weight:bold;color:orange">PRICES
+                                        </div>
                                       </div>
                                       <hr>
                                       <div class="row">
@@ -282,7 +298,11 @@
                                   <div> </div>
                                   <div colspan="12">
                                     <div id="collapseTwosub2" class="collapse in p-3">
-                                      <div class="col-6" style="font-size:15px;font-weight:bold;color:orange">SERVICES
+                                      <div class="row ">
+                                        <div class="col-6" style="font-size:15px;font-weight:bold;color:orange">SERVICES
+                                        </div>
+                                        <div class="col-6" style="font-size:15px;font-weight:bold;color:orange">PRICES
+                                        </div>
                                       </div>
                                       <hr>
                                       <div class="row">
@@ -321,7 +341,11 @@
                                   <div> </div>
                                   <div colspan="12">
                                     <div id="collapseTwosub3" class="collapse in p-3">
-                                      <div class="col-6" style="font-size:15px;font-weight:bold;color:orange">SERVICES
+                                      <div class="row ">
+                                        <div class="col-6" style="font-size:15px;font-weight:bold;color:orange">SERVICES
+                                        </div>
+                                        <div class="col-6" style="font-size:15px;font-weight:bold;color:orange">PRICES
+                                        </div>
                                       </div>
                                       <hr>
                                       <div class="row">
@@ -402,7 +426,11 @@
                                   <div> </div>
                                   <div colspan="12">
                                     <div id="collapseThreesub1" class="collapse in p-3">
-                                      <div class="col-6" style="font-size:15px;font-weight:bold;color:orange">SERVICES
+                                      <div class="row ">
+                                        <div class="col-6" style="font-size:15px;font-weight:bold;color:orange">SERVICES
+                                        </div>
+                                        <div class="col-6" style="font-size:15px;font-weight:bold;color:orange">PRICES
+                                        </div>
                                       </div>
                                       <hr>
                                       <div class="row">
@@ -434,7 +462,11 @@
                                   <div> </div>
                                   <div colspan="12">
                                     <div id="collapseThreesub2" class="collapse in p-3">
-                                      <div class="col-6" style="font-size:15px;font-weight:bold;color:orange">SERVICES
+                                      <div class="row ">
+                                        <div class="col-6" style="font-size:15px;font-weight:bold;color:orange">SERVICES
+                                        </div>
+                                        <div class="col-6" style="font-size:15px;font-weight:bold;color:orange">PRICES
+                                        </div>
                                       </div>
                                       <hr>
                                       <div class="row">
@@ -472,7 +504,11 @@
                                   <div> </div>
                                   <div colspan="12">
                                     <div id="collapseThreesub3" class="collapse in p-3">
-                                      <div class="col-6" style="font-size:15px;font-weight:bold;color:orange">SERVICES
+                                      <div class="row ">
+                                        <div class="col-6" style="font-size:15px;font-weight:bold;color:orange">SERVICES
+                                        </div>
+                                        <div class="col-6" style="font-size:15px;font-weight:bold;color:orange">PRICES
+                                        </div>
                                       </div>
                                       <hr>
                                       <div class="row">
@@ -554,7 +590,11 @@
                                   <div> </div>
                                   <div colspan="12">
                                     <div id="collapseFoursub1" class="collapse in p-3">
-                                      <div class="col-6" style="font-size:15px;font-weight:bold;color:orange">SERVICES
+                                      <div class="row ">
+                                        <div class="col-6" style="font-size:15px;font-weight:bold;color:orange">SERVICES
+                                        </div>
+                                        <div class="col-6" style="font-size:15px;font-weight:bold;color:orange">PRICES
+                                        </div>
                                       </div>
                                       <hr>
                                       <div class="row">
@@ -587,7 +627,11 @@
                                   <div> </div>
                                   <div colspan="12">
                                     <div id="collapseFoursub2" class="collapse in p-3">
-                                      <div class="col-6" style="font-size:15px;font-weight:bold;color:orange">SERVICES
+                                      <div class="row ">
+                                        <div class="col-6" style="font-size:15px;font-weight:bold;color:orange">SERVICES
+                                        </div>
+                                        <div class="col-6" style="font-size:15px;font-weight:bold;color:orange">PRICES
+                                        </div>
                                       </div>
                                       <hr>
                                       <div class="row">
@@ -626,7 +670,11 @@
                                   <div> </div>
                                   <div colspan="12">
                                     <div id="collapseFoursub3" class="collapse in p-3">
-                                      <div class="col-6" style="font-size:15px;font-weight:bold;color:orange">SERVICES
+                                      <div class="row ">
+                                        <div class="col-6" style="font-size:15px;font-weight:bold;color:orange">SERVICES
+                                        </div>
+                                        <div class="col-6" style="font-size:15px;font-weight:bold;color:orange">PRICES
+                                        </div>
                                       </div>
                                       <hr>
                                       <div class="row">

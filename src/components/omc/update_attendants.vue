@@ -107,8 +107,7 @@
 
                                                         <i class="fa fa-image prefix grey-text"></i>
                                                         <input type="text" id="logo" class="form-control"
-                                                            value="ERNEST">
-                                                        <label for="OMC">Attendant Firstname</label>
+                                                            placeholder="Attendant FirstName" value="ERNEST">
                                                     </div>
                                                 </div>
                                             </div>
@@ -119,19 +118,7 @@
 
                                                         <i class="fa fa-image prefix grey-text"></i>
                                                         <input type="text" id="logo" class="form-control"
-                                                            value="AKOTO BAMFO">
-                                                        <label for="OMC">Attendant Lastname</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-md-4 mb-4">
-                                                <div class="md-form">
-                                                    <div class="row">
-
-                                                        <i class="fa fa-image prefix grey-text"></i>
-                                                        <input type="text" id="logo" class="form-control" value="MALE">
-                                                        <label for="OMC">Gender</label>
+                                                            placeholder="Attendant LastName" value="AKOTO BAMFO">
                                                     </div>
                                                 </div>
                                             </div>
@@ -142,8 +129,18 @@
 
                                                         <i class="fa fa-image prefix grey-text"></i>
                                                         <input type="text" id="logo" class="form-control"
-                                                            value="0501865437">
-                                                        <label for="OMC">Contact</label>
+                                                            placeholder="Gender" value="MALE">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-4 mb-4">
+                                                <div class="md-form">
+                                                    <div class="row">
+
+                                                        <i class="fa fa-image prefix grey-text"></i>
+                                                        <input type="text" id="logo" class="form-control"
+                                                            placeholder="Contact" value="0501865437">
                                                     </div>
                                                 </div>
                                             </div>
@@ -153,8 +150,7 @@
 
                                                         <i class="fa fa-image prefix grey-text"></i>
                                                         <input type="text" id="logo" class="form-control"
-                                                            value="akotobamfo.eab@gmail.com">
-                                                        <label for="OMC">Email</label>
+                                                            placeholder="Email" value="akotobamfo.eab@gmail.com">
                                                     </div>
                                                 </div>
                                             </div>

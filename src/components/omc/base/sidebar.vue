@@ -24,7 +24,7 @@
 
                 <!-- Nav Item - Dashboard -->
                 <li class="nav-item active">
-                    <a class="nav-link" href="/">
+                    <a class="nav-link" href="/index">
                         <i class="fa fa-tachometer fa-tachometer-alt"></i>
                         <span>Dashboard</span></a>
                 </li>
@@ -47,8 +47,11 @@
                     <div id="collapseOMC" class="collapse" aria-labelledby="headingOMC" data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
                             <h6 class="collapse-header">CUSTOMIZE OMC :</h6>
-                            <router-link class="collapse-item" to="/create_omc">Create OMC</router-link>
-                            <router-link class="collapse-item" to="/view_omc">View OMC</router-link>
+                            <router-link class="collapse-item" to="/create_omc"> <i class="fa fa fa-cog"
+                                    style="color:lightgray;float:left"></i> Create OMC
+                            </router-link>
+                            <router-link class="collapse-item" to="/view_omc"> <i class="fa fa fa-cog"
+                                    style="color:lightgray;float:left"></i> View OMC</router-link>
 
 
                         </div>
@@ -66,8 +69,10 @@
                         data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
                             <h6 class="collapse-header">CUSTOMIZE STATIONS :</h6>
-                            <router-link class="collapse-item" to="/create_station">Create Station</router-link>
-                            <router-link class="collapse-item" to="/view_station">View Stations</router-link>
+                            <router-link class="collapse-item" to="/create_station"> <i class="fa fa-fw fa-wrench"
+                                    style="color:lightgray"></i> Create Station</router-link>
+                            <router-link class="collapse-item" to="/view_station"><i class="fa fa-fw fa-wrench"
+                                    style="color:lightgray"></i> View Stations</router-link>
 
                         </div>
                     </div>
@@ -82,8 +87,10 @@
                         data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
                             <h6 class="collapse-header">CUSTOMIZE ATTENDANTS :</h6>
-                            <router-link class="collapse-item" to="/create_attendant">Create Attendant</router-link>
-                            <router-link class="collapse-item" to="/view_attendants">View Attendants</router-link>
+                            <router-link class="collapse-item" to="/create_attendant"> <i class="fa fa-fw fa-users"
+                                    style="color:lightgray"></i> Create Attendant</router-link>
+                            <router-link class="collapse-item" to="/view_attendants"><i class="fa fa-fw fa-users"
+                                    style="color:lightgray"></i> View Attendants</router-link>
 
                         </div>
                     </div>
@@ -110,10 +117,14 @@
                             <h6 class="collapse-header">CUSTOMIZE MESSAGES :</h6>
                             <router-link class="collapse-item" to="/create_message">Create a new message
                             </router-link>
-                            <router-link class="collapse-item" to="/view_messages">Inbox</router-link>
-                            <router-link class="collapse-item" to="/sent_messages">Sent messages</router-link>
-                            <router-link class="collapse-item" to="/draft_messages">Draft messages</router-link>
-                            <router-link class="collapse-item" to="/deleted_messages">Deleted messages</router-link>
+                            <router-link class="collapse-item" to="/view_messages"> <i class="fa fa-fw fa-folder"
+                                    style="color:lightgray"></i> Inbox</router-link>
+                            <router-link class="collapse-item" to="/sent_messages"> <i class="fa fa-fw fa-folder"
+                                    style="color:lightgray"></i> Sent messages</router-link>
+                            <router-link class="collapse-item" to="/draft_messages"> <i class="fa fa-fw fa-folder"
+                                    style="color:lightgray"></i> Draft messages</router-link>
+                            <router-link class="collapse-item" to="/deleted_messages"> <i class="fa fa-fw fa-folder"
+                                    style="color:lightgray"></i> Deleted messages</router-link>
 
                         </div>
                     </div>
@@ -129,7 +140,9 @@
                         data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
                             <h6 class="collapse-header">CUSTOMIZE PAYMENTS :</h6>
-                            <router-link class="collapse-item" to="/view_payments">View payments</router-link>
+                            <router-link class="collapse-item" to="/view_payments"><i class="fa fa-money"
+                                    style="color:lightgray"></i> View
+                                payments</router-link>
                         </div>
                     </div>
                 </li>
@@ -144,10 +157,15 @@
                         data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
                             <h6 class="collapse-header">Login Screens:</h6>
-                            <router-link class="collapse-item" to="/profile">Profile</router-link>
-                            <router-link class="collapse-item" to="/">Login</router-link>
-                            <router-link class="collapse-item" to="/register">Register</router-link>
-                            <router-link class="collapse-item" to="/forgot-password">Forgot Password</router-link>
+                            <router-link class="collapse-item" to="/profile"><i class="fa fa-fw fa-file"
+                                    style="color:lightgray"></i> Profile
+                            </router-link>
+                            <router-link class="collapse-item" to="/"><i class="fa fa-fw fa-file"
+                                    style="color:lightgray"></i> Login</router-link>
+                            <router-link class="collapse-item" to="/register"><i class="fa fa-fw fa-file"
+                                    style="color:lightgray"></i> Register</router-link>
+                            <router-link class="collapse-item" to="/forgot-password"><i class="fa fa-fw fa-file"
+                                    style="color:lightgray"></i> Forgot Password</router-link>
 
                         </div>
                     </div>

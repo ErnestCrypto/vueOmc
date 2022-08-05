@@ -124,12 +124,23 @@
                                         <div class="row">
                                             <div class="col-sm-6">
                                                 <img src="../assets/images/undraw_absorbed_in_re_ymd6.svg"
-                                                    alt="svg_image" style="width:90%" />
+                                                    alt="svg_image" style="width:85%" />
                                             </div>
                                             <div class="col-sm-6">
 
+                                                <div class="col-sm-12"
+                                                    style="border-radius:100px;padding:2%;color:rgba(55, 93, 205,0.7);width:100%;font-weight:bold;">
+                                                    Overflow
+                                                </div>
+                                                <div class="col-sm-12" style="color:rgba(55, 93, 205,0.5)">
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                    elit,sed do eiusmod tempor incididunt ut labore et dolore
+                                                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                                </div>
 
                                             </div>
+
+
                                         </div>
                                     </div>
                                 </div>
@@ -220,7 +231,10 @@
                             </div>
                             <!-- End of Main Content -->
 
-
+                            <div class=" col-sm-6" style="background:none; padding:5%; height:100%;">
+                                <img src="../assets/images/undraw_team_collaboration_re_ow29.svg" alt="svg_image"
+                                    style="width:85%" />
+                            </div>
                         </div>
                         <!-- End of Content Wrapper -->
                         <FooterPage />
@@ -229,32 +243,8 @@
                     </div>
                     <!-- End of Page Wrapper -->
 
-                    <!-- Scroll to Top Button-->
-                    <a class="scroll-to-top rounded" href="#page-top">
-                        <i class="fa fa-angle-up"></i>
-                    </a>
 
-                    <!-- Logout Modal-->
-                    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog"
-                        aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-                                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">×</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">Select "Logout" below if you are ready to end your current
-                                    session.
-                                </div>
-                                <div class="modal-footer">
-                                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                                    <a class="btn btn-primary" href="login.html">Logout</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>

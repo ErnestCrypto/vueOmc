@@ -88,8 +88,9 @@
                                                 <div class="md-form">
                                                     <div class="row">
                                                         <i class="fa fa-image prefix grey-text"></i>
-                                                        <input type="text" id="logo" class="form-control">
-                                                        <label for="OMC">Attendant Firstname</label>
+                                                        <input type="text" id="logo" class="form-control"
+                                                            placeholder="Attendant Firstname">
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -98,8 +99,9 @@
                                                 <div class="md-form">
                                                     <div class="row">
                                                         <i class="fa fa-image prefix grey-text"></i>
-                                                        <input type="text" id="logo" class="form-control">
-                                                        <label for="OMC">Attendant Lastname</label>
+                                                        <input type="text" id="logo" class="form-control"
+                                                            placeholder="Attendant Lastname">
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -108,8 +110,9 @@
                                                 <div class="md-form">
                                                     <div class="row">
                                                         <i class="fa fa-image prefix grey-text"></i>
-                                                        <input type="text" id="logo" class="form-control">
-                                                        <label for="OMC">Gender</label>
+                                                        <input type="text" id="logo" class="form-control"
+                                                            placeholder="Gender">
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -118,8 +121,8 @@
                                                 <div class="md-form">
                                                     <div class="row">
                                                         <i class="fa fa-image prefix grey-text"></i>
-                                                        <input type="text" id="logo" class="form-control">
-                                                        <label for="OMC">Contact</label>
+                                                        <input type="text" id="logo" class="form-control"
+                                                            placeholder="Contact">
                                                     </div>
                                                 </div>
                                             </div>
@@ -127,8 +130,9 @@
                                                 <div class="md-form">
                                                     <div class="row">
                                                         <i class="fa fa-image prefix grey-text"></i>
-                                                        <input type="text" id="logo" class="form-control">
-                                                        <label for="OMC">Email</label>
+                                                        <input type="text" id="logo" class="form-control"
+                                                            placeholder="Email">
+
                                                     </div>
                                                 </div>
                                             </div>

@@ -43,8 +43,8 @@
                                             <div class="md-form">
                                                 <div class="row">
                                                     <i class="fa fa-building prefix grey-text"></i>
-                                                    <input type="text" id="OMC" class="form-control" value="SHELL">
-                                                    <label for="OMC">OMC name</label>
+                                                    <input type="text" id="OMC" class="form-control"
+                                                        placeholder="OMC Name" value="SHELL">
                                                 </div>
                                             </div>
                                         </div>
@@ -52,20 +52,8 @@
                                             <div class="md-form">
                                                 <div class="row">
                                                     <i class="fa fa-image prefix grey-text"></i>
-                                                    <input type="text" id="logo" class="form-control" value="STATION 1">
-                                                    <label for="OMC">Station name</label>
-                                                </div>
-
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4 mb-4">
-                                            <div class="md-form">
-                                                <div class="row">
-                                                    <i class="fa fa-image prefix grey-text"></i>
-                                                    <input type="text" id="logo" class="form-control"
-                                                        value="ASSHONGMAN">
-                                                    <label for="OMC">Station branch</label>
+                                                    <input type="text" id="logo" class="form-control" value="STATION 1"
+                                                        placeholder="Station Name">
                                                 </div>
 
                                             </div>
@@ -76,8 +64,7 @@
                                                 <div class="row">
                                                     <i class="fa fa-image prefix grey-text"></i>
                                                     <input type="text" id="logo" class="form-control"
-                                                        value="P.O.BOX GP 2016">
-                                                    <label for="OMC">Station Address</label>
+                                                        placeholder="Station Branch" value="ASSHONGMAN">
                                                 </div>
 
                                             </div>
@@ -87,8 +74,8 @@
                                             <div class="md-form">
                                                 <div class="row">
                                                     <i class="fa fa-image prefix grey-text"></i>
-                                                    <input type="text" id="logo" class="form-control" value="29° 52' N">
-                                                    <label for="OMC">Station Longitude</label>
+                                                    <input type="text" id="logo" class="form-control"
+                                                        placeholder="Station Address" value="P.O.BOX GP 2016">
                                                 </div>
 
                                             </div>
@@ -98,8 +85,19 @@
                                             <div class="md-form">
                                                 <div class="row">
                                                     <i class="fa fa-image prefix grey-text"></i>
-                                                    <input type="text" id="logo" class="form-control" value="2° 29' E">
-                                                    <label for="OMC">Station Latitude</label>
+                                                    <input type="text" id="logo" class="form-control" value="29° 52' N"
+                                                        placeholder="Station Longitude">
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4 mb-4">
+                                            <div class="md-form">
+                                                <div class="row">
+                                                    <i class="fa fa-image prefix grey-text"></i>
+                                                    <input type="text" id="logo" class="form-control" value="2° 29' E"
+                                                        placeholder="Station Latitude">
                                                 </div>
 
                                             </div>
@@ -118,6 +116,8 @@
 
                                         <section style="padding-top:5%;width:100%">
 
+
+
                                             <div class="input_fields_wrap">
 
                                                 <div class="row">
@@ -127,8 +127,7 @@
                                                             <div class="row">
                                                                 <i class="fa fa-cube prefix grey-text"></i>
                                                                 <input type="text" name="product[]" class="form-control"
-                                                                    value="Car Wash">
-                                                                <label for="Product">Service</label>
+                                                                    placeholder="Service" value="Car wash">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -137,8 +136,7 @@
                                                             <div class="row">
                                                                 <i class="fa fa-money prefix grey-text"></i>
                                                                 <input type="text" name="price[]" class="form-control"
-                                                                    value="14.00">
-                                                                <label for="price">Pricing </label>
+                                                                    placeholder="Price" value="14.00">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -152,8 +150,7 @@
                                                             <div class="row">
                                                                 <i class="fa fa-cube prefix grey-text"></i>
                                                                 <input type="text" name="product[]" class="form-control"
-                                                                    value="Car Repairs">
-                                                                <label for="Product">Service</label>
+                                                                    placeholder="Service" value="Car Repairs">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -162,8 +159,7 @@
                                                             <div class="row">
                                                                 <i class="fa fa-money prefix grey-text"></i>
                                                                 <input type="text" name="price[]" class="form-control"
-                                                                    value="16.00">
-                                                                <label for="price">Pricing</label>
+                                                                    placeholder="Price" value="16.00">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -178,12 +174,12 @@
 
 
                                         <div class="row" style="padding-left:2%">
-                                            <div style="height:0%;color:white;"
+                                            <div style="height:0%;color:white;width:20%"
                                                 class="add_field_button btn btn-primary ">
                                                 Add
                                                 Service</div>
 
-                                            <div class="col-sm-10">
+                                            <div class="col-sm-9">
                                                 <button type="Submit" class="btn btn-info"
                                                     style="float: right">Update</button>
                                             </div>
@@ -229,7 +225,7 @@ export default {
 //         e.preventDefault();
 //         if (x < max_fields) {
 //             x++;
-//             $(wrapper).append(' <div class="row" ><div class="col-md-5 mb-4"><div class="md-form"><div class="row"><i class="fa fa-cube prefix grey-text"></i><input type="text" name="product[]" class="form-control" ><label for="Product">Service</label></div></div></div><div class="col-md-5 mb-4"><div class="md-form" ><div class="row"><i class="fa fa-money prefix grey-text"></i><input type="text"  name="price[]" class="form-control"  ><label for="price">Pricing</label></div></div></div><div style="height:0%;backgwhite;background:red" class="remove_field btn  " >Del</div></div></div>')
+//             $(wrapper).append(' <div class="row" ><div class="col-md-5 mb-4"><div class="md-form"><div class="row"><i class="fa fa-cube prefix grey-text"></i><input type="text" name="product[]" class="form-control"  placeholder="Service"></div></div></div><div class="col-md-5 mb-4"><div class="md-form" ><div class="row"><i class="fa fa-money prefix grey-text"></i><input type="text"  name="price[]" class="form-control"   placeholder="Price"></div></div></div><div style="height:0%;backgwhite;background:red" class="remove_field btn  " >Del</div></div></div>')
 //         }
 //     });
 //     $(wrapper).on("click", ".remove_field", function (e) {

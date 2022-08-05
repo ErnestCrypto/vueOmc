@@ -34,8 +34,9 @@
                                                 <div class="md-form">
                                                     <div class="row">
                                                         <i class="fa fa-building prefix grey-text"></i>
-                                                        <input type="text" id="OMC" class="form-control">
-                                                        <label for="OMC">OMC name</label>
+                                                        <input type="text" id="OMC" class="form-control"
+                                                            placeholder="OMC name">
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -44,8 +45,9 @@
                                                 <div class="md-form">
                                                     <div class="row">
                                                         <i class="fa fa-image prefix grey-text"></i>
-                                                        <input type="text" id="logo" class="form-control">
-                                                        <label for="OMC">Station name</label>
+                                                        <input type="text" id="logo" class="form-control"
+                                                            placeholder="Station name">
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -54,8 +56,9 @@
                                                 <div class="md-form">
                                                     <div class="row">
                                                         <i class="fa fa-image prefix grey-text"></i>
-                                                        <input type="text" id="logo" class="form-control">
-                                                        <label for="OMC">Station branch</label>
+                                                        <input type="text" id="logo" class="form-control"
+                                                            placeholder="Station branch">
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -63,8 +66,9 @@
                                                 <div class="md-form">
                                                     <div class="row">
                                                         <i class="fa fa-image prefix grey-text"></i>
-                                                        <input type="text" id="logo" class="form-control">
-                                                        <label for="OMC">Station Address</label>
+                                                        <input type="text" id="logo" class="form-control"
+                                                            placeholder="Station Address">
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -73,8 +77,9 @@
                                                 <div class="md-form">
                                                     <div class="row">
                                                         <i class="fa fa-image prefix grey-text"></i>
-                                                        <input type="text" id="logo" class="form-control">
-                                                        <label for="OMC">Station Longitude</label>
+                                                        <input type="text" id="logo" class="form-control"
+                                                            placeholder="Station Longitude">
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -82,8 +87,9 @@
                                                 <div class="md-form">
                                                     <div class="row">
                                                         <i class="fa fa-image prefix grey-text"></i>
-                                                        <input type="text" id="logo" class="form-control">
-                                                        <label for="OMC">Station Latitude</label>
+                                                        <input type="text" id="logo" class="form-control"
+                                                            placeholder="Station Latitude">
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -106,8 +112,8 @@
                                                                 <div class="row">
                                                                     <i class="fa fa-cube prefix grey-text"></i>
                                                                     <input type="text" name="product[]"
-                                                                        class="form-control">
-                                                                    <label for="Product">Service</label>
+                                                                        class="form-control" placeholder="Service">
+
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -116,8 +122,8 @@
                                                                 <div class="row ">
                                                                     <i class="fa fa-money prefix grey-text"></i>
                                                                     <input type="text" name="price[]"
-                                                                        class="form-control">
-                                                                    <label for="price">Pricing</label>
+                                                                        class="form-control" placeholder="Pricing">
+
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -174,7 +180,7 @@ export default {
 //         e.preventDefault();
 //         if (x < max_fields) {
 //             x++;
-//             $(wrapper).append('<div><div class="row" ><div class="col-md-5 mb-4"><div class="md-form"><div class="row"><i class="fa fa-cube prefix grey-text"></i><input type="text" id="Product" class="form-control"><label for="Product">Service</label></div></div></div><div class="col-md-5 mb-4"><div class="md-form"><div class="row"><i class="fa fa-money prefix grey-text"></i><input type="text"  id="price" class="form-control" ><label for="price">Pricing</label></div></div></div><div style="background:red;height:0%;color:white;" class="remove_field btn " >Del</div> </div>')
+//             $(wrapper).append('<div><div class="row" ><div class="col-md-5 mb-4"><div class="md-form"><div class="row"><i class="fa fa-cube prefix grey-text"></i><input type="text" id="Product" class="form-control" placeholder="Service"></div></div></div><div class="col-md-5 mb-4"><div class="md-form"><div class="row"><i class="fa fa-money prefix grey-text"></i><input type="text"  id="price" class="form-control" placeholder="Pricing"></div></div></div><div style="background:red;height:0%;color:white;" class="remove_field btn " >Del</div> </div>')
 //         }
 //     });
 //     $(wrapper).on("click", ".remove_field", function (e) {
