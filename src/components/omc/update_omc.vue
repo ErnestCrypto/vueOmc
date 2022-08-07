@@ -18,7 +18,7 @@
                                     <img src="https://logos-world.net/wp-content/uploads/2020/11/Shell-Logo.png"
                                         class="rounded-circle" style="width:100%;" alt="logo" />
                                 </div>
-                                <div style="padding-left:1%">
+                                <div style="padding-left:1%" class="col-sm-2">
                                     <h1 class="h3 mb-15 text-gray-800">SHELL</h1>
                                     <h6>Manage this OMC</h6>
                                 </div>
@@ -142,8 +142,8 @@
                                                 </div>
                                             </section>
                                             <div class="row" style="padding-left:2%;width:100%; ">
-                                                <div style="color:white;width:20%;"
-                                                    class="add_field_button btn btn-primary ">Add
+                                                <div style="color:white;"
+                                                    class="add_field_button btn btn-primary col-sm-2">Add
                                                     Product</div>
 
                                                 <div class="col-sm-9">

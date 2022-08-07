@@ -51,7 +51,7 @@
                                     style="color:lightgray;float:left"></i> Create OMC
                             </router-link>
                             <router-link class="collapse-item" to="/view_omc"> <i class="fa fa fa-cog"
-                                    style="color:lightgray;float:left"></i> View OMC</router-link>
+                                    style="color:lightgray;float:left "></i> View OMC</router-link>
 
 
                         </div>
@@ -70,9 +70,9 @@
                         <div class="bg-white py-2 collapse-inner rounded">
                             <h6 class="collapse-header">CUSTOMIZE STATIONS :</h6>
                             <router-link class="collapse-item" to="/create_station"> <i class="fa fa-fw fa-wrench"
-                                    style="color:lightgray"></i> Create Station</router-link>
+                                    style="color:lightgray;float:left"></i> Create Station</router-link>
                             <router-link class="collapse-item" to="/view_station"><i class="fa fa-fw fa-wrench"
-                                    style="color:lightgray"></i> View Stations</router-link>
+                                    style="color:lightgray;float:left"></i> View Stations</router-link>
 
                         </div>
                     </div>
@@ -88,9 +88,9 @@
                         <div class="bg-white py-2 collapse-inner rounded">
                             <h6 class="collapse-header">CUSTOMIZE ATTENDANTS :</h6>
                             <router-link class="collapse-item" to="/create_attendant"> <i class="fa fa-fw fa-users"
-                                    style="color:lightgray"></i> Create Attendant</router-link>
+                                    style="color:lightgray;float:left"></i> Create Attendant</router-link>
                             <router-link class="collapse-item" to="/view_attendants"><i class="fa fa-fw fa-users"
-                                    style="color:lightgray"></i> View Attendants</router-link>
+                                    style="color:lightgray;float:left"></i> View Attendants</router-link>
 
                         </div>
                     </div>
@@ -118,13 +118,13 @@
                             <router-link class="collapse-item" to="/create_message">Create a new message
                             </router-link>
                             <router-link class="collapse-item" to="/view_messages"> <i class="fa fa-fw fa-folder"
-                                    style="color:lightgray"></i> Inbox</router-link>
+                                    style="color:lightgray;float:left"></i> Inbox</router-link>
                             <router-link class="collapse-item" to="/sent_messages"> <i class="fa fa-fw fa-folder"
-                                    style="color:lightgray"></i> Sent messages</router-link>
+                                    style="color:lightgray;float:left"></i> Sent messages</router-link>
                             <router-link class="collapse-item" to="/draft_messages"> <i class="fa fa-fw fa-folder"
-                                    style="color:lightgray"></i> Draft messages</router-link>
+                                    style="color:lightgray;float:left"></i> Draft messages</router-link>
                             <router-link class="collapse-item" to="/deleted_messages"> <i class="fa fa-fw fa-folder"
-                                    style="color:lightgray"></i> Deleted messages</router-link>
+                                    style="color:lightgray;float:left"></i> Deleted messages</router-link>
 
                         </div>
                     </div>
@@ -141,7 +141,7 @@
                         <div class="bg-white py-2 collapse-inner rounded">
                             <h6 class="collapse-header">CUSTOMIZE PAYMENTS :</h6>
                             <router-link class="collapse-item" to="/view_payments"><i class="fa fa-money"
-                                    style="color:lightgray"></i> View
+                                    style="color:lightgray;float:left;float:left"></i> View
                                 payments</router-link>
                         </div>
                     </div>
@@ -158,14 +158,14 @@
                         <div class="bg-white py-2 collapse-inner rounded">
                             <h6 class="collapse-header">Login Screens:</h6>
                             <router-link class="collapse-item" to="/profile"><i class="fa fa-fw fa-file"
-                                    style="color:lightgray"></i> Profile
+                                    style="color:lightgray;float:left"></i> Profile
                             </router-link>
                             <router-link class="collapse-item" to="/"><i class="fa fa-fw fa-file"
-                                    style="color:lightgray"></i> Login</router-link>
+                                    style="color:lightgray;float:left"></i> Login</router-link>
                             <router-link class="collapse-item" to="/register"><i class="fa fa-fw fa-file"
-                                    style="color:lightgray"></i> Register</router-link>
+                                    style="color:lightgray;float:left"></i> Register</router-link>
                             <router-link class="collapse-item" to="/forgot-password"><i class="fa fa-fw fa-file"
-                                    style="color:lightgray"></i> Forgot Password</router-link>
+                                    style="color:lightgray;float:left"></i> Forgot Password</router-link>
 
                         </div>
                     </div>

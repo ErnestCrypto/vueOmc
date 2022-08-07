@@ -64,13 +64,9 @@
 
                                         <section style="padding-top:5%;">
 
-
-
-
-
-                                            <div class="input_fields_wrap">
+                                            <div class="input_fields_wrap" v-for="(index, omc) in omcs" :key="omc.id">
                                                 <div class="row">
-                                                    <div class="col-md-4 mb-4">
+                                                    <div class="col-md-3 mb-4">
                                                         <div class="md-form">
                                                             <div class="row">
                                                                 <i class="fa fa-cube prefix grey-text"></i>
@@ -85,7 +81,7 @@
                                                             <div class="row">
                                                                 <i class="fa fa-money prefix grey-text"></i>
                                                                 <input type="text" name="price[]" class="form-control"
-                                                                    placeholder="Product Price">
+                                                                    placeholder="Product Price" v-model="omc.price">
 
                                                             </div>
                                                         </div>
@@ -95,14 +91,23 @@
                                                             <div class="row">
                                                                 <i class="fa fa-balance-scale prefix grey-text"></i>
                                                                 <input type="text" name="units[]" class="form-control"
-                                                                    placeholder="Units">
+                                                                    placeholder="Units" v-model="omc.unit">
 
                                                             </div>
                                                         </div>
                                                     </div>
 
                                                     <div style="height:0%;color:white;"
-                                                        class="add_field_button btn btn-primary ">Add</div>
+                                                        class="add_field_button btn btn-primary"
+                                                        v-on:click="addField(omc)"><i class="fa fa-plus"
+                                                            aria-hidden="true" style="color:white"></i>
+                                                    </div>
+                                                    <div style="height:0%;color:white;"
+                                                        class="add_field_button btn btn-danger"
+                                                        v-on:click="removeField(index, omcs)"><i class="fa fa-minus"
+                                                            aria-hidden="true" style="color:white"></i>
+                                                    </div>
+
                                                 </div>
                                             </div>
 
@@ -143,25 +148,34 @@ export default {
         FooterPage,
         TopPage,
 
-    }
+    },
+    data() {
+        return {
+            omcs: [{
+                price: '',
+                unit: '',
+
+            },]
+        }
+
+    },
+    methods: {
+
+        addField() {
+            this.omcs.push({
+                price: '',
+                unit: '',
+            });
+
+        },
+        removeField(index, omcs) {
+            omcs.splice(index, 1);
+
+        },
+
+    },
 }
 
-// $(document).ready(function () {
-//     var max_fields = 15;
-//     var wrapper = $(".input_fields_wrap");
-//     var add_button = $(".add_field_button");
-//     var x = 1; //initlal text box count
-//     $(add_button).click(function (e) {
-//         e.preventDefault();
-//         if (x < max_fields) {
-//             x++;
-//             $(wrapper).append('<div><div class="row" ><div class="col-md-4 mb-4"><div class="md-form"><div class="row"><i class="fa fa-cube prefix grey-text"></i><input type="text" id="Product" class="form-control"  placeholder="Product Name"></div></div></div><div class="col-md-3 mb-4"><div class="md-form"><div class="row"><i class="fa fa-money prefix grey-text"></i><input type="text"  id="price" class="form-control"  placeholder="Product Price"></div></div></div><div class="col-md-3 mb-4"><div class="md-form" ><div class="row"><i class="fa fa-balance-scale prefix grey-text"></i><input type="text"  id="Units" class="form-control"  placeholder="Units" ></div></div></div><div style="background:red;height:0%;color:white;" class="remove_field btn " >Del</div> </div>')
-//         }
-//     });
-//     $(wrapper).on("click", ".remove_field", function (e) {
-//         e.preventDefault(); $(this).parent('div').remove(); x--;
-//     })
-// });
 </script>
 
 

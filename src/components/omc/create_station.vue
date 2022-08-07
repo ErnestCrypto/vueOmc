@@ -117,7 +117,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="col-md-5 mb-4">
+                                                        <div class="col-md-4 mb-4">
                                                             <div class="md-form">
                                                                 <div class="row ">
                                                                     <i class="fa fa-money prefix grey-text"></i>
@@ -129,6 +129,9 @@
                                                         </div>
                                                         <div style="height:0%;color:white;"
                                                             class="add_field_button btn btn-primary ">Add
+                                                        </div>
+                                                        <div style="height:0%;color:white;"
+                                                            class="add_field_button btn btn-danger ">Del
                                                         </div>
                                                     </div>
                                                 </div>

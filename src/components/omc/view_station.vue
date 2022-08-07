@@ -28,7 +28,7 @@
 
 
 
-          <section style="background:white;border-radius:5px">
+          <section style="background:white;border-radius:5px;">
 
             <div class="container my-4">
               <div class="table-responsive">

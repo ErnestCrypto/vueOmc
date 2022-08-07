@@ -15,7 +15,7 @@
                         <div style="width:100%;padding:3%;background:white;border-radius:5px">
                             <div class="col-sm-12" style="padding-bottom:2%">
                                 <div class="row">
-                                    <div style="padding-left:20px">
+                                    <div style="padding-left:20px" class="col-sm-2">
                                         <i class="fa fa-pagelines" style="font-size:60px;color:pink"></i>
                                     </div>
                                     <div class="col-sm-5">
@@ -32,14 +32,14 @@
 
 
                             <div style="background:white">
-                                <table class="table">
+                                <table class="table col-sm-12">
                                     <link
                                         href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
                                         rel="stylesheet">
                                     <div class="container bootdey">
                                         <div class="email-app mb-4">
 
-                                            <main class="inbox">
+                                            <main class="inbox col-sm-12">
                                                 <ul class="messages">
                                                     <li class="message unread">
                                                         <router-link to="/read_message">
