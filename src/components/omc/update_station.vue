@@ -127,7 +127,7 @@
                                                         <div class="md-form">
                                                             <div class="row">
                                                                 <i class="fa fa-cube prefix grey-text"></i>
-                                                                <input type="text" name="product[]" class="form-control"
+                                                                <input type="text" class="form-control"
                                                                     placeholder="Service" v-model="station.service">
                                                             </div>
                                                         </div>
@@ -136,7 +136,7 @@
                                                         <div class="md-form">
                                                             <div class="row">
                                                                 <i class="fa fa-money prefix grey-text"></i>
-                                                                <input type="text" name="price[]" class="form-control"
+                                                                <input type="text" class="form-control"
                                                                     placeholder="Price" v-model="station.price">
                                                             </div>
                                                         </div>

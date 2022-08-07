@@ -75,9 +75,9 @@
                                                             <div class="md-form">
                                                                 <div class="row">
                                                                     <i class="fa fa-cube prefix grey-text"></i>
-                                                                    <input type="text" name="product[]"
-                                                                        placeholder="Product Name" class="form-control"
-                                                                        v-model="omc.product" />
+                                                                    <input type="text" placeholder="Product Name"
+                                                                        class="form-control" v-model="omc.product" />
+
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -85,8 +85,8 @@
                                                             <div class="md-form">
                                                                 <div class="row">
                                                                     <i class="fa fa-money prefix grey-text"></i>
-                                                                    <input type="text" name="price[]"
-                                                                        v-model="omc.price" placeholder="Product Price"
+                                                                    <input type="text" v-model="omc.price"
+                                                                        placeholder="Product Price"
                                                                         class="form-control" />
                                                                 </div>
                                                             </div>
@@ -95,7 +95,7 @@
                                                             <div class="md-form">
                                                                 <div class="row">
                                                                     <i class="fa fa-balance-scale prefix grey-text"></i>
-                                                                    <input type="text" name="units[]" v-model="omc.unit"
+                                                                    <input type="text" v-model="omc.unit"
                                                                         placeholder="Units" class="form-control">
                                                                 </div>
                                                             </div>
