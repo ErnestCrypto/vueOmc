@@ -105,14 +105,16 @@
                                             </section>
 
                                             <section style="padding:5%;width:100%;">
-                                                <div class="input_fields_wrap">
+                                                <div class="input_fields_wrap" v-for="(index, station) in stations"
+                                                    :key="station.id">
                                                     <div class="row">
                                                         <div class="col-md-5 mb-4">
                                                             <div class="md-form">
                                                                 <div class="row">
                                                                     <i class="fa fa-cube prefix grey-text"></i>
                                                                     <input type="text" name="product[]"
-                                                                        class="form-control" placeholder="Service">
+                                                                        class="form-control" placeholder="Service"
+                                                                        v-model="station.service">
 
                                                                 </div>
                                                             </div>
@@ -122,16 +124,22 @@
                                                                 <div class="row ">
                                                                     <i class="fa fa-money prefix grey-text"></i>
                                                                     <input type="text" name="price[]"
-                                                                        class="form-control" placeholder="Pricing">
+                                                                        class="form-control" placeholder="Pricing"
+                                                                        v-model="station.price">
 
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <div style="height:0%;color:white;"
-                                                            class="add_field_button btn btn-primary ">Add
+                                                            class="add_field_button btn btn-primary "
+                                                            v-on:click="addField(omc)"><i class="fa fa-plus"
+                                                                aria-hidden="true" style="color:white"></i>
                                                         </div>
                                                         <div style="height:0%;color:white;"
-                                                            class="add_field_button btn btn-danger ">Del
+                                                            class="add_field_button btn btn-danger"
+                                                            v-on:click="removeField(index, stations)"><i
+                                                                class="fa fa-minus" aria-hidden="true"
+                                                                style="color:white"></i>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -169,6 +177,31 @@ export default {
         SideBar,
         FooterPage,
         TopPage,
+
+    },
+    data() {
+        return {
+            stations: [{
+                service: '',
+                price: '',
+
+            },]
+        }
+
+    },
+    methods: {
+
+        addField() {
+            this.stations.push({
+                price: '',
+                unit: '',
+            });
+
+        },
+        removeField(index, stations) {
+            stations.splice(index, 1);
+
+        },
 
     },
 

@@ -71,7 +71,8 @@
                                                             <div class="row">
                                                                 <i class="fa fa-cube prefix grey-text"></i>
                                                                 <input type="text" name="product[]"
-                                                                    placeholder="Product Name" class="form-control">
+                                                                    placeholder="Product Name" class="form-control"
+                                                                    v-model="omc.prduct">
 
                                                             </div>
                                                         </div>
@@ -152,6 +153,7 @@ export default {
     data() {
         return {
             omcs: [{
+                product: '',
                 price: '',
                 unit: '',
 
