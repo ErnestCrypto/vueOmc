@@ -67,7 +67,8 @@
 
                                             <section style="padding-top:5%;width:100%">
 
-                                                <div class="input_fields_wrap col-sm-12">
+                                                <div class="input_fields_wrap col-sm-12" v-for="(index, omc) in omcs"
+                                                    :key="omc.id">
 
                                                     <div class="row">
                                                         <div class="col-md-4 mb-4">
@@ -76,7 +77,7 @@
                                                                     <i class="fa fa-cube prefix grey-text"></i>
                                                                     <input type="text" name="product[]"
                                                                         placeholder="Product Name" class="form-control"
-                                                                        value="Petrol" />
+                                                                        v-model="omc.product" />
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -85,8 +86,8 @@
                                                                 <div class="row">
                                                                     <i class="fa fa-money prefix grey-text"></i>
                                                                     <input type="text" name="price[]"
-                                                                        placeholder="Product Price" class="form-control"
-                                                                        value="14.00" />
+                                                                        v-model="omc.price" placeholder="Product Price"
+                                                                        class="form-control" />
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -94,56 +95,24 @@
                                                             <div class="md-form">
                                                                 <div class="row">
                                                                     <i class="fa fa-balance-scale prefix grey-text"></i>
-                                                                    <input type="text" name="units[]"
-                                                                        placeholder="Units" class="form-control"
-                                                                        value="1">
+                                                                    <input type="text" name="units[]" v-model="omc.unit"
+                                                                        placeholder="Units" class="form-control">
                                                                 </div>
                                                             </div>
                                                         </div>
 
                                                         <div style="height:0%;color:white;background:red"
-                                                            class="remove_field btn ">Del</div>
+                                                            class="remove_field btn"
+                                                            v-on:click="removeField(index, omcs)">Del</div>
                                                     </div>
 
-                                                    <div class="row">
-                                                        <div class="col-md-4 mb-4">
-                                                            <div class="md-form">
-                                                                <div class="row">
-                                                                    <i class="fa fa-cube prefix grey-text"></i>
-                                                                    <input type="text" name="product[]"
-                                                                        placeholder="Product Name" class="form-control"
-                                                                        value="Diseal">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-3 mb-4">
-                                                            <div class="md-form">
-                                                                <div class="row">
-                                                                    <i class="fa fa-money prefix grey-text"></i>
-                                                                    <input type="text" name="price[]"
-                                                                        placeholder="Product Price" class="form-control"
-                                                                        value="16.00">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-3 mb-4">
-                                                            <div class="md-form">
-                                                                <div class="row">
-                                                                    <i class="fa fa-balance-scale prefix grey-text"></i>
-                                                                    <input type="text" name="units[]"
-                                                                        placeholder="Units" class="form-control"
-                                                                        value="1">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div style="height:0%;backgwhite;background:red"
-                                                            class="remove_field btn  ">Del</div>
-                                                    </div>
+
                                                 </div>
                                             </section>
                                             <div class="row" style="padding-left:2%;width:100%; ">
                                                 <div style="color:white;"
-                                                    class="add_field_button btn btn-primary col-sm-2">Add
+                                                    class="add_field_button btn btn-primary col-sm-2"
+                                                    v-on:click="addField()">Add
                                                     Product</div>
 
                                                 <div class="col-sm-9">
@@ -151,6 +120,7 @@
                                                         style="float:right">Update</button>
                                                 </div>
                                             </div>
+
                                         </div>
                                     </form>
                                 </div>
@@ -180,27 +150,39 @@ export default {
         SideBar,
         FooterPage,
         TopPage,
+    },
+    data() {
+        return {
+            omcs: [{
+                product: "Petrol",
+                price: 14.00,
+                unit: 1,
+            },
+            {
+                product: "Diseal",
+                price: 16.00,
+                unit: 1,
+            },
+            ]
+        }
 
-    }
+    },
+
+    methods: {
+        addField() {
+            this.omcs.push({
+                product: '',
+                price: '',
+                unit: '',
+            })
+        },
+        removeField(index, omcs) {
+            omcs.splice(index, 1)
+        }
+
+    },
 }
 
-
-// $(document).ready(function () {
-//     var max_fields = 15;
-//     var wrapper = $(".input_fields_wrap");
-//     var add_button = $(".add_field_button");
-//     var x = 1; //initlal text box count
-//     $(add_button).click(function (e) {
-//         e.preventDefault();
-//         if (x < max_fields) {
-//             x++;
-//             $(wrapper).append('<div><div class="row" ><div class="col-md-4 mb-4"><div class="md-form"><div class="row"><i class="fa fa-cube prefix grey-text"></i><input type="text" id="Product" class="form-control"  placeholder="Product Name"></div></div></div><div class="col-md-3 mb-4"><div class="md-form"><div class="row"><i class="fa fa-money prefix grey-text"></i><input type="text"  id="price" class="form-control"  placeholder="Product Price"></div></div></div><div class="col-md-3 mb-4"><div class="md-form" ><div class="row"><i class="fa fa-balance-scale prefix grey-text"></i><input type="text"  id="Units" class="form-control"  placeholder="Units"></div></div></div><div style="background:red;height:0%;color:white;" class="remove_field btn " >Del</div> </div>')
-//         }
-//     });
-//     $(wrapper).on("click", ".remove_field", function (e) {
-//         e.preventDefault(); $(this).parent('div').remove(); x--;
-//     })
-// });
 
 </script>
 

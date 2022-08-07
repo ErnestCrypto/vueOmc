@@ -118,7 +118,8 @@
 
 
 
-                                            <div class="input_fields_wrap">
+                                            <div class="input_fields_wrap" v-for="(index, station) in stations"
+                                                :key="station.id">
 
                                                 <div class="row">
 
@@ -127,7 +128,7 @@
                                                             <div class="row">
                                                                 <i class="fa fa-cube prefix grey-text"></i>
                                                                 <input type="text" name="product[]" class="form-control"
-                                                                    placeholder="Service" value="Car wash">
+                                                                    placeholder="Service" v-model="station.service">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -136,37 +137,16 @@
                                                             <div class="row">
                                                                 <i class="fa fa-money prefix grey-text"></i>
                                                                 <input type="text" name="price[]" class="form-control"
-                                                                    placeholder="Price" value="14.00">
+                                                                    placeholder="Price" v-model="station.price">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div style="height:0%;color:white;background:red"
-                                                        class="remove_field btn ">Del</div>
+                                                        class="remove_field btn"
+                                                        v-on:click="removeField(index, stations)">Del</div>
                                                 </div>
 
-                                                <div class="row">
-                                                    <div class="col-md-5 mb-4">
-                                                        <div class="md-form">
-                                                            <div class="row">
-                                                                <i class="fa fa-cube prefix grey-text"></i>
-                                                                <input type="text" name="product[]" class="form-control"
-                                                                    placeholder="Service" value="Car Repairs">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-5 mb-4">
-                                                        <div class="md-form">
-                                                            <div class="row">
-                                                                <i class="fa fa-money prefix grey-text"></i>
-                                                                <input type="text" name="price[]" class="form-control"
-                                                                    placeholder="Price" value="16.00">
-                                                            </div>
-                                                        </div>
-                                                    </div>
 
-                                                    <div style="height:0%;backgwhite;background:red"
-                                                        class="remove_field btn  ">Del</div>
-                                                </div>
 
                                             </div>
                                         </section>
@@ -175,7 +155,7 @@
 
                                         <div class="row" style="padding-left:2%">
                                             <div style="height:0%;color:white;width:20%"
-                                                class="add_field_button btn btn-primary ">
+                                                class="add_field_button btn btn-primary" v-on:click="addField()">
                                                 Add
                                                 Service</div>
 
@@ -211,27 +191,33 @@ export default {
         FooterPage,
         TopPage,
 
+    },
+    data() {
+        return {
+            stations: [{
+                service: '',
+                price: '',
+            },
+            {
+                service: '',
+                price: '',
+            },]
+        }
+    },
+    methods: {
+        addField() {
+            this.stations.push({
+                service: '',
+                price: '',
+            })
+        },
+        removeField(index, stations) {
+            stations.splice(index, 1)
+        }
     }
 }
 
 
-
-// $(document).ready(function () {
-//     var max_fields = 15;
-//     var wrapper = $(".input_fields_wrap");
-//     var add_button = $(".add_field_button");
-//     var x = 1; //initlal text box count
-//     $(add_button).click(function (e) {
-//         e.preventDefault();
-//         if (x < max_fields) {
-//             x++;
-//             $(wrapper).append(' <div class="row" ><div class="col-md-5 mb-4"><div class="md-form"><div class="row"><i class="fa fa-cube prefix grey-text"></i><input type="text" name="product[]" class="form-control"  placeholder="Service"></div></div></div><div class="col-md-5 mb-4"><div class="md-form" ><div class="row"><i class="fa fa-money prefix grey-text"></i><input type="text"  name="price[]" class="form-control"   placeholder="Price"></div></div></div><div style="height:0%;backgwhite;background:red" class="remove_field btn  " >Del</div></div></div>')
-//         }
-//     });
-//     $(wrapper).on("click", ".remove_field", function (e) {
-//         e.preventDefault(); $(this).parent('div').remove(); x--;
-//     })
-// });
 </script>
 
 
