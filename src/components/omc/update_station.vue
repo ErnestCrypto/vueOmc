@@ -128,7 +128,7 @@
                                                             <div class="row">
                                                                 <i class="fa fa-cube prefix grey-text"></i>
                                                                 <input type="text" class="form-control"
-                                                                    placeholder="Service" v-model="station.service">
+                                                                    placeholder="Service" v-model="index.service">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -137,7 +137,7 @@
                                                             <div class="row">
                                                                 <i class="fa fa-money prefix grey-text"></i>
                                                                 <input type="text" class="form-control"
-                                                                    placeholder="Price" v-model="station.price">
+                                                                    placeholder="Price" v-model="index.price">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -195,12 +195,12 @@ export default {
     data() {
         return {
             stations: [{
-                service: '',
-                price: '',
+                service: 'Car wash',
+                price: ' 30.00',
             },
             {
-                service: '',
-                price: '',
+                service: 'Super MArket',
+                price: 'Affordable',
             },]
         }
     },

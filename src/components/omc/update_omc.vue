@@ -76,7 +76,7 @@
                                                                 <div class="row">
                                                                     <i class="fa fa-cube prefix grey-text"></i>
                                                                     <input type="text" placeholder="Product Name"
-                                                                        class="form-control" v-model="omc.product" />
+                                                                        class="form-control" v-model="index.product" />
 
                                                                 </div>
                                                             </div>
@@ -85,7 +85,7 @@
                                                             <div class="md-form">
                                                                 <div class="row">
                                                                     <i class="fa fa-money prefix grey-text"></i>
-                                                                    <input type="text" v-model="omc.price"
+                                                                    <input type="text" v-model="index.price"
                                                                         placeholder="Product Price"
                                                                         class="form-control" />
                                                                 </div>
@@ -95,7 +95,7 @@
                                                             <div class="md-form">
                                                                 <div class="row">
                                                                     <i class="fa fa-balance-scale prefix grey-text"></i>
-                                                                    <input type="text" v-model="omc.unit"
+                                                                    <input type="text" v-model="index.unit"
                                                                         placeholder="Units" class="form-control">
                                                                 </div>
                                                             </div>
@@ -155,12 +155,12 @@ export default {
         return {
             omcs: [{
                 product: "Petrol",
-                price: 14.00,
+                price: "14.00",
                 unit: 1,
             },
             {
                 product: "Diseal",
-                price: 16.00,
+                price: "16.00",
                 unit: 1,
             },
             ]
