@@ -12,7 +12,7 @@
 
                 <div class="row" style="width:100%; ">
                     <div class="col-sm-9">
-                        <img src="./images/logo2.png" alt="logo" style="width:10%; float:left" />
+                        <img src="./images/logo3.png" alt="logo" style="width:20%; float:left" />
 
                     </div>
 
