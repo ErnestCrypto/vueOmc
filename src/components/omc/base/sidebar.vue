@@ -115,7 +115,8 @@
                         data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
                             <h6 class="collapse-header">CUSTOMIZE MESSAGES :</h6>
-                            <router-link class="collapse-item" to="/create_message">Create a new message
+                            <router-link class="collapse-item" to="/create_message"><i class="fa fa-fw fa-folder"
+                                    style="color:lightgray;float:left"></i> New message
                             </router-link>
                             <router-link class="collapse-item" to="/view_messages"> <i class="fa fa-fw fa-folder"
                                     style="color:lightgray;float:left"></i> Inbox</router-link>
